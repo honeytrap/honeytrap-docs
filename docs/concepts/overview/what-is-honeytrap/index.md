@@ -1,6 +1,4 @@
 ---
-title: Getting started
+title: What is Honeytrap
 ---
 
-This section provides instructions for installing Honeytrap and setting
-up a Honeytrap. 

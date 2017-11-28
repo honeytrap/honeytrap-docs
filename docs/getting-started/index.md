@@ -33,6 +33,12 @@ $ cp config.toml.sample config.toml
 $ $GOPATH/bin/honeytrap
 ```
 
+#### Docker
+
+```
+docker run -i -t -p 5900:5900 -p 8022:8022 -v (pwd)/config-docker.toml:/config/config.toml -v (pwd)/data:/data/ honeytrap/honeytrap:latest /bin/sh
+```
+
 ## Packages
 
 We plan to have packages for the following operating systems.

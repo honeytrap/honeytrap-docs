@@ -1,0 +1,31 @@
+bigheader: "Configuration"
+abstract: "Configuration for using and learning about Honeytrap."
+toc:
+- docs/config/index.md
+- title: Listeners
+  path: docs/config/listeners.md
+  section:
+  - docs/config/listeners/socket.md
+  - docs/config/listeners/canary.md
+  - docs/config/listeners/raw.md
+- title: Services
+  path: docs/config/services.md
+  section:
+  - docs/config/services/ssh/authentication.md
+  - docs/config/services/ssh/proxy.md
+- title: Directors
+  path: docs/config/directors.md
+  section:
+  - docs/config/directors/lxc.md
+  - docs/config/directors/remote.md
+- title: Channels
+  path: docs/config/channels.md
+  section:
+  - docs/config/channels/filters.md
+  - docs/config/channels/splunk.md
+  - docs/config/channels/elasticsearch.md
+  - docs/config/channels/kafka.md
+  - docs/config/channels/raven.md
+  - docs/config/channels/console.md
+  - docs/config/channels/file.md
+

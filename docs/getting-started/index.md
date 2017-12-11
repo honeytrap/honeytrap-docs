@@ -35,9 +35,13 @@ $ $GOPATH/bin/honeytrap
 
 #### Docker
 
+Playing with Honeytrap is the easiest by just starting our docker image. The image is automatically being built by the continuous integration of our master branch. 
+
 ```
-docker run -i -t -p 5900:5900 -p 8022:8022 -v (pwd)/config-docker.toml:/config/config.toml -v (pwd)/data:/data/ honeytrap/honeytrap:latest /bin/sh
+docker run -i -t -p 5900:5900 -p 8022:8022 -v (pwd)/config-docker.toml:/config/config.toml -v (pwd)/data:/data/ honeytrap/honeytrap:latest 
 ```
+
+This will use the config-docker.toml file in the current directory and forward ports 5900 and 8022 to the docker instance. 
 
 ## Packages
 

@@ -13,6 +13,7 @@ Honeytrap documentation can help you set up Honeytrap, learn about the system, o
 
 ## Development
 
+If you want to extend existing services or creating new, you'll probably find the [Development](/docs/development/) section helpful.
 
 ## About [DutchSec](https://dutchsec.com/)
 

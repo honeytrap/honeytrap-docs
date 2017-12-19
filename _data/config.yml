@@ -12,6 +12,7 @@ toc:
   path: docs/config/services.md
   section:
   - docs/config/services/ssh/authentication.md
+  - docs/config/services/ssh/service.md
   - docs/config/services/ssh/proxy.md
 - title: Directors
   path: docs/config/directors.md

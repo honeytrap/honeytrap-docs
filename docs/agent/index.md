@@ -4,7 +4,7 @@ approvers:
 title: Agent
 ---
 
-The Honeytrap Agent is a small server that will forward all incoming traffic to the Honeytrap server. All traffic will be accompanied with the original remoting ip address.
+The Honeytrap Agent is a small server that will forward all incoming traffic to the Honeytrap server. All traffic will be accompanied with the original remoting ip address. All traffic will be sent using an encrypted tunnel.
 
 Use cases
 ----------

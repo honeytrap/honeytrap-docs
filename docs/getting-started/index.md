@@ -33,6 +33,12 @@ $ cp config.toml.sample config.toml
 $ $GOPATH/bin/honeytrap
 ```
 
+If you want to use the lxc director features, you need to build Honeytrap using:
+
+```
+$ go build -tags="lxc" ...
+```
+
 #### Docker
 
 Playing with Honeytrap is the easiest by just starting our docker image. The image is automatically being built by the continuous integration of our master branch. 

@@ -15,17 +15,20 @@ Use cases
 Configuration
 --------------
 
-The Honeytrap Server needs to be configured to use the Agent listener. 
+The Honeytrap Server needs to be configured to use the Agent listener. By default the agent listener will listen to port :1339. 
 
 ```
 [listener]
 type="agent"
+listen=":1339"
 ```
+
+When starting the server with the agent, on startup the remote key will be printed. This key will be used by clients to validate the authenticity of the server. 
 
 Now the Agent can be started using:
 
 ```
-honeytrap-agent {ip}:1337
+honeytrap-agent --remote-key {key} {ip}:1337
 ```
 
 This will start the Honeytrap Agent, which will connect to the Honetyrap Server on **{ip}:1337**. The Agent will automatically reconnect when the connection with the server has been lost. 

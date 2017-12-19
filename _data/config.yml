@@ -14,6 +14,7 @@ toc:
   - docs/config/services/ssh/authentication.md
   - docs/config/services/ssh/service.md
   - docs/config/services/ssh/proxy.md
+  - docs/config/services/vnc/service.md
 - title: Directors
   path: docs/config/directors.md
   section:

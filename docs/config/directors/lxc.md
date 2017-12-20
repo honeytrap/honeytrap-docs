@@ -11,7 +11,15 @@ The LXC director will spawn a container per attacker. After a period of inactivi
 ```
 [director.lxc]
 type="lxc"
-template="sshtrap"
+template="honeytrap"
+```
+
+## LXC Template
+
+First you need to create a lxc template container. This container will work as base image for following containers.
+
+```
+lxc-create -t download -n honeytrap -- --dist ubuntu --release trusty --arch amd64
 ```
 
 A service can be assigned to a director using:

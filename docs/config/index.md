@@ -6,7 +6,7 @@ title: Configuration
 
 The configuration section describes all configurable options of Honeytrap.
 
-Honeytrap uses the (TOML)[https://github.com/toml-lang/toml] configuration format.
+Honeytrap uses the [TOML](https://github.com/toml-lang/toml) configuration format.
 
 This is a minimal configuration sample.
 

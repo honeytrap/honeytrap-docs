@@ -1,4 +1,4 @@
 bigheader: "Agent"
-abstract: "Using the Honeytrap agent"
+abstract: "Honeytrap Agent mode"
 toc:
 - docs/agent/index.md

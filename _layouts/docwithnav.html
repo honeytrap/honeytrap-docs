@@ -23,14 +23,10 @@
   <div id="vendorStrip" class="light-text">
     <ul>
       <li><a href="/docs/home/" {% if toc.bigheader == "Documentation Home" %}class="YAH"{% endif %}>HOME</a></li>
+      <li><a href="/docs/sensor/" {% if toc.bigheader == "Sensor" %}class="YAH"{% endif %}>SENSOR</a></li>
       <li><a href="/docs/agent/" {% if toc.bigheader == "Agent" %}class="YAH"{% endif %}>AGENT</a></li>
       <li><a href="/docs/config/" {% if toc.bigheader == "Configuration" %}class="YAH"{% endif %}>CONFIGURATION</a></li>
-      <!--
-      <li><a href="/docs/concepts/" {% if toc.bigheader == "Concepts" %}class="YAH"{% endif %}>CONCEPTS</a></li>
-      <li><a href="/docs/tasks/" {% if toc.bigheader == "Tasks" %}class="YAH"{% endif %}>TASKS</a></li>
-      <li><a href="/docs/tutorials/" {% if toc.bigheader == "Tutorials" %}class="YAH"{% endif %}>TUTORIALS</a></li>
-      <li><a href="/docs/reference/" {% if toc.bigheader == "Reference Documentation" %}class="YAH"{% endif %}>REFERENCE</a></li>
-      -->
+      <li><a href="/docs/development/" {% if toc.bigheader == "Development" %}class="YAH"{% endif %}>DEVELOPMENT</a></li>
     </ul>
     <div id="searchBox">
       <input type="text" id="search" placeholder="Search" onkeydown="if (event.keyCode==13) window.location.replace('/docs/search/?q=' + this.value)" autofocus="autofocus">

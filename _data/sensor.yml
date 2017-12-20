@@ -1,0 +1,4 @@
+bigheader: "Sensor"
+abstract: "Honeytrap Sensor mode"
+toc:
+- docs/sensor/index.md

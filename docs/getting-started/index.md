@@ -39,7 +39,7 @@ If you want to use the lxc director features, you need to build Honeytrap using:
 $ go build -tags="lxc" ...
 ```
 
-#### Docker
+## Docker
 
 Playing with Honeytrap is the easiest by just starting our docker image. The image is automatically being built by the continuous integration of our master branch. 
 
@@ -60,3 +60,8 @@ We will create a brew trap to install Honeytrap.
 ```
 brew install honeytrap
 ```
+
+#### Debian / Ubuntu
+
+#### CentOS / Redhat
+

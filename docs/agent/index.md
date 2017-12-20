@@ -12,6 +12,16 @@ Use cases
 * easy deployment: you can deploy hundreds of agents connecting to the same Honeytrap server
 * security: the honeytrap server can be located outside the network
 
+Docker
+------
+
+If you're running Honeytrap in Agent mode, it will be easiest to run the server in Docker.
+
+
+```
+docker run -i -t -p 1490:1490 -v (pwd)/config-agent.toml:/config/config.toml -v (pwd)/data:/data/ honeytrap/honeytrap:latest 
+```
+
 Configuration
 --------------
 

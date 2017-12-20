@@ -8,6 +8,7 @@ toc:
   - docs/config/listeners/socket.md
   - docs/config/listeners/canary.md
   - docs/config/listeners/raw.md
+  - docs/config/listeners/netstack.md
 - title: Services
   path: docs/config/services.md
   section:

@@ -16,3 +16,5 @@ Make sure you'll disable the RST replies of Linux. Otherwise both Linux and Hone
 iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP
 iptables -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP
 ```
+
+

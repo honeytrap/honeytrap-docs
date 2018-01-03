@@ -6,7 +6,7 @@ title: SSH Service
 
 {% endcapture %}
 
-The SSH service will simulate a ssh shell.
+The SSH service will simulate a ssh shell. By default all credentials will be valid.
 
 #### Configuration
 

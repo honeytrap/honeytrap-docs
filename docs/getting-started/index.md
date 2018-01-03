@@ -79,7 +79,7 @@ We plan to have packages for the following operating systems.
 We will create a brew trap to install Honeytrap.
 
 ```
-brew install honeytrap
+brew install honeytrap/stable/honeytrap-agent
 ```
 
 #### Debian / Ubuntu

@@ -17,5 +17,5 @@ iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP
 iptables -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP
 ```
 
-{% gist 73d07e884914873869ca04c22c8ee9eb config.toml}
+{% gist 73d07e884914873869ca04c22c8ee9eb config.toml %}
 

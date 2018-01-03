@@ -23,6 +23,7 @@ toc:
   - docs/config/services/dns/proxy.md
   - docs/config/services/smtp/service.md
   - docs/config/services/telnet/service.md
+  - docs/config/services/elasticsearch/service.md
   - docs/config/services/smb/service.md
   - docs/config/services/ntp/service.md
 - title: Directors

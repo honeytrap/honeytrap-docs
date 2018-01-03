@@ -39,7 +39,7 @@ If you want to use the lxc director features, you need to build Honeytrap using:
 $ go build -tags="lxc" ...
 ```
 
-## Docker
+## Docker (Agent)
 
 First create a Honeytrap network:
 
@@ -61,7 +61,13 @@ vm.max_map_count = 262144
 Playing with Honeytrap is the easiest by just starting our docker image. The image is automatically being built by the continuous integration of our master branch. 
 
 ```bash
-docker run -i -t -p 8022:8022 -v (pwd)/config-docker.toml:/config/config.toml -v (pwd)/data:/data/ honeytrap/honeytrap:latest 
+docker-compose up -f ./docker-compose-honeytrap.yml
+```
+
+The docker compose configuration will use the Agent listener by default. Now you can start the Honeytrap Agent using:
+
+```
+./honeytrap-agent --remote-key {key} {ip}:1337
 ```
 
 ## Packages

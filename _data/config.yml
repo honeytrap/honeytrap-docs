@@ -16,6 +16,7 @@ toc:
   - docs/config/services/ssh/service.md
   - docs/config/services/ssh/proxy.md
   - docs/config/services/vnc/service.md
+  - docs/config/services/ipp/service.md
   - docs/config/services/http/service.md
   - docs/config/services/http/proxy.md
   - docs/config/services/dns/service.md

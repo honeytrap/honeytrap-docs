@@ -6,21 +6,23 @@ title: Honeytrap Documentation
 
 Honeytrap documentation can help you set up Honeytrap, learn about the system, or get your applications and workloads running on Honeytrap. To learn the basics of what Honeytrap is and how it works, read "[What is Honeytrap](/docs/concepts/overview/what-is-honeytrap/)".
 
+## Getting started
+
+[Getting started](/docs/getting-started/) can help you get a Honeytrap up and running.
+
 ## Features
 
 * Combine multiple services to one honeypot, eg a LAMP server
 * Honeytrap Agent will download the configuration from the Honeytrap Server
 * Use the Honeytrap Agent to redirect traffic out of the network to a seperate network
-* Deploy multiple agents while having one Honeytrap Server, configuration will be downloaded automatically
+* Deploy a large amount agents while having one Honeytrap Server, configuration will be downloaded automatically and logging centralized
 * Payload detection to determine which service should handle the request, one port can handle multiple protocols
-* Monitor lateral movement within your network with the Sensor listener. The sensor will complete the handshake (in case of tcp), and save the payload
-* Create high interaction honeypots using the LXC director
-* Log to Elasticsearch, Kafka, Splunk, Raven, File or Console
+* Monitor lateral movement within your network with the Sensor listener. The sensor will complete the handshake (in case of tcp), and store the payload
+* Create high interaction honeypots using the LXC or remote hosts directors, traffic will be man-in-the-middle proxied, while information will be extracted
+* Extend honeytrap with existing honeypots (like cowrie or glutton), while using the logging and listening framework of Honeytrap
+* Advanced logging system with filtering and logging to Elasticsearch, Kafka, Splunk, Raven, File or Console
 * Services are easy extensible and will extract as much information as possible
-
-## Getting started
-
-[Getting started](/docs/getting-started/) can help you get a Honeytrap up and running.
+* Low- to high interaction Honeypots, where connections will be upgraded seamless to high interaction
 
 ## Development
 

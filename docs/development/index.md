@@ -113,3 +113,13 @@ func (s *sshStorage) PrivateKey() *privateKey {
         }
 }
 ```
+If you want to test code wich use **Storage**, the testfile needs to initialize the storage first.
+Use this in your *_test.go file:
+```
+func TestMain(m *testing.M) {
+        dir := ""
+        storage.SetDataDir(dir)
+        os.Exit(m.Run())
+ }
+ ```
+ 

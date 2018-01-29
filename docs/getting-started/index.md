@@ -41,6 +41,8 @@ $ go build -tags="lxc" ...
 
 ## Docker (Agent)
 
+Playing with Honeytrap is the easiest by just starting our docker image. The image is automatically being built by the continuous integration of our master branch. 
+
 Make sure you have installed a recent version of Docker and Docker Compose. 
 
 * https://docs.docker.com/compose/install/#install-compose
@@ -60,10 +62,14 @@ If you are running Linux, you need to add the following line to **/etc/sysctl.co
 vm.max_map_count = 262144
 ```
 
-{% gist 631d65691b519fbf99e41228a7f3519f docker-compose-honeytrap.yml %}
-{% gist 631d65691b519fbf99e41228a7f3519f config-docker.toml %}
+Download both the docker compose and the config to your computer. 
 
-Playing with Honeytrap is the easiest by just starting our docker image. The image is automatically being built by the continuous integration of our master branch. 
+```
+wget https://gist.githubusercontent.com/nl5887/631d65691b519fbf99e41228a7f3519f/raw/docker-compose-honeytrap.yml
+wget https://gist.githubusercontent.com/nl5887/631d65691b519fbf99e41228a7f3519f/raw/config-docker.toml
+```
+
+Now you can start the Docker Compose script: 
 
 ```bash
 docker-compose up -f ./docker-compose-honeytrap.yml

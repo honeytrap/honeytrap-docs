@@ -23,10 +23,15 @@ Honeytrap documentation can help you set up Honeytrap, learn about the system, o
 * Advanced logging system with filtering and logging to Elasticsearch, Kafka, Splunk, Raven, File or Console
 * Services are easy extensible and will extract as much information as possible
 * Low- to high interaction Honeypots, where connections will be upgraded seamless to high interaction
+* Small dashboard containing event statistics
 
 ## Development
 
 If you want to extend existing services or creating new, you'll probably find the [Development](/docs/development/) section helpful.
+
+## Support
+
+Honeytrap is actively being maintained, developed and supported by DutchSec. 
 
 ## About [DutchSec](https://dutchsec.com/)
 

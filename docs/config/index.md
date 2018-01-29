@@ -29,3 +29,11 @@ channel=["console"]
 output = "stdout"
 level = "debug"
 ```
+
+### Remote configuration
+Configuration files can be loaded from remote using: 
+
+```
+honeytrap --config http(s)://remote/config.toml
+```
+

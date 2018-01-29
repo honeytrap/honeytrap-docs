@@ -25,12 +25,12 @@ docker run -i -t -p 1337:1337 -v (pwd)/config-agent.toml:/config/config.toml -v 
 Configuration
 --------------
 
-The Honeytrap Server needs to be configured to use the Agent listener. By default the agent listener will listen to port :1339. 
+The Honeytrap Server needs to be configured to use the Agent listener. By default the agent listener will listen to port :1337. 
 
 ```
 [listener]
 type="agent"
-listen=":1339"
+listen=":1337"
 ```
 
 When starting the server with the agent, on startup the remote key will be printed. This key will be used by clients to validate the authenticity of the server. 

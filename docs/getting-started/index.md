@@ -19,7 +19,7 @@ $ tar vxf go1.9.linux-amd64.tar.gz
 #### Linux
 
 ```
-$ apt install -y libpcap-dev lxc-dev
+$ apt install -y libpcap-dev lxc-dev git
 
 $ mkdir /opt/honeytrap
 $ cd /opt/honeytrap/
@@ -41,6 +41,11 @@ $ go build -tags="lxc" ...
 
 ## Docker (Agent)
 
+Make sure you have installed a recent version of Docker and Docker Compose. 
+
+* https://docs.docker.com/compose/install/#install-compose
+* https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
 First create a Honeytrap network:
 
 ```bash
@@ -49,7 +54,7 @@ docker network create honeytrap
 
 This will use the config-docker.toml file in the current directory and forward ports 5900 and 8022 to the docker instance. If you want to store data into Elasticsearch and analyze with Kibana, it will be easiest to use the following docker-compose.yml.
 
-Add to **/etc/sysctl.conf**, and reload using `sysctl -p /etc/sysctl.conf`.
+If you are running Linux, you need to add the following line to **/etc/sysctl.conf**, and reload using `sysctl -p /etc/sysctl.conf`.
 
 ```
 vm.max_map_count = 262144

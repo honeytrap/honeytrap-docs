@@ -19,7 +19,7 @@ If you're running Honeytrap in Agent mode, it will be easiest to run the server 
 
 
 ```
-docker run -i -t -p 1490:1490 -v (pwd)/config-agent.toml:/config/config.toml -v (pwd)/data:/data/ honeytrap/honeytrap:latest 
+docker run -i -t -p 1337:1337 -v (pwd)/config-agent.toml:/config/config.toml -v (pwd)/data:/data/ honeytrap/honeytrap:latest 
 ```
 
 Configuration

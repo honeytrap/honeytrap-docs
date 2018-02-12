@@ -26,6 +26,8 @@ toc:
   - docs/config/services/elasticsearch/service.md
   - docs/config/services/smb/service.md
   - docs/config/services/ntp/service.md
+  - docs/config/services/ftp/service.md
+  - docs/config/services/redis/service.md
 - title: Directors
   path: docs/config/directors.md
   section:

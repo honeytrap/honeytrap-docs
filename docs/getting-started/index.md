@@ -62,6 +62,13 @@ If you are running Linux, you need to add the following line to **/etc/sysctl.co
 vm.max_map_count = 262144
 ```
 
+Create data folder:
+
+```
+mkdir -p /data/elasticsearch
+chown -R 1000:1000 /data/elasticsearch
+```
+
 Download both the docker compose and the config to your computer. 
 
 ```

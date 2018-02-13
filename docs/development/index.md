@@ -117,7 +117,7 @@ If you want to test code wich use **Storage**, the testfile needs to initialize 
 Use this in your *_test.go file:
 ```
 func TestMain(m *testing.M) {
-        dir := ""
+        dir := "/tmp"
         storage.SetDataDir(dir)
         os.Exit(m.Run())
  }

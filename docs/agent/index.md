@@ -38,7 +38,15 @@ When starting the server with the agent, on startup the remote key will be print
 Now the Agent can be started using:
 
 ```
-honeytrap-agent --remote-key {key} {ip}:1337
+setcap 'cap_net_bind_service=+ep' honeytrap-agent --remote-key {key} --server {ip}:1337
 ```
 
+Using the `cap_net_bind_service` capability allows Honeytrap Agent to bind to lower ports, while running under a non-privileged user account.
+
 This will start the Honeytrap Agent, which will connect to the Honetyrap Server on **{ip}:1337**. The Agent will automatically reconnect when the connection with the server has been lost. 
+
+### Agent configuration
+```
+server="{host}"
+remote-key="{remote-key}"
+```

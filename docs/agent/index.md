@@ -22,6 +22,15 @@ If you're running Honeytrap in Agent mode, it will be easiest to run the server 
 docker run -i -t -p 1337:1337 -v (pwd)/config-agent.toml:/config/config.toml -v (pwd)/data:/data/ honeytrap/honeytrap:latest 
 ```
 
+Go
+---
+
+When using `go get` the Honeytrap Agent will be compiled automatically. You'll find the binary in $GOPATH/bin.
+
+```
+go get github.com/honeytrap/honeytrap-agent
+```
+
 Configuration
 --------------
 

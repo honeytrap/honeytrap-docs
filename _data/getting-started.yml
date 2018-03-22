@@ -1,0 +1,4 @@
+bigheader: "Getting Started"
+abstract: "Documentation on how te get started with Honeytrap."
+toc:
+- docs/getting-started/index.md

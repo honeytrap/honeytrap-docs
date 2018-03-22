@@ -76,16 +76,22 @@ wget https://gist.githubusercontent.com/nl5887/631d65691b519fbf99e41228a7f3519f/
 wget https://gist.githubusercontent.com/nl5887/631d65691b519fbf99e41228a7f3519f/raw/config-docker.toml
 ```
 
+Make sure you are running the newest version:
+
+```bash
+docker-compose -f ./docker-compose-honeytrap.yml pull
+```
+
 Now you can start the Docker Compose script: 
 
 ```bash
-docker-compose up -f ./docker-compose-honeytrap.yml
+docker-compose -f ./docker-compose-honeytrap.yml up
 ```
 
 The docker compose configuration will use the Agent listener by default. Now you can start the Honeytrap Agent using:
 
 ```
-./honeytrap-agent --remote-key {key} {ip}:1337
+./honeytrap-agent --remote-key {key} --server {ip}:1339
 ```
 
 ## Packages

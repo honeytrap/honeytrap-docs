@@ -39,7 +39,9 @@ If you want to use the lxc director features, you need to build Honeytrap using:
 $ go build -tags="lxc" ...
 ```
 
-## Docker (Agent)
+## Docker-compose (HoneyTrap Server)
+
+### Install docker and docker-compose
 
 Playing with Honeytrap is the easiest by just starting our docker image. The image is automatically being built by the continuous integration of our master branch. 
 
@@ -47,6 +49,8 @@ Make sure you have installed a recent version of Docker and Docker Compose.
 
 * https://docs.docker.com/compose/install/#install-compose
 * https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+### Setup prerequisites
 
 First create a Honeytrap network:
 
@@ -76,11 +80,15 @@ wget https://gist.githubusercontent.com/nl5887/631d65691b519fbf99e41228a7f3519f/
 wget https://gist.githubusercontent.com/nl5887/631d65691b519fbf99e41228a7f3519f/raw/config-docker.toml
 ```
 
+### Setup HoneyTrap Server
+
 Make sure you are running the newest version:
 
 ```bash
 docker-compose -f ./docker-compose-honeytrap.yml pull
 ```
+
+Note: If you're running MacOS, make sure to share ```/data/elasticsearch``` in Docker preferences.
 
 Now you can start the Docker Compose script: 
 
@@ -88,10 +96,22 @@ Now you can start the Docker Compose script:
 docker-compose -f ./docker-compose-honeytrap.yml up
 ```
 
-The docker compose configuration will use the Agent listener by default. Now you can start the Honeytrap Agent using:
+### Run the HoneyTrap Agent
+
+The docker compose configuration will use the Agent listener by default.
+
+Now you can start the Honeytrap Agent. Depending on the method of installation:
+
+1) By running the binary from the directory in which the binary was compiled:
 
 ```
 ./honeytrap-agent --remote-key {key} --server {ip}:1339
+```
+
+2) Or by running the application (i.e. after installing the homebrew package):
+
+```
+sudo honeytrap-agent --remote-key {key} --server {ip}:1339
 ```
 
 ## Packages

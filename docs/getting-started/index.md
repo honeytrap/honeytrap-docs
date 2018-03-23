@@ -39,7 +39,7 @@ If you want to use the lxc director features, you need to build Honeytrap using:
 $ go build -tags="lxc" ...
 ```
 
-## Docker-compose (HoneyTrap Server)
+## Docker-compose (Honeytrap Server)
 
 ### Install docker and docker-compose
 
@@ -80,7 +80,7 @@ wget https://gist.githubusercontent.com/nl5887/631d65691b519fbf99e41228a7f3519f/
 wget https://gist.githubusercontent.com/nl5887/631d65691b519fbf99e41228a7f3519f/raw/config-docker.toml
 ```
 
-### Setup HoneyTrap Server
+### Setup Honeytrap Server
 
 Make sure you are running the newest version:
 
@@ -96,7 +96,7 @@ Now you can start the Docker Compose script:
 docker-compose -f ./docker-compose-honeytrap.yml up
 ```
 
-### Run the HoneyTrap Agent
+### Run the Honeytrap Agent
 
 The docker compose configuration will use the Agent listener by default.
 

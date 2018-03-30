@@ -4,7 +4,7 @@ title: Installing Honeytrap Server
 
 Playing with Honeytrap is the easiest by just starting our docker image. The image is automatically being built by the continuous integration of our master branch.
 
-This part consist of four steps:
+This part consists of four steps:
 
 1. First, install [docker and docker-compose](/docs/getting-started/docker-compose/install-docker/).
 1. Next, setup the [prerequisites](/docs/getting-started/docker-compose/setup-prerequisites/).

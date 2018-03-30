@@ -77,7 +77,7 @@ func (s *echoService) Handle(conn net.Conn) error {
 }
 ```
 
-Some services need to store data, you can make use of **storage.Namespace**, which will enables a key/value store where data (like pairs, certificates) can be stored. 
+Some services need to store data, you can make use of **storage.Namespace**, which will enable a key/value store where data (like pairs, certificates) can be stored. 
 
 ```go
 func Storage() (*sshStorage, error) {

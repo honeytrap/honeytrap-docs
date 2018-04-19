@@ -2,7 +2,13 @@
 title: Docker-compose (Honeytrap Server)
 ---
 
-#### Setup Honeytrap Server
+{% capture overview %}
+Follow these steps in order to setup Honeytrap Server
+{% endcapture %}
+
+{% capture steps %}
+
+## Pull docker images
 
 Make sure you are running the newest version:
 
@@ -12,10 +18,18 @@ docker-compose -f ./docker-compose-honeytrap.yml pull
 
 Note: If you're running MacOS, make sure to share ```/data/elasticsearch``` in Docker preferences.
 
+## Start the Honeytrap Server
+
 Now you can start the Docker Compose script:
 
 ```bash
 docker-compose -f ./docker-compose-honeytrap.yml up
 ```
 
-Now you are ready to start the [Honeytrap Agent](/docs/getting-started/docker-compose/run-agent).
+{% endcapture %}
+
+{% capture whatsnext %}
+Now you are ready to start the [Honeytrap Agent](/docs/setup/docker-compose/run-agent).
+{% endcapture %}
+
+{% include templates/new_task.md %}

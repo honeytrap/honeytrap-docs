@@ -4,11 +4,11 @@ approvers:
 title: Honeytrap Documentation
 ---
 
-Honeytrap documentation can help you set up Honeytrap, learn about the system, or get your applications and workloads running on Honeytrap. To learn the basics of what Honeytrap is and how it works, read "[What is Honeytrap](/docs/concepts/overview/what-is-honeytrap/)".
+Honeytrap documentation can help you set up Honeytrap, learn about the system, or get your applications and workloads running on Honeytrap. To learn the basics of what Honeytrap is and how it works, read "[What is Honeytrap](/docs/concepts/overview)".
 
 ## Getting started
 
-[Getting started](/docs/getting-started/) can help you get a Honeytrap up and running.
+The [Setup](/docs/setup/) page might help you get Honeytrap up and running.
 
 ## Features
 

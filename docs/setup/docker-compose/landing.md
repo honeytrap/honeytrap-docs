@@ -13,14 +13,19 @@ Playing with Honeytrap is the easiest by starting the Docker image. The image is
 
 ## Install docker and docker-compose
 
+The installation of Honeytrap is relying on Docker and Docker-compose. Useful information for installing these applications can be found in this section.
 
 ## Setup the prerequisites 
 
+In order to start the installation, the are some prerequisites you have to comply with. All necessary inforamtion can be found in this section.
 
 ## Run docker-compose
 
+This step will explain the necessary steps you need to take in order to run the Docker-compose.
 
 ## Start the Honeytrap Agent
+
+Finally, this section describes how the Honeytrap Agent can be connected to the Honeytrap Server.
 
 {% endcapture %}
 

@@ -11,9 +11,11 @@ This page describes the necessary steps for installing Honeytrap on a Raspberry 
 
 {% capture steps %}
 
-## Do this
+## Setup host OS
 
-## Then that
+
+
+## Run installation scripts
 
 {% endcapture %}
 

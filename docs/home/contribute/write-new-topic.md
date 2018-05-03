@@ -67,9 +67,9 @@ triple-dashed lines at the top of the page. Here's an example:
 
 Depending on your page type, put your new file in a subdirectory of one of these:
 
-* /docs/tasks/
-* /docs/tutorials/
+* /docs/setup/
 * /docs/concepts/
+* /docs/configuration/
 
 You can put your file in an existing subdirectory, or you can create a new
 subdirectory.
@@ -78,9 +78,9 @@ subdirectory.
 
 Depending page type, create an entry in one of these files:
 
-* /_data/tasks.yaml
-* /_data/tutorials.yaml
+* /_data/setup.yaml
 * /_data/concepts.yaml
+* /_data/configuration.yaml
 
 <!--
 Here's an example of an entry in /_data/tasks.yaml:
@@ -90,7 +90,7 @@ Here's an example of an entry in /_data/tasks.yaml:
 
 ## Including code from another file
 
-To include a code file in your topic, place the code file in the Kubernetes
+To include a code file in your topic, place the code file in the Honeytrap
 documentation repository, preferably in the same directory as your topic
 file. In your topic file, use the `include` tag:
 

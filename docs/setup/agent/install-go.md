@@ -21,12 +21,15 @@ The system requirements to install Go may be found [here](https://golang.org/doc
 
 Installing Go is as easy as downloading and extracting a file. Here are some operating specific installation guides.
 
+**Note:** The version numbers being listed may vary from the latest version. Always make sure to download the latest version on the [official download page](https://golang.org/dl/).
+{: .note}
+
 ### Linux and Mac OS
 
 ```
 $ cd /usr/local
-$ wget https://storage.googleapis.com/golang/go1.10.linux-amd64.tar.gz
-$ tar vxf go1.10.linux-amd64.tar.gz
+$ wget https://storage.googleapis.com/golang/go1.10.1.linux-amd64.tar.gz
+$ tar vxf go1.10.1.linux-amd64.tar.gz
 ```
 
 Another way of installing Go for Mac OS is by installing the provided [installation package](https://golang.org/dl/#featured).
@@ -35,8 +38,8 @@ Another way of installing Go for Mac OS is by installing the provided [installat
 
 ```
 $ cd /usr/local
-$ wget https://storage.googleapis.com/golang/go1.10.freebsd-amd64.tar.gz
-$ tar vxf go1.10.freebsd-amd64.tar.gz
+$ wget https://storage.googleapis.com/golang/go1.10.1.freebsd-amd64.tar.gz
+$ tar vxf go1.10.1.freebsd-amd64.tar.gz
 ```
 
 ### Windows

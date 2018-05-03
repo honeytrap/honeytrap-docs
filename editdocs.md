@@ -1,6 +1,6 @@
 ---
 layout: docwithnav
-title: Contributing to the Kubernetes Documentation
+title: Contributing to the Honeytrap Documentation
 ---
 
 <!-- BEGIN: Gotta keep this section JS/HTML because it swaps out content dynamically -->

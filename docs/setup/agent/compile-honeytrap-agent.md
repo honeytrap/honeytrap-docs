@@ -30,8 +30,28 @@ $ export PATH=$PATH:/usr/local/go/bin/
 
 $ go get github.com/honeytrap/honeytrap-agent
 
-$ cp config.toml.sample config.toml
-$ $GOPATH/bin/honeytrap
+$ cd src/github.com/honeytrap/honeytrap-agent
+$ cp config.sample.toml config.toml
+$ $GOPATH/bin/honeytrap-agent
+```
+
+### CentOS
+
+```
+$ yum install -y libpcap-devel.x86_64 lxc-devel.x86_64 git
+
+$ mkdir /opt/honeytrap
+$ cd /opt/honeytrap
+
+$ export GOPATH=/opt/honeytrap
+$ export PATH=$PATH:/usr/local/go/bin/
+
+$ go get github.com/honeytrap/honeytrap-agent
+
+$ cd src/github.com/honeytrap/honeytrap-agent
+$ cp config.sample.toml config.toml
+$ $GOPATH/bin/honeytrap-agent
+
 ```
 
 ## LXC director
@@ -47,7 +67,7 @@ $ go build -tags="lxc" ...
 
 {% capture whatsnext %}
 
-* Install the [Honeytrap Server](/docs/setup/docker-compose/landing).
+* Install the [Honeytrap Server](/docs/setup/server/install-server).
 
 {% endcapture %}
 

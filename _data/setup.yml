@@ -17,21 +17,27 @@ toc:
     section:
     - docs/setup/agent/install-go.md
     - docs/setup/agent/compile-honeytrap-agent.md
-- title: Docker-compose
-  path: docs/setup/docker-compose.md
+- title: Honeytrap Server
+  path: docs/setup/server.md
   section:
-  - docs/setup/docker-compose/landing.md
-  - docs/setup/docker-compose/install-docker.md
-  - docs/setup/docker-compose/setup-prerequisites.md
-  - docs/setup/docker-compose/setup-honeytrap-server.md
-  - docs/setup/docker-compose/run-agent.md
-- title: Sensor
+  - docs/setup/server/install-server.md
+  - docs/setup/server/install-docker.md
+  - docs/setup/server/setup-prerequisites.md
+  - docs/setup/server/setup-honeytrap-server.md
+  - docs/setup/server/run-agent.md
+- title: Honeytrap Sensor
   path: docs/setup/sensor.md
   section:
   - docs/setup/sensor/install-sensor.md
-- title: Raspberry Pi Appliance
-  path: docs/setup/appliance.md
-  section:
-  - docs/setup/appliance/landing.md
-  - docs/setup/appliance/os.md
-  - docs/setup/appliance/fabric.md
+  - docs/setup/sensor/install-docker.md
+  - docs/setup/sensor/setup-prerequisites.md
+  - docs/setup/sensor/config-firewall.md
+  - docs/setup/sensor/setup-honeytrap-sensor.md
+  - docs/setup/sensor/run-sensor.md
+
+#- title: Raspberry Pi Appliance
+#  path: docs/setup/appliance.md
+#  section:
+#  - docs/setup/appliance/landing.md
+#  - docs/setup/appliance/os.md
+#  - docs/setup/appliance/fabric.md

@@ -1,5 +1,5 @@
 ---
-title: Sensor Standalone
+title: Server Standalone
 ---
 
 {% capture overview %}

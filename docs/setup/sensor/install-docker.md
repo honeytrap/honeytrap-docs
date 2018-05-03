@@ -1,10 +1,10 @@
 ---
-title: Install docker and docker-compose
+title: Install Docker and Docker Compose
 ---
 
 {% capture overview %}
 
-This page describes the way docker and docker-compose can be installed.
+This page describes the way Docker and Docker Compose can be installed.
 
 {% endcapture %}
 
@@ -27,9 +27,9 @@ If necessary, the binaries for Docker can be found here:
 * Binaries: [https://docs.docker.com/install/linux/docker-ce/binaries/](https://docs.docker.com/install/linux/docker-ce/binaries/)
 
 
-## Install Docker-Compose
+## Install Docker Compose
 
-Also install docker-compose in order to get started with Honeytrap Server.
+Also install Docker Compose in order to get started with Honeytrap Server.
 
 * [https://docs.docker.com/compose/install/#install-compose](https://docs.docker.com/compose/install/#install-compose)
 
@@ -38,7 +38,7 @@ Also install docker-compose in order to get started with Honeytrap Server.
 
 {% capture whatsnext %}
 
-* Setup the [prerequisites](/docs/setup/docker-compose/setup-prerequisites/).
+* Setup the [prerequisites](/docs/setup/sensor/setup-prerequisites/).
 
 {% endcapture %}
 

@@ -11,9 +11,9 @@ This page describes the steps necessary to install go.
 
 {% capture steps %}
 
-### Format
+## Format
 
-### Deploy image
+## Deploy image
 
 {% endcapture %}
 

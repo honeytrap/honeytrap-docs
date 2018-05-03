@@ -60,7 +60,7 @@ The front matter is the YAML block that is between the
 triple-dashed lines at the top of the page. Here's an example:
 
     ---
-    title: Using an HTTP Proxy to Access the Kubernetes API
+    title: Installing Honeytrap Agent
     ---
 
 ## Choosing a directory
@@ -137,9 +137,10 @@ image format is SVG.
 {% endcapture %}
 
 {% capture whatsnext %}
-* Learn about [using page templates](/docs/home/contribute/page-templates/).
-* Learn about [staging your changes](/docs/home/contribute/stage-documentation-changes/).
-* Learn about [creating a pull request](/docs/home/contribute/create-pull-request/).
+* Learn more about [Creating a Documentation Pull Request](/docs/home/contribute/create-pull-request/)
+* Learn more about [Staging Your Documentation Changes](/docs/home/contribute/stage-documentation-changes/)
+* Learn more about [Using Page Templates](/docs/home/contribute/page-templates/)
+* Learn more about [Documentation Style Guide](/docs/home/contribute/style-guide/)
 {% endcapture %}
 
-{% include templates/task.md %}
+{% include templates/new_task.md %}

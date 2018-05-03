@@ -4,11 +4,11 @@ title: Staging Your Documentation Changes
 
 {% capture overview %}
 This page shows how to stage content that you want to contribute
-to the Kubernetes documentation.
+to the Honeytrap documentation.
 {% endcapture %}
 
 {% capture prerequisites %}
-Create a fork of the Kubernetes documentation repository as described in
+Create a fork of the Honeytrap documentation repository as described in
 [Creating a Documentation Pull Request](/docs/home/contribute/create-pull-request/).
 {% endcapture %}
 
@@ -21,7 +21,7 @@ branch, your changes are staged in a custom subdomain on Netlify so that
 you can see your changes in rendered form before the pull request is merged.
 
 1. In your GitHub account, in your new branch, submit a pull request to the
-kubernetes/website repository. This opens a page that shows the
+honeytrap/honeytrap-docs repository. This opens a page that shows the
 status of your pull request.
 
 1. Scroll down to the list of automated checks. Click **Show all checks**.
@@ -29,6 +29,7 @@ Wait for the **deploy/netlify** check to complete. To the right of
 **deploy/netlify**, click **Details**. This opens a staging site where you
 can see your changes.
 
+<!--
 ## Staging locally using Docker
 
 You can use the k8sdocs Docker image to run a local staging server. If you're
@@ -50,6 +51,7 @@ web server:
        docker run -ti --rm -v "$PWD":/k8sdocs -p 4000:4000 gcr.io/google-samples/k8sdocs:1.1
 
 1. View your staged content at `http://localhost:4000`.
+-->
 
 ## Staging locally without Docker
 
@@ -80,9 +82,10 @@ web server:
 {% endcapture %}
 
 {% capture whatsnext %}
-* Learn about [writing a new topic](/docs/home/contribute/write-new-topic/).
-* Learn about [using page templates](/docs/home/contribute/page-templates/).
-* Learn about [creating a pull request](/docs/home/contribute/create-pull-request/).
+* Learn more about [Creating a Documentation Pull Request](/docs/home/contribute/create-pull-request/)
+* Learn more about [Writing a New Topic](/docs/home/contribute/write-new-topic/)
+* Learn more about [Using Page Templates](/docs/home/contribute/page-templates/)
+* Learn more about [Documentation Style Guide](/docs/home/contribute/style-guide/)
 {% endcapture %}
 
-{% include templates/task.md %}
+{% include templates/new_task.md %}

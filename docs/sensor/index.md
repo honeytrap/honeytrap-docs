@@ -17,5 +17,9 @@ iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP
 iptables -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP
 ```
 
+```
+$ wget https://gist.githubusercontent.com/nl5887/73d07e884914873869ca04c22c8ee9eb/raw/ba8b4ec1a5f71172e12cf05c2833cc32b2909926/config.toml
+```
+
 {% gist 73d07e884914873869ca04c22c8ee9eb config.toml %}
 

@@ -4,8 +4,8 @@ title: Creating a Documentation Pull Request
 
 {% capture overview %}
 
-To contribute to the Kubernetes documentation, create a pull request against the
-[kubernetes/website](https://github.com/kubernetes/website){: target="_blank"}
+To contribute to the Honeytrap documentation, create a pull request against the
+[honeytrap/honeytrap-docs](https://github.com/honeytrap/honeytrap-docs){: target="_blank"}
 repository. This page shows how to create a pull request.
 
 {% endcapture %}
@@ -17,25 +17,25 @@ repository. This page shows how to create a pull request.
 1. Sign the
 [Linux Foundation Contributor License Agreement](https://identity.linuxfoundation.org/projects/cncf){: target="_blank"}.
 
-Documentation will be published under the [CC BY SA 4.0](https://git.k8s.io/website/LICENSE) license.
+Documentation will be published under the [CC BY SA 4.0](https://github.com/honeytrap/honeytrap-docs/blob/master/LICENSE) license.
 
 {% endcapture %}
 
 {% capture steps %}
 
-## Creating a fork of the Kubernetes documentation repository
+## Creating a fork of the Honeytrap documentation repository
 
 1. Go to the
-[kubernetes/website](https://github.com/kubernetes/website){: target="_blank"}
+[honeytrap/honeytrap-docs](https://github.com/honeytrap/honeytrap-docs){: target="_blank"}
 repository.
 
 1. In the upper-right corner, click **Fork**. This creates a copy of the
-Kubernetes documentation repository in your GitHub account. The copy
+Honeytrap documentation repository in your GitHub account. The copy
 is called a *fork*.
 
 ## Making your changes
 
-1. In your GitHub account, in your fork of the Kubernetes docs, create
+1. In your GitHub account, in your fork of the Honeytrap docs, create
 a new branch to use for your contribution.
 
 1. In your new branch, make your changes and commit them. If you want to
@@ -46,12 +46,12 @@ that is the best fit for your content.
 
 ## Submitting a pull request to the master branch (Current Release)
 
-If you want your change to be published in the released version Kubernetes docs,
-create a pull request against the master branch of the Kubernetes
+If you want your change to be published in the released version Honeytrap docs,
+create a pull request against the master branch of the Honeytrap
 documentation repository.
 
 1. In your GitHub account, in your new branch, create a pull request
-against the master branch of the kubernetes/website
+against the master branch of the honeytrap/honeytrap-docs
 repository. This opens a page that shows the status of your pull request.
 
 1. Click **Show all checks**. Wait for the **deploy/netlify** check to complete.
@@ -62,6 +62,7 @@ site where you can verify that your changes have rendered correctly.
 If needed, revise your pull request by committing changes to your
 new branch in your fork.
 
+<!--
 ## Submitting a pull request to the &lt;vnext&gt; branch (Upcoming Release)
 
 If your documentation change should not be released until the next release of
@@ -86,9 +87,13 @@ The staging site for the upcoming Kubernetes release is here:
 The staging site reflects the current state of what's been merged in the
 release branch, or in other words, what the docs will look like for the
 next upcoming release. It's automatically updated as new PRs get merged.
+-->
 
-## Pull request review process for both Current and Upcoming Releases
-Once your pull request is created, a Kubernetes reviewer will take responsibility for providing clear, actionable feedback.  As the owner of the pull request, **it is your responsibility to modify your pull request to address the feedback that has been provided to you by the Kubernetes reviewer.**  Also note that you may end up having more than one Kubernetes reviewer provide you feedback or you may end up getting feedback from a Kubernetes reviewer that is different than the one originally assigned to provide you feedback.  Furthermore, in some cases, one of your reviewers might ask for a technical review from a [Kubernetes tech reviewer](https://github.com/kubernetes/website/wiki/Tech-reviewers) when needed.  Reviewers will do their best to provide feedback in a timely fashion but response time can vary based on circumstances.
+<!-- ## Pull request review process for both Current and Upcoming Releases -->
+
+## Pull request review process for current release
+
+Once your pull request is created, a Honeytrap reviewer will take responsibility for providing clear, actionable feedback.  As the owner of the pull request, **it is your responsibility to modify your pull request to address the feedback that has been provided to you by the Honeytrap reviewer.**  Also note that you may end up having more than one Honeytrap reviewer provide you feedback or you may end up getting feedback from a Honeytrap reviewer that is different than the one originally assigned to provide you feedback.  Furthermore, in some cases, one of your reviewers might ask for a technical review from a [Honeytrap tech reviewer](https://github.com/honeytrap/honeytrap-docs/wiki/Tech-reviewers) when needed.  Reviewers will do their best to provide feedback in a timely fashion but response time can vary based on circumstances.
 
 {% endcapture %}
 

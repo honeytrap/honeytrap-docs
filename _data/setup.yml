@@ -1,0 +1,43 @@
+bigheader: "Setup"
+abstract: "This page may be used to get up and running with the Honeytrap framework."
+toc:
+- docs/setup/index.md
+- title: Honeytrap Agent
+  path: docs/setup/agent.md
+  section: 
+  - docs/setup/agent/landing.md
+  - title: Packages
+    path: docs/setup/packages.md
+    section:
+    - docs/setup/packages/mac-os.md
+    - docs/setup/packages/debian-ubuntu.md
+    - docs/setup/packages/cent-os-red-hat.md 
+  - title: Installation from source
+    path: docs/setup/agent.md
+    section:
+    - docs/setup/agent/install-go.md
+    - docs/setup/agent/compile-honeytrap-agent.md
+- title: Honeytrap Server
+  path: docs/setup/server.md
+  section:
+  - docs/setup/server/install-server.md
+  - docs/setup/server/install-docker.md
+  - docs/setup/server/setup-prerequisites.md
+  - docs/setup/server/setup-honeytrap-server.md
+  - docs/setup/server/run-agent.md
+- title: Honeytrap Sensor
+  path: docs/setup/sensor.md
+  section:
+  - docs/setup/sensor/install-sensor.md
+  - docs/setup/sensor/install-docker.md
+  - docs/setup/sensor/setup-prerequisites.md
+  - docs/setup/sensor/config-firewall.md
+  - docs/setup/sensor/setup-honeytrap-sensor.md
+  - docs/setup/sensor/run-sensor.md
+
+#- title: Raspberry Pi Appliance
+#  path: docs/setup/appliance.md
+#  section:
+#  - docs/setup/appliance/landing.md
+#  - docs/setup/appliance/os.md
+#  - docs/setup/appliance/fabric.md

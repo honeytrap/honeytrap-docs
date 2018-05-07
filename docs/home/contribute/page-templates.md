@@ -2,10 +2,7 @@
 title: Using Page Templates
 ---
 
-<!--<html>
-<body>-->
-
-<p>These page templates are available for writers who would like to contribute new topics to the Kubernetes docs:</p>
+<p>These page templates are available for writers who would like to contribute new topics to the Honeytrap docs:</p>
 
 <ul>
     <li><a href="#task_template">Task</a></li>
@@ -81,14 +78,14 @@ Here's an interesting thing to know about the steps you just did.
 
 <p>Here's an example of a published topic that uses the task template:</p>
 
-<p><a href="/docs/tasks/access-kubernetes-api/http-proxy-access-api">Using an HTTP Proxy to Access the Kubernetes API</a></p>
+<p><a href="/docs/setup/agent/install-go/">Install Go</a></p>
 
 <h2 id="tutorial_template">Tutorial template</h2>
 
 <p>A tutorial page shows how to accomplish a goal that is larger than a single
 task. Typically a tutorial page has several sections, each of which has a
 sequence of steps. For example, a tutorial might provide a walkthrough of a
-code sample that illustrates a certain feature of Kubernetes. Tutorials can
+code sample that illustrates a certain feature of Honeytrap. Tutorials can
 include surface-level explanations, but should link to related concept topics
 for deep explanations.
 
@@ -163,14 +160,16 @@ Here's something interesting about the code you ran in the preceding steps.
 {% include templates/tutorial.md %}</pre>
 {% endraw %}
 
+<!--
 <p>Here's an example of a published topic that uses the tutorial template:</p>
 
 <p><a href="/docs/tutorials/stateless-application/run-stateless-application-deployment/">Running a Stateless Application Using a Deployment</a></p>
+-->
 
 <h2 id="concept_template">Concept template</h2>
 
-<p>A concept page explains some aspect of Kubernetes. For example, a concept
-page might describe the Kubernetes Deployment object and explain the role it
+<p>A concept page explains some aspect of Honeytrap. For example, a concept
+page might describe the Listener object and explain the role it
 plays as an application is deployed, scaled, and updated. Typically, concept
 pages don't include sequences of steps, but instead provide links to tasks or
 tutorials.
@@ -207,7 +206,7 @@ This page explains ...
 {% capture body %}
 ## Understanding ...
 
-Kubernetes provides ...
+Honeytrap provides ...
 
 ## Using ...
 
@@ -224,8 +223,11 @@ To use ...
 
 <p>Here's an example of a published topic that uses the concept template:</p>
 
-<p><a href="/docs/concepts/overview/working-with-objects/annotations/">Annotations</a></p>
+<p><a href="/docs/concepts/overview/">What is Honeytrap</a></p>
 
-<!--</body>
-</html>-->
-
+{% capture whatsnext %}
+* Learn more about [Creating a Documentation Pull Request](/docs/home/contribute/create-pull-request/)
+* Learn more about [Writing a New Topic](/docs/home/contribute/write-new-topic/)
+* Learn more about [Staging Your Documentation Changes](/docs/home/contribute/stage-documentation-changes/)
+* Learn more about [Documentation Style Guide](/docs/home/contribute/style-guide/)
+{% endcapture %}

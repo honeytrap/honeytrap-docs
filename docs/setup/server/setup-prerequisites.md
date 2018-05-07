@@ -29,13 +29,11 @@ Note: If you're running MacOS, make sure to share ```/data/elasticsearch``` in D
 Issue the following commands to download the configuration files. The former is the configuration file for setting up the Honeytrap Server infrastructure, the latter is for configuring the Honeytrap Agent.
 
 ```
-
+wget https://gist.githubusercontent.com/Coen-Schuijt/0600aca75dc99f6c2ce2c260ad00f0ab/raw/docker-compose-honeytrap.yml
+wget https://gist.githubusercontent.com/Coen-Schuijt/0600aca75dc99f6c2ce2c260ad00f0ab/raw/config-agent.toml
 ```
 
-**Note:** If you are running Linux, you need to add the following line to **/etc/sysctl.conf**, and reload using `sysctl -p /etc/sysctl.conf`.
-```
-vm.max_map_count = 262144
-```
+**Note:** If you are running Linux, you need to add the following line to **/etc/sysctl.conf**, and reload using `sysctl -p /etc/sysctl.conf`. <br/> ``` vm.max_map_count = 262144 ```
 {: .note}
 
 This will use the config-docker.toml file in the current directory and forward ports 5900 and 8022 to the Docker instance. If you want to store data into Elasticsearch and analyze with Kibana, it will be easiest to use the Docker Compose script.

@@ -3,11 +3,11 @@ title: Documentation Style Guide
 ---
 
 {% capture overview %}
-This page gives writing style guidelines for the Kubernetes documentation.
+This page gives writing style guidelines for the Honeytrap documentation.
 These are guidelines, not rules. Use your best judgment, and feel free to
 propose changes to this document in a pull request.
 
-For additional information on creating new content for the Kubernetes
+For additional information on creating new content for the Honeytrap
 docs, follow the instructions on
 [using page templates](/docs/home/contribute/page-templates/) and
 [creating a documentation pull request](/docs/home/contribute/create-pull-request/).
@@ -365,10 +365,10 @@ considered new in a few months.
 
 
 {% capture whatsnext %}
-* Learn about [writing a new topic](/docs/home/contribute/write-new-topic/).
-* Learn about [using page templates](/docs/home/contribute/page-templates/).
-* Learn about [staging your changes](/docs/home/contribute/stage-documentation-changes/)
-* Learn about [creating a pull request](/docs/home/contribute/create-pull-request/).
+* Learn more about [Creating a Documentation Pull Request](/docs/home/contribute/create-pull-request/)
+* Learn more about [Writing a New Topic](/docs/home/contribute/write-new-topic/)
+* Learn more about [Staging Your Documentation Changes](/docs/home/contribute/stage-documentation-changes/)
+* Learn more about [Using Page Templates](/docs/home/contribute/page-templates/)
 {% endcapture %}
 
 {% include templates/concept.md %}

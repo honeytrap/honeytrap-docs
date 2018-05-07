@@ -6,14 +6,7 @@ title: Netstack
 
 {% endcapture %}
 
-Netstack is a custom network stack implementation. The listener is still experimental.
-
-Make sure you'll disable the RST replies of Linux. Otherwise both Linux and Honeytrap will reply to the packet.
-
-```
-iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP
-iptables -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP
-```
+Netstack is a custom network stack implementation. This can be found at [Github.com](https://github.com/google/netstack).
 
 The raw listener will use a custom implemented network stack. 
 

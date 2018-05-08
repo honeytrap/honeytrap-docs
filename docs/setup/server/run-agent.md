@@ -30,13 +30,13 @@ Now you can start the Honeytrap Agent. Depending on the method of installation, 
 Running the binary from the directory in which the binary was compiled is as easy as:
 
 ```
-./honeytrap-agent --remote-key {key} --server {ip}:1337
+./honeytrap-agent --remote-key {key} --server {ip}:1339
 ```
 
 Running the application (i.e. after installing the homebrew package):
 
 ```
-sudo honeytrap-agent --remote-key {key} --server {ip}:1337
+sudo honeytrap-agent --remote-key {key} --server {ip}:1339
 ```
 
 {% endcapture %}

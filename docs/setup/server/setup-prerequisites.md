@@ -30,7 +30,7 @@ Issue the following commands to download the configuration files. The former is 
 
 ```
 wget https://gist.githubusercontent.com/Coen-Schuijt/0600aca75dc99f6c2ce2c260ad00f0ab/raw/docker-compose-honeytrap.yml
-wget https://gist.githubusercontent.com/Coen-Schuijt/0600aca75dc99f6c2ce2c260ad00f0ab/raw/config-agent.toml
+wget https://gist.githubusercontent.com/Coen-Schuijt/0600aca75dc99f6c2ce2c260ad00f0ab/raw/config-docker.toml
 ```
 
 **Note:** If you are running Linux, you need to add the following line to **/etc/sysctl.conf**, and reload using `sysctl -p /etc/sysctl.conf`. <br/> ``` vm.max_map_count = 262144 ```

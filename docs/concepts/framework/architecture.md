@@ -30,7 +30,7 @@ There are several ways of implementing the Honeytrap framework. The most common 
 |-
 | Architecture | Explanation
 |:-:|:-
-| [![Agent - Server](/images/architecture/agent_server.png)](/docs/concepts/framework/architecture/agent-server/) | Follow [this guide](/docs/setup/agent/landing/) to setup the Honeytrap Agent.
-| [![Sensor - Server](/images/architecture/sensor_server.png)](/docs/concepts/framework/architecture/sensor-server/) | Follow [this guide](/docs/setup/sensor/install-sensor/) to setup the Honeytrap Sensor.
-| [![Server (standalone)](/images/architecture/server.png)](/docs/concepts/framework/architecture/server-standalone/) | Follow [this guide](/docs/setup/server/install-server/) to setup the Honeytrap Server.
+| [![Agent - Server](/images/architecture/agent_server.png)](/docs/concepts/framework/architecture/agent-server/) | More information regarding this architecture can be found [here](/docs/concepts/framework/architecture/agent-server/).
+| [![Sensor - Server](/images/architecture/sensor_server.png)](/docs/concepts/framework/architecture/sensor-server/) | . More information regarding this architecture can be found [here](/docs/concepts/framework/architecture/sensor-server/).
+| [![Server (standalone)](/images/architecture/server.png)](/docs/concepts/framework/architecture/server-standalone/) |  More information regarding this architecture can be found [here](/docs/concepts/framework/architecture/server-standalone/).
 |=

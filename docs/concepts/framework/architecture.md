@@ -19,7 +19,7 @@ The honeytrap mainly consists of three objects:
 | Object | Explanation
 |:-:|:-
 | [![Honeytrap Agent](/images/architecture/agent.png)](/docs/concepts/framework/honeytrap-agent/) | Follow [this guide](/docs/setup/agent/landing/) to setup the Honeytrap Agent.
-| [![Honeytrap Server](/images/architecture/server.png)](/docs/concepts/framework/honeytrap-server/) | Follow [this guide](/docs/setup/docker-compose/landing/) to setup the Honeytrap Server.
+| [![Honeytrap Server](/images/architecture/server.png)](/docs/concepts/framework/honeytrap-server/) | Follow [this guide](/docs/setup/server/install-server/) to setup the Honeytrap Server.
 | [![Honeytrap Sensor](/images/architecture/sensor.png)](/docs/concepts/framework/honeytrap-sensor/) | Follow [this guide](/docs/setup/sensor/install-sensor/) to setuop the Honeytrap Sensor.
 |=
 

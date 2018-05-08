@@ -6,4 +6,12 @@ title: Sensor - Server
 
 {% endcapture %}
 
-Sensor - Server
+![Sensor - Server](/images/architecture/sensor_server.png)
+
+## Use Cases
+
+* Detection
+
+## Sensor Configuration
+
+## Server Configuration

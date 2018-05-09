@@ -1,31 +1,31 @@
 bigheader: "Concepts"
 abstract: "Detailed explanations of HoneyTrap system concepts and abstractions."
 toc:
-- docs/concepts/index.md
-- title: Overview
-  path: docs/concepts/overview.md
-  section:
-  - docs/concepts/overview/what-is-honeytrap.md
-- title: HoneyTrap Framework
-  path: docs/concepts/framework.md
-  section:
-  - docs/concepts/framework/architecture.md
-  - title: Architectural Overview
-    path: docs/concepts/framework/architecture.md
+  - docs/concepts/index.md
+  - title: Overview
+    path: docs/concepts/overview.md
     section:
-    - docs/concepts/framework/architecture/agent-server.md 
-    - docs/concepts/framework/architecture/sensor-server.md
-    - docs/concepts/framework/architecture/server-standalone.md
-  - docs/concepts/framework/honeytrap-agent.md
-  - docs/concepts/framework/honeytrap-server.md
-  - docs/concepts/framework/honeytrap-sensor.md
-  - docs/concepts/framework/honeytrap-low-high-interaction.md
-  - docs/concepts/framework/storage.md
-  - docs/concepts/framework/network.md
-- title: Objects
-  path: docs/concepts/objects.md
-  section:
-  - docs/concepts/objects/listeners.md
-  - docs/concepts/objects/services.md
-  - docs/concepts/objects/directors.md
-  - docs/concepts/objects/channels.md
+      - docs/concepts/overview/what-is-honeytrap.md
+  - title: Honeytrap Framework
+    path: docs/concepts/framework.md
+    section:
+      - docs/concepts/framework/architecture.md
+      - title: Architectural Overview
+        path: docs/concepts/framework/architecture.md
+        section:
+          - docs/concepts/framework/architecture/agent-server.md
+          - docs/concepts/framework/architecture/sensor-server.md
+          - docs/concepts/framework/architecture/server-standalone.md
+      - docs/concepts/framework/honeytrap-agent.md
+      - docs/concepts/framework/honeytrap-server.md
+      - docs/concepts/framework/honeytrap-sensor.md
+      - docs/concepts/framework/honeytrap-low-high-interaction.md
+      - docs/concepts/framework/storage.md
+      - docs/concepts/framework/network.md
+  - title: Objects
+    path: docs/concepts/objects.md
+    section:
+      - docs/concepts/objects/listeners.md
+      - docs/concepts/objects/services.md
+      - docs/concepts/objects/directors.md
+      - docs/concepts/objects/channels.md

@@ -8,6 +8,8 @@ This page describes the main concept of the Honeytrap Framework.
 
 {% endcapture %}
 
+This page describes the main concept of the Honeytrap Framework.
+
 ## The Honeytrap Framework
 
 Honeytrap is a modular framework for running, monitoring and managing honeypots. Using Honeytrap you can use sensors, high interaction and low interaction honeypots together, while still using the same event mechanisms. Honeytrap consists of services, directors, listeners and channels. It is easy to build new services, attach existing honeypots and extend channels or directors.

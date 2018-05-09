@@ -5,7 +5,7 @@ toc:
 - title: Overview
   path: docs/concepts/overview.md
   section:
-  - docs/concepts/overview/index.md
+  - docs/concepts/overview/what-is-honeytrap.md
 - title: Honeytrap Framework
   path: docs/concepts/framework.md
   section:

@@ -1,12 +1,12 @@
 bigheader: "Concepts"
-abstract: "Detailed explanations of Honeytrap system concepts and abstractions."
+abstract: "Detailed explanations of HoneyTrap system concepts and abstractions."
 toc:
 - docs/concepts/index.md
 - title: Overview
   path: docs/concepts/overview.md
   section:
   - docs/concepts/overview/what-is-honeytrap.md
-- title: Honeytrap Framework
+- title: HoneyTrap Framework
   path: docs/concepts/framework.md
   section:
   - docs/concepts/framework/architecture.md

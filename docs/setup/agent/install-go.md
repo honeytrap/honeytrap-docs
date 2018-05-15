@@ -53,7 +53,7 @@ Another way of installing Go for Windows, is by extracting the provided [x64](ht
 
 {% capture whatsnext %}
 
-* After installing Go, make sure to compile/install the Honeytrap Agent, as explained [here](/docs/setup/agent/compile-honeytrap-agent/).
+* After installing Go, make sure to compile/install the HoneyTrap Agent, as explained [here](/docs/setup/agent/compile-honeytrap-agent/).
 
 {% endcapture %}
 

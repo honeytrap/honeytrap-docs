@@ -1,10 +1,10 @@
 ---
-title: Compile Honeytrap Agent
+title: Compile HoneyTrap Agent
 ---
 
 {% capture overview %}
 
-In order to install the Honeytrap Agent, it is advisable to set up the Go environment the following way.
+In order to install the HoneyTrap Agent, it is advisable to set up the Go environment the following way.
 
 {% endcapture %}
 
@@ -13,11 +13,11 @@ In order to install the Honeytrap Agent, it is advisable to set up the Go enviro
 
 ## Installation
 
-Follow these steps to install the Honeytrap Agent for your host operating system. Make sure Go is installed properly by following [this](/docs/setup/agent/install-go/) guide. Optionally, another output directory may be provided. Notice that some additional configuration may be required.
+Follow these steps to install the HoneyTrap Agent for your host operating system. Make sure Go is installed properly by following [this](/docs/setup/agent/install-go/) guide. Optionally, another output directory may be provided. Notice that some additional configuration may be required.
 
 ### Linux
 
-Execute the following steps in order to compile the Honeytrap Agent from source.
+Execute the following steps in order to compile the HoneyTrap Agent from source.
 
 ```
 $ apt install -y libpcap-dev lxc-dev git
@@ -56,7 +56,7 @@ $ $GOPATH/bin/honeytrap-agent
 
 ## LXC director
 
-If you want to use the lxc director features, you need to build Honeytrap using the following configuration.
+If you want to use the lxc director features, you need to build HoneyTrap using the following configuration.
 
 ```
 $ go build -tags="lxc" ...
@@ -67,7 +67,7 @@ $ go build -tags="lxc" ...
 
 {% capture whatsnext %}
 
-* Install the [Honeytrap Server](/docs/setup/server/install-server).
+* Install the [HoneyTrap Server](/docs/setup/server/install-server).
 
 {% endcapture %}
 

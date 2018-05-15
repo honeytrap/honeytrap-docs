@@ -1,5 +1,5 @@
 bigheader: "Configuration"
-abstract: "Configuration for using and learning about Honeytrap."
+abstract: "Configuration for using and learning about HoneyTrap."
 toc:
 - docs/config/index.md
 - title: Listeners

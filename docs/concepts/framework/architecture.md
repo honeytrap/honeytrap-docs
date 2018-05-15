@@ -3,10 +3,10 @@ title: Architectures
 ---
 
 {% capture overview %}
-This page gives a basic overview of the Honeytrap Architecture.
+This page gives a basic overview of the HoneyTrap Architecture.
 {% endcapture %}
 
-The following picture gives an overview of the Honeytrap framework.
+The following picture gives an overview of the HoneyTrap framework.
 
 <img src="/images/architecture/overview.png">
 
@@ -18,14 +18,14 @@ The honeytrap mainly consists of three objects:
 |-
 | Object | Explanation
 |:-:|:-
-| [![Honeytrap Agent](/images/architecture/agent.png)](/docs/concepts/framework/honeytrap-agent/) | Follow [this guide](/docs/setup/agent/landing/) to setup the Honeytrap Agent.
-| [![Honeytrap Server](/images/architecture/server.png)](/docs/concepts/framework/honeytrap-server/) | Follow [this guide](/docs/setup/server/install-server/) to setup the Honeytrap Server.
-| [![Honeytrap Sensor](/images/architecture/sensor.png)](/docs/concepts/framework/honeytrap-sensor/) | Follow [this guide](/docs/setup/sensor/install-sensor/) to setuop the Honeytrap Sensor.
+| [![HoneyTrap Agent](/images/architecture/agent.png)](/docs/concepts/framework/honeytrap-agent/) | Follow [this guide](/docs/setup/agent/landing/) to setup the HoneyTrap Agent.
+| [![HoneyTrap Server](/images/architecture/server.png)](/docs/concepts/framework/honeytrap-server/) | Follow [this guide](/docs/setup/server/install-server/) to setup the HoneyTrap Server.
+| [![HoneyTrap Sensor](/images/architecture/sensor.png)](/docs/concepts/framework/honeytrap-sensor/) | Follow [this guide](/docs/setup/sensor/install-sensor/) to setuop the HoneyTrap Sensor.
 |=
 
 ## Architectures
 
-There are several ways of implementing the Honeytrap framework. The most common architectures are as follows:
+There are several ways of implementing the HoneyTrap framework. The most common architectures are as follows:
 
 |-
 | Architecture | Explanation

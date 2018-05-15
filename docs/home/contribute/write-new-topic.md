@@ -3,11 +3,11 @@ title: Writing a New Topic
 ---
 
 {% capture overview %}
-This page shows how to create a new topic for the Honeytrap docs.
+This page shows how to create a new topic for the HoneyTrap docs.
 {% endcapture %}
 
 {% capture prerequisites %}
-Create a fork of the Honeytrap documentation repository as described in
+Create a fork of the HoneyTrap documentation repository as described in
 [Creating a Documentation Pull Request](/docs/home/contribute/create-pull-request/).
 {% endcapture %}
 
@@ -27,12 +27,12 @@ is the best fit for your content:
 
   <tr>
     <td>Tutorial</td>
-    <td>A tutorial page shows how to accomplish a goal that ties together several Honeytrap features. A tutorial might provide several sequences of steps that readers can actually do as they read the page. Or it might provide explanations of related pieces of code. For example, a tutorial could provide a walkthrough of a code sample. A tutorial can include brief explanations of the Honeytrap features that are being tied togeter, but should link to related concept topics for deep explanations of individual features. A good example for this is the <a href="/docs/getting-started/">Getting Started</a> page.</td>
+    <td>A tutorial page shows how to accomplish a goal that ties together several HoneyTrap features. A tutorial might provide several sequences of steps that readers can actually do as they read the page. Or it might provide explanations of related pieces of code. For example, a tutorial could provide a walkthrough of a code sample. A tutorial can include brief explanations of the HoneyTrap features that are being tied togeter, but should link to related concept topics for deep explanations of individual features. A good example for this is the <a href="/docs/getting-started/">Getting Started</a> page.</td>
   </tr>
 
   <tr>
     <td>Concept</td>
-    <td>A concept page explains some aspect of Honeytrap. For example, a concept page might describe the Honeytrap Listeners and explain the role it plays as part of the Honeytrap Agent as it is configured, implemented, and tested. Typically, concept pages don't include sequences of steps, but instead provide links to tasks or tutorials. For an example of a concept topic, see the <a href="/docs/concepts/overview/what-is-honeytrap/">What is Honeytrap</a> page.</td>
+    <td>A concept page explains some aspect of HoneyTrap. For example, a concept page might describe the HoneyTrap Listeners and explain the role it plays as part of the HoneyTrap Agent as it is configured, implemented, and tested. Typically, concept pages don't include sequences of steps, but instead provide links to tasks or tutorials. For an example of a concept topic, see the <a href="/docs/concepts/overview/what-is-honeytrap/">What is HoneyTrap</a> page.</td>
   </tr>
 
 </table>
@@ -60,7 +60,7 @@ The front matter is the YAML block that is between the
 triple-dashed lines at the top of the page. Here's an example:
 
     ---
-    title: Installing Honeytrap Agent
+    title: Installing HoneyTrap Agent
     ---
 
 ## Choosing a directory
@@ -90,7 +90,7 @@ Here's an example of an entry in /_data/tasks.yaml:
 
 ## Including code from another file
 
-To include a code file in your topic, place the code file in the Honeytrap
+To include a code file in your topic, place the code file in the HoneyTrap
 documentation repository, preferably in the same directory as your topic
 file. In your topic file, use the `include` tag:
 

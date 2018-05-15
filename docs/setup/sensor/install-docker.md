@@ -29,7 +29,7 @@ If necessary, the binaries for Docker can be found here:
 
 ## Install Docker Compose
 
-Also install Docker Compose in order to get started with Honeytrap Server.
+Also install Docker Compose in order to get started with HoneyTrap Server.
 
 * [https://docs.docker.com/compose/install/#install-compose](https://docs.docker.com/compose/install/#install-compose)
 

@@ -10,7 +10,7 @@ The following steps are required in order to run the Docker Compose setup.
 
 ## Create a network
 
-If you didn't create a Docker network for Honeytrap just yet, create one now by executing the following command.
+If you didn't create a Docker network for HoneyTrap just yet, create one now by executing the following command.
 
 ```bash
 docker network create honeytrap
@@ -28,11 +28,11 @@ chown -R 1000:1000 /data/elasticsearch
 **Note:** If you're running MacOS, make sure to share ```/data/elasticsearch``` in Docker preferences.
 {: .note}
 
-## Compile Honeytrap
+## Compile HoneyTrap
 
 If Go is not installed yet, you can do so by following [this guide](/docs/setup/agent/install-go/).
 
-In order to install the Honeytrap application, execute the following commands.
+In order to install the HoneyTrap application, execute the following commands.
 
 ```
 $ mkdir /opt/honeytrap
@@ -47,14 +47,14 @@ $ cd src/github.com/honeytrap/honeytrap/
 
 ## Download configuration files
 
-Issue the following commands to download the configuration files. The former is the configuration file for setting up the Honeytrap Sensor infrastructure, the latter is for configuring the Honeytrap Sensor.
+Issue the following commands to download the configuration files. The former is the configuration file for setting up the HoneyTrap Sensor infrastructure, the latter is for configuring the HoneyTrap Sensor.
 
 ```
 wget https://gist.githubusercontent.com/Coen-Schuijt/94a58b942e3d44c2221c1de2b7dfc543/raw/docker-compose-sensor.yml
 wget https://gist.githubusercontent.com/Coen-Schuijt/94a58b942e3d44c2221c1de2b7dfc543/raw/config-sensor.toml
 ```
 
-**Note:** The interface name in the config.toml file has to be adjusted to the interface you want the Honeytrap Sensor to listen on. The specific interface name may vary, based on the host operating system being used.
+**Note:** The interface name in the config.toml file has to be adjusted to the interface you want the HoneyTrap Sensor to listen on. The specific interface name may vary, based on the host operating system being used.
 {: .note}
 
 

@@ -4,11 +4,11 @@ title: Staging Your Documentation Changes
 
 {% capture overview %}
 This page shows how to stage content that you want to contribute
-to the Honeytrap documentation.
+to the HoneyTrap documentation.
 {% endcapture %}
 
 {% capture prerequisites %}
-Create a fork of the Honeytrap documentation repository as described in
+Create a fork of the HoneyTrap documentation repository as described in
 [Creating a Documentation Pull Request](/docs/home/contribute/create-pull-request/).
 {% endcapture %}
 

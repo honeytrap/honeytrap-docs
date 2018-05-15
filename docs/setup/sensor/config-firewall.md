@@ -3,7 +3,7 @@ title: Configuring the firewall
 ---
 
 {% capture overview %}
-This page describes the necessary steps you need to take in order to make the Honeytrap Sensor function as expected.
+This page describes the necessary steps you need to take in order to make the HoneyTrap Sensor function as expected.
 {% endcapture %}
 
 
@@ -11,7 +11,7 @@ This page describes the necessary steps you need to take in order to make the Ho
 
 ## Disable RST replies
 
-Make sure you’ll disable the RST replies of Linux. Otherwise both Linux and Honeytrap will reply to the packet.
+Make sure you’ll disable the RST replies of Linux. Otherwise both Linux and HoneyTrap will reply to the packet.
 
 ```
 iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP

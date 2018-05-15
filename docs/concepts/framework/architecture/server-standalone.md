@@ -6,11 +6,13 @@ title: Server Standalone
 
 {% endcapture %}
 
+The representation of this architecture type is as follows.
+
 ![Server Standalone](/images/architecture/server.png)
 
 ## Use Cases
 
-* Deception
+
 
 ## Agent Configuration
 

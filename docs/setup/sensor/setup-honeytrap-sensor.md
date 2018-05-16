@@ -1,9 +1,9 @@
 ---
-title: Docker Compose (Honeytrap Sensor)
+title: Docker Compose (HoneyTrap Sensor)
 ---
 
 {% capture overview %}
-Follow these steps in order to setup Honeytrap Server.
+Follow these steps in order to setup HoneyTrap Server.
 {% endcapture %}
 
 {% capture steps %}
@@ -16,7 +16,7 @@ Make sure you are running the newest version:
 docker-compose -f ./docker-compose-sensor.yml pull
 ```
 
-## Start the Honeytrap Server
+## Start the HoneyTrap Server
 
 Now you can start the Docker Compose script:
 
@@ -28,7 +28,7 @@ docker-compose -f ./docker-compose-sensor.yml up
 
 
 {% capture whatsnext %}
-* Run the [Honeytrap Sensor](/docs/setup/sensor/run-sensor)
+* Run the [HoneyTrap Sensor](/docs/setup/sensor/run-sensor)
 {% endcapture %}
 
 {% include templates/new_task.md %}

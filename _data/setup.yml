@@ -1,8 +1,8 @@
 bigheader: "Setup"
-abstract: "This page may be used to get up and running with the Honeytrap framework."
+abstract: "This page may be used to get up and running with the HoneyTrap framework."
 toc:
 - docs/setup/index.md
-- title: Honeytrap Agent
+- title: HoneyTrap Agent
   path: docs/setup/agent.md
   section: 
   - docs/setup/agent/landing.md
@@ -17,7 +17,7 @@ toc:
     section:
     - docs/setup/agent/install-go.md
     - docs/setup/agent/compile-honeytrap-agent.md
-- title: Honeytrap Server
+- title: HoneyTrap Server
   path: docs/setup/server.md
   section:
   - docs/setup/server/install-server.md
@@ -25,7 +25,7 @@ toc:
   - docs/setup/server/setup-prerequisites.md
   - docs/setup/server/setup-honeytrap-server.md
   - docs/setup/server/run-agent.md
-- title: Honeytrap Sensor
+- title: HoneyTrap Sensor
   path: docs/setup/sensor.md
   section:
   - docs/setup/sensor/install-sensor.md

@@ -4,7 +4,7 @@ approvers:
 title: Development
 ---
 
-It is easy to implement extra services within the Honeytrap framework.
+It is easy to implement extra services within the HoneyTrap framework.
 
 ```
 $ cd /usr/local

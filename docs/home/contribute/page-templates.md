@@ -2,7 +2,7 @@
 title: Using Page Templates
 ---
 
-<p>These page templates are available for writers who would like to contribute new topics to the Honeytrap docs:</p>
+<p>These page templates are available for writers who would like to contribute new topics to the HoneyTrap docs:</p>
 
 <ul>
     <li><a href="#task_template">Task</a></li>
@@ -85,7 +85,7 @@ Here's an interesting thing to know about the steps you just did.
 <p>A tutorial page shows how to accomplish a goal that is larger than a single
 task. Typically a tutorial page has several sections, each of which has a
 sequence of steps. For example, a tutorial might provide a walkthrough of a
-code sample that illustrates a certain feature of Honeytrap. Tutorials can
+code sample that illustrates a certain feature of HoneyTrap. Tutorials can
 include surface-level explanations, but should link to related concept topics
 for deep explanations.
 
@@ -168,7 +168,7 @@ Here's something interesting about the code you ran in the preceding steps.
 
 <h2 id="concept_template">Concept template</h2>
 
-<p>A concept page explains some aspect of Honeytrap. For example, a concept
+<p>A concept page explains some aspect of HoneyTrap. For example, a concept
 page might describe the Listener object and explain the role it
 plays as an application is deployed, scaled, and updated. Typically, concept
 pages don't include sequences of steps, but instead provide links to tasks or
@@ -206,7 +206,7 @@ This page explains ...
 {% capture body %}
 ## Understanding ...
 
-Honeytrap provides ...
+HoneyTrap provides ...
 
 ## Using ...
 
@@ -223,7 +223,7 @@ To use ...
 
 <p>Here's an example of a published topic that uses the concept template:</p>
 
-<p><a href="/docs/concepts/overview/">What is Honeytrap</a></p>
+<p><a href="/docs/concepts/overview/">What is HoneyTrap</a></p>
 
 {% capture whatsnext %}
 * Learn more about [Creating a Documentation Pull Request](/docs/home/contribute/create-pull-request/)

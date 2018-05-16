@@ -1,18 +1,20 @@
 ---
-title: "What is Honeytrap"
+title: "What is HoneyTrap"
 ---
 
 {% capture overview %}
 
-This page describes the main concept of the Honeytrap Framework.
+This page describes the main concept of the HoneyTrap Framework.
 
 {% endcapture %}
 
-## The Honeytrap Framework
+This page describes the main concept of the HoneyTrap Framework.
 
-Honeytrap is a modular framework for running, monitoring and managing honeypots. Using Honeytrap you can use sensors, high interaction and low interaction honeypots together, while still using the same event mechanisms. Honeytrap consists of services, directors, listeners and channels. It is easy to build new services, attach existing honeypots and extend channels or directors.
+## The HoneyTrap Framework
 
-Honeytrap has three modes: sensor mode, high interaction mode and low interaction mode. The sensor mode just detects traffic, this will be ideally used for detection of movement within your network. Low interaction mode will reply with predefined default responses to requests, following playbooks. Both high and low interaction mode honeypots will use real virtual machines or containers in a contained manner.
+HoneyTrap is a modular framework for running, monitoring and managing honeypots. Using HoneyTrap you can use sensors, high interaction and low interaction honeypots together, while still using the same event mechanisms. HoneyTrap consists of services, directors, listeners and channels. It is easy to build new services, attach existing honeypots and extend channels or directors.
+
+HoneyTrap has three modes: sensor mode, high interaction mode and low interaction mode. The sensor mode just detects traffic, this will be ideally used for detection of movement within your network. Low interaction mode will reply with predefined default responses to requests, following playbooks. Both high and low interaction mode honeypots will use real virtual machines or containers in a contained manner.
 
 Multiple operating systems are supported, like Linux, MacOS and Windows. The available functionalities are depending on the host operating system. The LXC director for example is only available on Linux.
 

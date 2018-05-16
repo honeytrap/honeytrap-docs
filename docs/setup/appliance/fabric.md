@@ -1,5 +1,5 @@
 ---
-title: Install Honeytrap
+title: Install HoneyTrap
 ---
 
 {% capture overview %}
@@ -14,7 +14,7 @@ This page describes the steps necessary to install go.
 ## Install a host OS
 
 
-## Install Honeytrap
+## Install HoneyTrap
 
 
 {% endcapture %}

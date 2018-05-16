@@ -1,25 +1,25 @@
 ---
 approvers:
 - nl5887
-title: Honeytrap Documentation
+title: HoneyTrap Documentation
 ---
 
-Honeytrap documentation can help you set up Honeytrap, learn about the system, or get your applications and workloads running on Honeytrap. To learn the basics of what Honeytrap is and how it works, read "[What is Honeytrap](/docs/concepts/overview/)".
+HoneyTrap documentation can help you set up HoneyTrap, learn about the system, or get your applications and workloads running on HoneyTrap. To learn the basics of what HoneyTrap is and how it works, read "[What is HoneyTrap](/docs/concepts/overview/what-is-honeytrap/)".
 
 ## Getting started
 
-The [Setup](/docs/setup/) page might help you get Honeytrap up and running.
+The [Setup](/docs/setup/) page might help you get HoneyTrap up and running.
 
 ## Features
 
 * Combine multiple services to one honeypot, eg a LAMP server
-* Honeytrap Agent will download the configuration from the Honeytrap Server
-* Use the Honeytrap Agent to redirect traffic out of the network to a seperate network
-* Deploy a large amount agents while having one Honeytrap Server, configuration will be downloaded automatically and logging centralized
+* HoneyTrap Agent will download the configuration from the HoneyTrap Server
+* Use the HoneyTrap Agent to redirect traffic out of the network to a seperate network
+* Deploy a large amount agents while having one HoneyTrap Server, configuration will be downloaded automatically and logging centralized
 * Payload detection to determine which service should handle the request, one port can handle multiple protocols
 * Monitor lateral movement within your network with the Sensor listener. The sensor will complete the handshake (in case of tcp), and store the payload
 * Create high interaction honeypots using the LXC or remote hosts directors, traffic will be man-in-the-middle proxied, while information will be extracted
-* Extend honeytrap with existing honeypots (like cowrie or glutton), while using the logging and listening framework of Honeytrap
+* Extend honeytrap with existing honeypots (like cowrie or glutton), while using the logging and listening framework of HoneyTrap
 * Advanced logging system with filtering and logging to Elasticsearch, Kafka, Splunk, Raven, File or Console
 * Services are easy extensible and will extract as much information as possible
 * Low- to high interaction Honeypots, where connections will be upgraded seamless to high interaction
@@ -31,7 +31,7 @@ If you want to extend existing services or creating new, you'll probably find th
 
 ## Support
 
-Honeytrap is actively being maintained, developed and supported by DutchSec. 
+HoneyTrap is actively being maintained, developed and supported by DutchSec. 
 
 ## About [DutchSec](https://dutchsec.com/)
 

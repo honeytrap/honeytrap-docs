@@ -6,7 +6,7 @@ title: Cowrie
 
 {% endcapture %}
 
-[Cowrie](https://github.com/micheloosterhof/cowrie) is a medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. Honeytrap can be configured to use Cowrie for ssh traffic.
+[Cowrie](https://github.com/micheloosterhof/cowrie) is a medium interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. HoneyTrap can be configured to use Cowrie for ssh traffic.
 
 ```
 [listener]

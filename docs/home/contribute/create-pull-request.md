@@ -4,7 +4,7 @@ title: Creating a Documentation Pull Request
 
 {% capture overview %}
 
-To contribute to the Honeytrap documentation, create a pull request against the
+To contribute to the HoneyTrap documentation, create a pull request against the
 [honeytrap/honeytrap-docs](https://github.com/honeytrap/honeytrap-docs){: target="_blank"}
 repository. This page shows how to create a pull request.
 
@@ -23,19 +23,19 @@ Documentation will be published under the [CC BY SA 4.0](https://github.com/hone
 
 {% capture steps %}
 
-## Creating a fork of the Honeytrap documentation repository
+## Creating a fork of the HoneyTrap documentation repository
 
 1. Go to the
 [honeytrap/honeytrap-docs](https://github.com/honeytrap/honeytrap-docs){: target="_blank"}
 repository.
 
 1. In the upper-right corner, click **Fork**. This creates a copy of the
-Honeytrap documentation repository in your GitHub account. The copy
+HoneyTrap documentation repository in your GitHub account. The copy
 is called a *fork*.
 
 ## Making your changes
 
-1. In your GitHub account, in your fork of the Honeytrap docs, create
+1. In your GitHub account, in your fork of the HoneyTrap docs, create
 a new branch to use for your contribution.
 
 1. In your new branch, make your changes and commit them. If you want to
@@ -46,8 +46,8 @@ that is the best fit for your content.
 
 ## Submitting a pull request to the master branch (Current Release)
 
-If you want your change to be published in the released version Honeytrap docs,
-create a pull request against the master branch of the Honeytrap
+If you want your change to be published in the released version HoneyTrap docs,
+create a pull request against the master branch of the HoneyTrap
 documentation repository.
 
 1. In your GitHub account, in your new branch, create a pull request
@@ -93,7 +93,7 @@ next upcoming release. It's automatically updated as new PRs get merged.
 
 ## Pull request review process for current release
 
-Once your pull request is created, a Honeytrap reviewer will take responsibility for providing clear, actionable feedback.  As the owner of the pull request, **it is your responsibility to modify your pull request to address the feedback that has been provided to you by the Honeytrap reviewer.**  Also note that you may end up having more than one Honeytrap reviewer provide you feedback or you may end up getting feedback from a Honeytrap reviewer that is different than the one originally assigned to provide you feedback.  Furthermore, in some cases, one of your reviewers might ask for a technical review from a [Honeytrap tech reviewer](https://github.com/honeytrap/honeytrap-docs/wiki/Tech-reviewers) when needed.  Reviewers will do their best to provide feedback in a timely fashion but response time can vary based on circumstances.
+Once your pull request is created, a HoneyTrap reviewer will take responsibility for providing clear, actionable feedback.  As the owner of the pull request, **it is your responsibility to modify your pull request to address the feedback that has been provided to you by the HoneyTrap reviewer.**  Also note that you may end up having more than one HoneyTrap reviewer provide you feedback or you may end up getting feedback from a HoneyTrap reviewer that is different than the one originally assigned to provide you feedback.  Furthermore, in some cases, one of your reviewers might ask for a technical review from a [HoneyTrap tech reviewer](https://github.com/honeytrap/honeytrap-docs/wiki/Tech-reviewers) when needed.  Reviewers will do their best to provide feedback in a timely fashion but response time can vary based on circumstances.
 
 {% endcapture %}
 

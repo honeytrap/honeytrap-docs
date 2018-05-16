@@ -4,7 +4,7 @@ title: Creating a Raspberry Pi appliance
 
 {% capture overview %}
 
-This page describes the necessary steps for installing Honeytrap on a Raspberry Pi.
+This page describes the necessary steps for installing HoneyTrap on a Raspberry Pi.
 
 {% endcapture %}
 

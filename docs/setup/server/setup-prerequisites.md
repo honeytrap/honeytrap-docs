@@ -26,7 +26,7 @@ Note: If you're running MacOS, make sure to share ```/data/elasticsearch``` in D
 
 ## Download configuration files
 
-Issue the following commands to download the configuration files. The former is the configuration file for setting up the Honeytrap Server infrastructure, the latter is for configuring the Honeytrap Agent.
+Issue the following commands to download the configuration files. The former is the configuration file for setting up the HoneyTrap Server infrastructure, the latter is for configuring the HoneyTrap Agent.
 
 ```
 wget https://gist.githubusercontent.com/Coen-Schuijt/0600aca75dc99f6c2ce2c260ad00f0ab/raw/docker-compose-honeytrap.yml

@@ -14,9 +14,9 @@
 
 
 **Page to Update:**
-http://kubernetes.io/...
+http://docs.honeytrap.io/...
 
 <!--Optional Information (remove the comment tags around information you would like to include)-->
-<!--Honeytrap Version:-->
+<!--HoneyTrap Version:-->
 
 <!--Additional Information:-->

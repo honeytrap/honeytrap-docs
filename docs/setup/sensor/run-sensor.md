@@ -1,10 +1,10 @@
 ---
-title: Run Honeytrap Sensor
+title: Run HoneyTrap Sensor
 ---
 
 {% capture overview %}
 
-This page describes the way to start Honeytrap in Sensor Mode.
+This page describes the way to start HoneyTrap in Sensor Mode.
 
 {% endcapture %}
 
@@ -13,13 +13,13 @@ This page describes the way to start Honeytrap in Sensor Mode.
 
 ## Create Symbolic link
 
-In order to start the Honeytrap application, an easy way is to point to the binary by executing the following command.
+In order to start the HoneyTrap application, an easy way is to point to the binary by executing the following command.
 
 ```
 $ ln -s /opt/honeytrap/bin/honeytrap /usr/local/bin/honeytrap
 ```
 
-This allows us to run the Honeytrap application from any directory on the system.
+This allows us to run the HoneyTrap application from any directory on the system.
 
 ## Define Elastich Search node
 
@@ -29,9 +29,9 @@ In order to run the current configuration, it is necessary to define the (local)
 $ echo "127.0.0.1 elasticsearch" >> /etc/hosts
 ```
 
-## Start Honeytrap Sensor
+## Start HoneyTrap Sensor
 
-Execute the following command in order to start the Honeytrap Sensor with the given conifguration.
+Execute the following command in order to start the HoneyTrap Sensor with the given conifguration.
 
 ```
 $ honeytrap -c ./config-sensor.toml

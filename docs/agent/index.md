@@ -4,18 +4,18 @@ approvers:
 title: Agent
 ---
 
-The Honeytrap Agent is a small server that will forward all incoming traffic to the Honeytrap server. All traffic will be accompanied with the original remoting ip address. All traffic will be sent using an encrypted tunnel.
+The HoneyTrap Agent is a small server that will forward all incoming traffic to the HoneyTrap server. All traffic will be accompanied with the original remoting ip address. All traffic will be sent using an encrypted tunnel.
 
 Use cases
 ----------
 
-* easy deployment: you can deploy hundreds of agents connecting to the same Honeytrap server
+* easy deployment: you can deploy hundreds of agents connecting to the same HoneyTrap server
 * security: the honeytrap server can be located outside the network
 
 Docker
 ------
 
-If you're running Honeytrap in Agent mode, it will be easiest to run the server in Docker.
+If you're running HoneyTrap in Agent mode, it will be easiest to run the server in Docker.
 
 
 ```
@@ -25,7 +25,7 @@ docker run -i -t -p 1337:1337 -v (pwd)/config-agent.toml:/config/config.toml -v 
 Go
 ---
 
-When using `go get` the Honeytrap Agent will be compiled automatically. You'll find the binary in $GOPATH/bin.
+When using `go get` the HoneyTrap Agent will be compiled automatically. You'll find the binary in $GOPATH/bin.
 
 ```
 go get github.com/honeytrap/honeytrap-agent
@@ -34,7 +34,7 @@ go get github.com/honeytrap/honeytrap-agent
 Configuration
 --------------
 
-The Honeytrap Server needs to be configured to use the Agent listener. By default the agent listener will listen to port :1337. 
+The HoneyTrap Server needs to be configured to use the Agent listener. By default the agent listener will listen to port :1337. 
 
 ```
 [listener]
@@ -50,9 +50,9 @@ Now the Agent can be started using:
 setcap 'cap_net_bind_service=+ep' honeytrap-agent --remote-key {key} --server {ip}:1337
 ```
 
-Using the `cap_net_bind_service` capability allows Honeytrap Agent to bind to lower ports, while running under a non-privileged user account.
+Using the `cap_net_bind_service` capability allows HoneyTrap Agent to bind to lower ports, while running under a non-privileged user account.
 
-This will start the Honeytrap Agent, which will connect to the Honetyrap Server on **{ip}:1337**. The Agent will automatically reconnect when the connection with the server has been lost. 
+This will start the HoneyTrap Agent, which will connect to the Honetyrap Server on **{ip}:1337**. The Agent will automatically reconnect when the connection with the server has been lost. 
 
 ### Agent configuration
 ```

@@ -1,10 +1,10 @@
 ---
-title: Run Honeytrap Agent
+title: Run HoneyTrap Agent
 ---
 
 {% capture overview %}
 
-This page describes the way to start the Honeytrap Server.
+This page describes the way to start the HoneyTrap Server.
 
 {% endcapture %}
 
@@ -16,16 +16,16 @@ This page describes the way to start the Honeytrap Server.
 When running the Docker Compose script from the previous step. Pay attention to the following information:
 
 ```
-honeytrap_1      | Honeytrap Agent Server public key: <key>
+honeytrap_1      | HoneyTrap Agent Server public key: <key>
 ```
 
-This key is necessary in order to start the Honeytrap Agent. When starting the Honeytrap Agent, this key will be used to make a connection.
+This key is necessary in order to start the HoneyTrap Agent. When starting the HoneyTrap Agent, this key will be used to make a connection.
 
-## Running the Honeytrap Agent
+## Running the HoneyTrap Agent
 
 The Docker Compose configuration will use the Agent listener by default.
 
-Now you can start the Honeytrap Agent. Depending on the method of installation, by running the agent or starting the binary from the folder you compiled it to.
+Now you can start the HoneyTrap Agent. Depending on the method of installation, by running the agent or starting the binary from the folder you compiled it to.
 
 Running the binary from the directory in which the binary was compiled is as easy as:
 
@@ -44,7 +44,7 @@ sudo honeytrap-agent --remote-key {key} --server {ip}:1339
 
 {% capture whatsnext %}
 
-* Setup a [Honeytrap Sensor](/docs/setup/sensor/install-sensor/).
+* Setup a [HoneyTrap Sensor](/docs/setup/sensor/install-sensor/).
 
 {% endcapture %}
 

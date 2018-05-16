@@ -3,11 +3,11 @@ title: Documentation Style Guide
 ---
 
 {% capture overview %}
-This page gives writing style guidelines for the Honeytrap documentation.
+This page gives writing style guidelines for the HoneyTrap documentation.
 These are guidelines, not rules. Use your best judgment, and feel free to
 propose changes to this document in a pull request.
 
-For additional information on creating new content for the Honeytrap
+For additional information on creating new content for the HoneyTrap
 docs, follow the instructions on
 [using page templates](/docs/home/contribute/page-templates/) and
 [creating a documentation pull request](/docs/home/contribute/create-pull-request/).

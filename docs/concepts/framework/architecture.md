@@ -1,5 +1,5 @@
 ---
-title: Architectures
+title: Architecture
 ---
 
 {% capture overview %}
@@ -13,7 +13,7 @@ The following picture gives an overview of the HoneyTrap framework.
 
 ## Main concepts
 
-The honeytrap mainly consists of three objects:
+The honeytrap mainly consists of three system types:
 
 |-
 | Object | Explanation
@@ -23,7 +23,7 @@ The honeytrap mainly consists of three objects:
 | [![HoneyTrap Sensor](/images/architecture/sensor.png)](/docs/concepts/framework/honeytrap-sensor/) | Follow [this guide](/docs/setup/sensor/install-sensor/) to setuop the HoneyTrap Sensor.
 |=
 
-## Architectures
+## Sub-Architectures
 
 There are several ways of implementing the HoneyTrap framework. The most common architectures are as follows:
 

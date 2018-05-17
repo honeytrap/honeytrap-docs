@@ -13,17 +13,17 @@ Playing with HoneyTrap is the easiest by starting the Docker image. The image is
 
 ## Install Docker and Docker Compose
 
-The installation of HoneyTrap is relying on Docker and Docker Compose. Useful information for installing these applications can be found in this section.
+The installation of HoneyTrap is relying on Docker and Docker Compose. Useful information for installing these applications can be found in this section. By following this guide, an Elastic Search, Kibana, and HoneyTrap Server container will be configured automatically. Optionally, one may log to an external (Elastic Search) source as well.
 
-## Setup the prerequisites 
+## Setup prerequisites 
 
 In order to start the installation, the are some prerequisites you have to comply with. All necessary inforamtion can be found in this section.
 
-## Run Docker Compose
+## Docker Compose (HoneyTrap Server)
 
 This step will explain the necessary steps you need to take in order to run the Docker Compose.
 
-## Start the HoneyTrap Agent
+## Run HoneyTrap Agent
 
 Finally, this section describes how the HoneyTrap Agent can be connected to the HoneyTrap Server.
 

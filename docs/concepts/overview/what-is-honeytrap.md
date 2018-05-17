@@ -18,6 +18,7 @@ HoneyTrap has three modes: sensor mode, high interaction mode and low interactio
 
 Multiple operating systems are supported, like Linux, MacOS and Windows. The available functionalities are depending on the host operating system. The LXC director for example is only available on Linux.
 
+<!--
 ## Listeners
 Listeners are listening to your network interfaces for incoming traffic. Using normal sockets, or raw networks you can assign services to specific ip addresses, ports or ranges. 
 
@@ -29,3 +30,4 @@ The director directs traffic to a specific endpoint. This could be a remote host
 
 ## Channels
 Channels will send the incoming events through a filter to endpoints. The endpoints could be Slack, ELK stack, Splunk, file, console or your SIEM.
+-->

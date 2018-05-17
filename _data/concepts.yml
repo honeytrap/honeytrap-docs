@@ -10,7 +10,7 @@ toc:
   path: docs/concepts/framework.md
   section:
   - docs/concepts/framework/architecture.md
-  - title: Architectural Overview
+  - title: Sub-Architectures
     path: docs/concepts/framework/architecture.md
     section:
     - docs/concepts/framework/architecture/agent-server.md 

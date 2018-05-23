@@ -39,4 +39,4 @@ $ honeytrap -c ./config-sensor.toml
 
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

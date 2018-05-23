@@ -50,4 +50,4 @@ The last step consists of starting the HoneyTrap Sensor to actively listen to re
 
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

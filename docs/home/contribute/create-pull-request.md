@@ -104,4 +104,4 @@ Once your pull request is created, a HoneyTrap reviewer will take responsibility
 * Learn more about [Documentation Style Guide](/docs/home/contribute/style-guide/)
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

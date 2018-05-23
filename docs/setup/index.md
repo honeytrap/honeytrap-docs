@@ -49,4 +49,4 @@ The easiest way to install HoneyTrap Sensor is by running the [docker-compose](/
 
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

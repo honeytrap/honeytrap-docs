@@ -31,4 +31,4 @@ docker-compose -f ./docker-compose-sensor.yml up
 * Run the [HoneyTrap Sensor](/docs/setup/sensor/run-sensor)
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

@@ -16,4 +16,4 @@ The services will emulate or proxy specific traffic. For example there is an ssh
 
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/concept.md %}

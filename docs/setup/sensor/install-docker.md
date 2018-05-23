@@ -42,4 +42,4 @@ Also install Docker Compose in order to get started with HoneyTrap Server.
 
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

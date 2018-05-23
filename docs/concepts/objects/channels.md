@@ -17,4 +17,4 @@ Channels will send the incoming events through a filter to endpoints. The endpoi
 {% endcapture %}
 
 
-{% include templates/new_task.md %}
+{% include templates/concept.md %}

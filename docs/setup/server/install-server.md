@@ -39,4 +39,4 @@ Finally, this section describes how the HoneyTrap Agent can be connected to the 
 
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

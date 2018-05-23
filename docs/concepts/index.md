@@ -9,7 +9,7 @@ This section provides an overview of the main concepts used in the HoneyTrap fra
 {% endcapture %}
 
 
-{% capture steps %}
+{% capture body %}
 
 ## Overview
 
@@ -45,4 +45,4 @@ This page describes the main objects being used in the framework:
 
 {% endcapture %%}
 
-{% include templates/new_task.md %}
+{% include templates/concept.md %}

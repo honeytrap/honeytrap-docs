@@ -48,4 +48,4 @@ sudo honeytrap-agent --remote-key {key} --server {ip}:1339
 
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

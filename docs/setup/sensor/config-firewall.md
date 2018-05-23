@@ -25,4 +25,4 @@ iptables -I OUTPUT -p icmp --icmp-type destination-unreachable -j DROP
 * The next step is to [Docker Compose](/docs/setup/sensor/setup-honeytrap-sensor/) script.
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

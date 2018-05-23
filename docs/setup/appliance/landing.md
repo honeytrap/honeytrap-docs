@@ -26,4 +26,4 @@ This page describes the necessary steps for installing HoneyTrap on a Raspberry 
 
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

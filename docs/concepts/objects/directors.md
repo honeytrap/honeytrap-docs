@@ -8,7 +8,7 @@ This page describes the directors objects.
 
 {% endcapture %}
 
-{% capture steps %}
+{% capture body %}
 
 ## Description
 The director directs traffic to a specific endpoint. This could be a remote host or a lxc container per attacker.
@@ -16,4 +16,4 @@ The director directs traffic to a specific endpoint. This could be a remote host
 {% endcapture %}
 
 
-{% include templates/new_task.md %}
+{% include templates/concept.md %}

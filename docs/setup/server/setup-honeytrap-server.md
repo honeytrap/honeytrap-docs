@@ -30,4 +30,4 @@ docker-compose -f ./docker-compose-honeytrap.yml up
 * Now you are ready to start the [HoneyTrap Agent](/docs/setup/server/run-agent).
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

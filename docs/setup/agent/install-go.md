@@ -57,4 +57,4 @@ Another way of installing Go for Windows, is by extracting the provided [x64](ht
 
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

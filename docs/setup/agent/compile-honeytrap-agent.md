@@ -71,4 +71,4 @@ $ go build -tags="lxc" ...
 
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

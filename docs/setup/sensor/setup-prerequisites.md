@@ -72,4 +72,4 @@ This will use the config-sensor.toml file in the current directory. This will us
 * Don't forget to apply the correct [firewall rules](/docs/setup/sensor/config-firewall/).
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

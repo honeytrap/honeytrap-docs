@@ -44,4 +44,4 @@ This will use the config-docker.toml file in the current directory and forward p
 * The next step is to run the [Docker Compose](/docs/setup/server/setup-honeytrap-server/) script.
 {% endcapture %}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

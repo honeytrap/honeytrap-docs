@@ -21,8 +21,6 @@
 
 {% else %}
 
-{% include templates/_errorthrower.md missing_block='prerequisites' heading='Before you begin' purpose='lists action prerequisites and knowledge prerequisites' %}
-
 {% endif %}
 
 

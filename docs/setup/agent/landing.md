@@ -29,4 +29,4 @@ If you want to compile the HoneyTrap Agent from source, a step-by-step guide can
 
 {% endcapture%}
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

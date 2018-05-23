@@ -20,4 +20,4 @@ This page describes the steps necessary to install go.
 {% endcapture %}
 
 
-{% include templates/new_task.md %}
+{% include templates/task.md %}

@@ -10,6 +10,8 @@ The representation of this architecture type is as follows.
 
 ![Server Standalone](/images/architecture/server.png)
 
+{% capture body %}
+
 ## Use Cases
 
 
@@ -21,3 +23,12 @@ The representation of this architecture type is as follows.
 ## Server Configuration
 
 In order to make the HoneyTrap server work with the agent, an Agent [Listener](/docs/concepts/objects/listeners/) has to be configured. This makes sure the HoneyTrap Server is actively listening to requests forwarded by agents.
+
+{% endcapture %}
+
+
+{% capture whatsnext %}
+
+{% endcapture %}
+
+{% include templates/concept.md %}

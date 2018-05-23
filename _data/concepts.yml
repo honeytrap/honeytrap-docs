@@ -13,9 +13,9 @@ toc:
   - title: Sub-Architectures
     path: docs/concepts/framework/architecture.md
     section:
-    - docs/concepts/framework/architecture/agent-server.md 
-    - docs/concepts/framework/architecture/sensor-server.md
-    - docs/concepts/framework/architecture/server-standalone.md
+    - docs/concepts/framework/sub-architecture/agent-server.md 
+    - docs/concepts/framework/sub-architecture/sensor-server.md
+    - docs/concepts/framework/sub-architecture/server-standalone.md
   - docs/concepts/framework/honeytrap-agent.md
   - docs/concepts/framework/honeytrap-server.md
   - docs/concepts/framework/honeytrap-sensor.md

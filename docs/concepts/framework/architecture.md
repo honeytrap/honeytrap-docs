@@ -25,7 +25,7 @@ The honeytrap mainly consists of three system types:
 
 ## Sub-Architectures
 
-There are several ways of implementing the HoneyTrap framework. The most common architectures are as follows:
+There are several ways of implementing the HoneyTrap framework. The most common Sub-Architectures are as follows:
 
 |-
 | Sub-Architecture | Explanation

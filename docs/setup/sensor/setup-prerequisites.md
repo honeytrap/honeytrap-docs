@@ -22,7 +22,7 @@ When working with the pre-built Docker Compose setup, it's necessary to set up t
 
 ```
 mkdir -p /data/elasticsearch
-chown -R 1000:1000 /data/elasticsearch
+chown -R 1000:1000 /data/elasticsearch/
 ```
 
 **Note:** If you're running MacOS, make sure to share ```/data/elasticsearch``` in Docker preferences.

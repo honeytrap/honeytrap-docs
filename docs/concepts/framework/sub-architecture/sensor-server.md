@@ -6,11 +6,13 @@ title: Sensor - Server
 
 {% endcapture %}
 
-The representation of this architecture type is as follows.
-
-![Sensor - Server](/images/architecture/sensor_server.png)
+This page describes the Sensor - Server overview.
 
 {% capture body %}
+
+## Description
+
+In this Sub-Architecture, a HoneyTrap Sensor is being installed within the network. Any connections being made to the HoneyTrap Sensor are considered malicious, and therefor logged and/or forwarded.
 
 ## Use Cases
 
@@ -19,7 +21,11 @@ The representation of this architecture type is as follows.
 
 ## Sensor Configuration
 
+
+
 ## Server Configuration
+
+
 
 {% endcapture %}
 

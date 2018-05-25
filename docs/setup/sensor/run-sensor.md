@@ -21,6 +21,7 @@ $ ln -s /opt/honeytrap/bin/honeytrap /usr/local/bin/honeytrap
 
 This allows us to run the HoneyTrap application from any directory on the system.
 
+<!--
 ## Define Elastich Search node
 
 In order to run the current configuration, it is necessary to define the (local) Elastic Search node in the `/etc/hosts/` file. This can be done by executing the following command.
@@ -28,6 +29,7 @@ In order to run the current configuration, it is necessary to define the (local)
 ```
 $ echo "127.0.0.1 elasticsearch" >> /etc/hosts
 ```
+-->
 
 ## Start HoneyTrap Sensor
 

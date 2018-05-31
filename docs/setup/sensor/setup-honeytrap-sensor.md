@@ -24,6 +24,9 @@ Now you can start the Docker Compose script:
 docker-compose -f ./docker-compose-sensor.yml up
 ```
 
+**NOTE:** If the kibana container can't be started, execute the following command again: `chown -R 1000:1000 /data/elasticsearch/`. Try executing the docker compose command stated above again.
+{: .note}
+
 {% endcapture %}
 
 

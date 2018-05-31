@@ -36,7 +36,7 @@ $ echo "127.0.0.1 elasticsearch" >> /etc/hosts
 Execute the following command in order to start the HoneyTrap Sensor with the given conifguration.
 
 ```
-$ honeytrap -c config-sensor.toml
+$ honeytrap -c /opt/honeytrap/src/github.com/honeytrap/honeytrap/config-sensor.toml
 ```
 
 {% endcapture %}

@@ -2,3 +2,14 @@ bigheader: "Development"
 abstract: "HoneyTrap Development"
 toc:
 - docs/development/index.md
+- title: Honeytrap
+  path: docs/development/honeytrap.md
+  section:
+  - docs/development/honeytrap/main.md
+- title: Scripters
+  path: docs/development/scripters.md
+  section:
+  - docs/development/scripter/main.md
+  - docs/development/scripter/extending.md
+  - docs/development/scripter/generic.md
+  - docs/development/scripter/methods.md

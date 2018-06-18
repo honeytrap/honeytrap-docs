@@ -47,8 +47,6 @@ toc:
   path: docs/config/scripter.md
   section:
   - docs/config/scripter/main.md
-  - docs/config/scripter/generic.md
-  - docs/config/scripter/extending.md
 - title: Examples
   path: docs/config/examples.md
   section:

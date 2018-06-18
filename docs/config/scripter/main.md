@@ -1,5 +1,5 @@
 ---
-title: Main
+title: Config
 ---
 
 Honeytrap has support for quite some services, it can however occur that you wish to add features
@@ -18,7 +18,7 @@ Where 'lua' gives the type of scripter (At this time only Lua is available) and 
 directory in which the system should look for potential scripts.
 
 
-###Extending a service
+### Extending a service
 When you wish to extend a service you need to create lua scripts as explained in 'Implementation' 
 and make sure that the service in the config.toml has the scripter connected by adding
 ```
@@ -36,7 +36,7 @@ type="http"
 scripter="lua"
 ```
 
-###Adding support for a new protocol/exploit
+### Adding support for a new protocol/exploit
 To create a custom service that is able to handle a new type of protocol/exploit, you need to create
 a script in the generic folder as described in the 'Implementation' chapter and add the following to 
 the config.toml to connect the script to the port.

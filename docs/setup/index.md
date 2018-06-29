@@ -6,7 +6,7 @@ title: Setup
 
 This section provides instructions for installing and configuring HoneyTrap.
 
-Depending on the [chosen architecture](/docs/concepts/framework/architecture/), the installation procedure consists of one or more of the following three parts:
+Depending on the [chosen Deployment Architecture](/docs/concepts/framework/architecture/), the installation procedure consists of one or more of the following three parts:
 
 {% endcapture %}
 
@@ -27,7 +27,7 @@ The HoneyTrap agent can be installed in the following ways:
 
 The easiest way to install HoneyTrap Server is by running the [docker-compose](/docs/setup/server/install-server/). This wil set up the necessary infrastructure, including:
 
-* Elastic Search: In order to, log and index all data sent to the HoneyTrap Server.
+* Elastic Search: In order to log and index all data sent to the HoneyTrap Server.
 * Kibana: In order to visualize the data stored in Elastic Search.
 * HoneyTrap (Server): For accepting requests forwarded by the HoneyTrap Agent.
 

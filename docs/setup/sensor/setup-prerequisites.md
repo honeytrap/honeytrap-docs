@@ -50,8 +50,8 @@ $ cd src/github.com/honeytrap/honeytrap/
 Issue the following commands to download the configuration files. The former is the configuration file for setting up the HoneyTrap Sensor infrastructure, the latter is for configuring the HoneyTrap Sensor.
 
 ```
-wget https://gist.githubusercontent.com/Coen-Schuijt/94a58b942e3d44c2221c1de2b7dfc543/raw/docker-compose-sensor.yml
-wget https://gist.githubusercontent.com/Coen-Schuijt/94a58b942e3d44c2221c1de2b7dfc543/raw/config-sensor.toml
+wget https://raw.githubusercontent.com/honeytrap/honeytrap-configs/master/sensor-standalone/docker-compose-sensor.yml
+wget https://raw.githubusercontent.com/honeytrap/honeytrap-configs/master/sensor-standalone/config-sensor.toml
 ```
 
 **Note:** The interface name in the config.toml file has to be adjusted to the interface you want the HoneyTrap Sensor to listen on. The specific interface name may vary, based on the host operating system being used.

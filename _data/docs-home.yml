@@ -2,5 +2,3 @@ bigheader: "Documentation Home"
 abstract: "Documentation for using and learning about HoneyTrap."
 toc:
 - docs/home/index.md
-
-

@@ -19,11 +19,11 @@ This page describes the main concepts of the framework:
 
 ## HoneyTrap Framework
 
-This chapter explains how the different objects in the HoneyTrap framwork are tied together. Get more insight in the [Architectures](/docs/concepts/framework/architecture/), and corresponding Sub-Architectures:
+This chapter explains how the different objects in the HoneyTrap framwork are tied together. Get more insight in the [Architectures](/docs/concepts/framework/architecture/), and Deployment Scenarios:
 
-* [Agent - Server](/docs/concepts/framework/architecture/agent-server/)
-* [Sensor - Server](/docs/concepts/framework/architecture/sensor-server/)
-* [Server Standalone](/docs/concepts/framework/architecture/server-standalone/)
+* [Agent - Server](/docs/concepts/framework/deployment-scenarios/agent-server/)
+* [Sensor Standalone](/docs/concepts/framework/deployment-scenarios/sensor-standalone/)
+* [Server Standalone](/docs/concepts/framework/deployment-scenarios/server-standalone/)
 
 ## Objects
 

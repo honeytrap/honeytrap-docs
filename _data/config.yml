@@ -9,6 +9,7 @@ toc:
   - docs/config/listeners/canary.md
   - docs/config/listeners/raw.md
   - docs/config/listeners/netstack.md
+  - docs/config/listeners/agent.md
 - title: Services
   path: docs/config/services.md
   section:

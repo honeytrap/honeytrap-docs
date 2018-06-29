@@ -6,4 +6,9 @@ title: Raw
 
 {% endcapture %}
 
-The raw listener will use a custom implemented network stack. 
+The raw listener will use a custom implemented network stack.
+
+```
+[listener]
+type="raw"
+``` 

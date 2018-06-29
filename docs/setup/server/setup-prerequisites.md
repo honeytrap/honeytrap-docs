@@ -29,8 +29,8 @@ Note: If you're running MacOS, make sure to share ```/data/elasticsearch``` in D
 Issue the following commands to download the configuration files. The former is the configuration file for setting up the HoneyTrap Server infrastructure, the latter is for configuring the HoneyTrap Agent.
 
 ```
-wget https://gist.githubusercontent.com/Coen-Schuijt/0600aca75dc99f6c2ce2c260ad00f0ab/raw/docker-compose-honeytrap.yml
-wget https://gist.githubusercontent.com/Coen-Schuijt/0600aca75dc99f6c2ce2c260ad00f0ab/raw/config-docker.toml
+wget https://raw.githubusercontent.com/honeytrap/honeytrap-configs/master/agent-server/docker-compose-server.yml
+wget https://raw.githubusercontent.com/honeytrap/honeytrap-configs/master/agent-server/config-server.toml
 ```
 
 **Note:** If you are running Linux, you need to add the following line to **/etc/sysctl.conf**, and reload using `sysctl -p /etc/sysctl.conf`. <br/> ``` vm.max_map_count = 262144 ```

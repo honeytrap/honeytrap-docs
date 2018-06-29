@@ -36,8 +36,12 @@ Running the binary from the directory in which the binary was compiled is as eas
 Running the application (i.e. after installing the homebrew package):
 
 ```
-sudo honeytrap-agent --remote-key {key} --server {ip}:1339
+setcap 'cap_net_bind_service=+ep' honeytrap-agent --remote-key {key} --server {ip}:1339
 ```
+
+Using the `cap_net_bind_service` capability allows HoneyTrap Agent to bind to lower ports, while running under a non-privileged user account.
+
+This will start the HoneyTrap Agent, which will connect to the Honetyrap Server on **{ip}:1339**. The Agent will automatically reconnect when the connection with the server has been lost.
 
 {% endcapture %}
 

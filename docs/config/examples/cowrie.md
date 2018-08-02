@@ -31,3 +31,33 @@ channel=["console"]
 output = "stdout"
 level = "debug"
 ```
+
+#### 
+
+#### docker-compose.yml
+```
+version: "2.1"
+services:
+  honeytrap:
+    image: honeytrap/honeytrap:latest
+    ports:
+      - "1337:1339"
+    volumes:
+      - ./config-docker.toml:/config/config.toml
+    networks:
+      - honeytrap
+      - raven
+  cowrie:
+    image: cowrie/cowrie:latest
+    ports:
+      - "2222:2222"
+      - "2223:2223"
+    networks:
+      - honeytrap
+      - raven
+networks:
+  raven:
+    external: true
+  honeytrap:
+    external: true
+```

@@ -25,6 +25,7 @@ toc:
   - docs/setup/server/setup-prerequisites.md
   - docs/setup/server/setup-honeytrap-server.md
   - docs/setup/server/run-agent.md
+  - docs/setup/scripter/install.md
 - title: HoneyTrap Sensor
   path: docs/setup/sensor.md
   section:

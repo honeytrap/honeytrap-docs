@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Config_services on HoneyTrap</title>
-    <link>https://teranos.github.io/categories/config_services/</link>
+    <link>https://teranos.github.io/honeytrap-docs/categories/config_services/</link>
     <description>Recent content in Config_services on HoneyTrap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://teranos.github.io/categories/config_services/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://teranos.github.io/honeytrap-docs/categories/config_services/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ADB</title>
-      <link>https://teranos.github.io/services/adb/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/adb/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/adb/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/adb/</guid>
       <description>What is Android Debug Bridge? Android Debug Bridge or ADB is a software-interface between a Android-device and a computer allowing direct communication between the two. With the ADB-interface it is possible to execute commands on the Android-device via the computer.
 Description Android Debug Bridge service will listen for commands sent from ADB clients and will simulate a Unix shell.
 Syntax [service.&amp;lt;nickname_of_adbService&amp;gt;] type=&amp;#34;adb&amp;#34; Arguments in configuration file There are no arguments in ADB service.</description>
@@ -24,10 +24,10 @@ Syntax [service.&amp;lt;nickname_of_adbService&amp;gt;] type=&amp;#34;adb&amp;#3
     
     <item>
       <title>CWMP</title>
-      <link>https://teranos.github.io/services/cwmp/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/cwmp/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/cwmp/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/cwmp/</guid>
       <description> // TODO This documentation is still work in progress.
 Description CWMP service will simulate an Auto Configuration Server (ACS) which allows the management of a Customer Premises Equipement (CPE) through the text based protocol CWMP.
 Syntax [service.&amp;lt;nickname_of_cwmpService&amp;gt;] type=&amp;#34;cwmp&amp;#34; Arguments in config file There are no arguments in CWMP service.
@@ -38,10 +38,10 @@ Availability
     
     <item>
       <title>Counterstrike</title>
-      <link>https://teranos.github.io/services/counterstrike/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/counterstrike/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/counterstrike/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/counterstrike/</guid>
       <description>What is Counterstrike? Counterstrike is a first-person shooter multi player video game.
 Description Counterstrike service will simulate a Counterstrike gameserver.
 Syntax [service.&amp;lt;nickname_of_CounterstrikeService&amp;gt;] type=&amp;#34;counterstrike&amp;#34; Arguments in config file There are no arguments in Counterstrike service.
@@ -50,10 +50,10 @@ Example [service.counterstrike01] type=&amp;#34;counterstrike&amp;#34; [[port]] 
     
     <item>
       <title>DNS</title>
-      <link>https://teranos.github.io/services/dns/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/dns/</link>
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/dns/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/dns/</guid>
       <description>// TODO This documentation is still work in progress.
 What is DNS? DNS is the abbreviation for Domain Name System
 Description DNS service will log every DNS request.
@@ -65,10 +65,10 @@ Availability
     
     <item>
       <title>DNS-Proxy</title>
-      <link>https://teranos.github.io/services/dns-proxy/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/dns-proxy/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/dns-proxy/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/dns-proxy/</guid>
       <description> // TODO This documentation is still work in progress.
 Description DNS Proxy service will forward dns request to a specific destination thanks to a director.
 Syntax [service.&amp;lt;nickname_of_dnsProxy&amp;gt;] type=&amp;#34;dns-proxy&amp;#34; Arguments in config file There are no arguments in DNS Proxy service.
@@ -79,10 +79,10 @@ Availability
     
     <item>
       <title>EOS</title>
-      <link>https://teranos.github.io/services/eos/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/eos/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/eos/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/eos/</guid>
       <description> What is EOS? EOS is a blockchain protocol.
 Description The EOS service will simulate a EOS node.
 Syntax [service.&amp;lt;nickname_of_eosService&amp;gt;] type=&amp;#34;eos&amp;#34; Arguments in config file There are no arguments in EOS service.
@@ -92,10 +92,10 @@ Availability     Linux MacOS     eos yes yes    Commands implemented     availab
     
     <item>
       <title>Echo</title>
-      <link>https://teranos.github.io/services/echo/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/echo/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/echo/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/echo/</guid>
       <description>What is Echo? Echo is a fundamental command which is frequently used in scripts or batch-files, or as part of individual commands anywhere you need to output text.
 Description Echo service will simply return the input.
 Syntax [service.&amp;lt;nickname_of_echoService&amp;gt;] type=&amp;#34;echo&amp;#34; Arguments in config file There are no arguments in Echo service.
@@ -104,10 +104,10 @@ Example [service.echo01] type=&amp;#34;echo&amp;#34; [[port]] port=&amp;#34;udp/
     
     <item>
       <title>Elasticsearch</title>
-      <link>https://teranos.github.io/services/elasticsearch/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/elasticsearch/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/elasticsearch/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/elasticsearch/</guid>
       <description>What is Elasticsearch Elasticsearch is a search engine based on the Lucene library.
 Description Elasticsearch service will log every Elasticsearch request.
 Syntax [service.&amp;lt;nickname_of_elasticsearchService&amp;gt;] type=&amp;#34;elasticsearch&amp;#34; Arguments in config file There are 3 arguments in Elasticsearch service:
@@ -116,10 +116,10 @@ Syntax [service.&amp;lt;nickname_of_elasticsearchService&amp;gt;] type=&amp;#34;
     
     <item>
       <title>Ethereum</title>
-      <link>https://teranos.github.io/services/ethereum/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/ethereum/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/ethereum/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/ethereum/</guid>
       <description>What is Ethereum? Ethereum is a decentralised platform for smart contracts in a blockchain.
 Description The HoneyTrap Ethereum-service will simulate a ethereum-node.
 Syntax [service.&amp;lt;nickname_of_ethereumService&amp;gt;] type=&amp;#34;ethereum&amp;#34; Arguments in config file There are no arguments in Ethereum service.
@@ -128,10 +128,10 @@ Example [service.ethereum] type=&amp;#34;ethereum&amp;#34; [[port]] port=&amp;#3
     
     <item>
       <title>FTP</title>
-      <link>https://teranos.github.io/services/ftp/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/ftp/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/ftp/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/ftp/</guid>
       <description>What is FTP? FTP is the abbreviation for File Transport Protocol and is a standard network protocol used to transfer files.
 Description FTP service will simulate a FTP server.
 Syntax [service.&amp;lt;nickname_of_ftp&amp;gt;] type=&amp;#34;ftp&amp;#34; Arguments in configuration file There are 4 arguments in FTP service:
@@ -140,10 +140,10 @@ Syntax [service.&amp;lt;nickname_of_ftp&amp;gt;] type=&amp;#34;ftp&amp;#34; Argu
     
     <item>
       <title>HTTP</title>
-      <link>https://teranos.github.io/services/http/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/http/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/http/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/http/</guid>
       <description>What is HTTP? HTTP is the abbreviation for HyperText Transfer Protocol, a application-layer protocol primarly used for the World Wide Web as client-server model.
 Description The HTTP service will simulate a web server.
 Syntax [service.&amp;lt;nickname_of_httpService&amp;gt;] type=&amp;#34;http&amp;#34; Arguments in config file There is 1 argument in HTTP service:
@@ -152,10 +152,10 @@ Syntax [service.&amp;lt;nickname_of_httpService&amp;gt;] type=&amp;#34;http&amp;
     
     <item>
       <title>HTTP-Proxy</title>
-      <link>https://teranos.github.io/services/http-proxy/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/http-proxy/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/http-proxy/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/http-proxy/</guid>
       <description> // TODO This documentation is still work in progress.
 Description The HTTP proxy will proxy all traffic through to the director. This could be a LXC director or a remote host.
 director [service.&amp;lt;nickname_of_httpProxyService&amp;gt;] type=&amp;#34;http-proxy&amp;#34; Arguments in config file There are no arguments in HTTP Proxy service.
@@ -166,10 +166,10 @@ Availability
     
     <item>
       <title>HTTPS</title>
-      <link>https://teranos.github.io/services/https/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/https/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/https/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/https/</guid>
       <description>What is HTTPS? HTTPS is the abbreviation for Hyper Text Transport Protocol Secure, which is the extension for HTTP, which is the foundation of the World Wide Web.
 Description The HTTPS service will simulate the TLS handshake with a server.
 Syntax [service.&amp;lt;nickname_of_https&amp;gt;] type=&amp;#34;https&amp;#34; Arguments in config file There are no arguments in HTTPS service.
@@ -179,10 +179,10 @@ https://[IP_ADDRESS]:8080 The result In the bottom bar of the browser you can se
     
     <item>
       <title>IPP</title>
-      <link>https://teranos.github.io/services/ipp/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/ipp/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/ipp/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/ipp/</guid>
       <description>What is IPP? IPP is the abbreviation for Internet Printing Protocol, allowing devices to submit print jobs to a printer or print-server.
 Description IPP service will simulate an internet connected printer.
 Syntax [service.&amp;lt;nickname_of_ipp&amp;gt;] type=&amp;#34;ipp&amp;#34; Arguments in config file There are 4 arguments in ipp service:
@@ -191,10 +191,10 @@ Syntax [service.&amp;lt;nickname_of_ipp&amp;gt;] type=&amp;#34;ipp&amp;#34; Argu
     
     <item>
       <title>LDAP</title>
-      <link>https://teranos.github.io/services/ldap/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/ldap/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/ldap/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/ldap/</guid>
       <description>What is LDAP? LDAP is the abreviation for Lightweight Directory Access Protocol, used for accessing and maintaining distributed directory information services over a internet protocol network.
 Description The LDAP service will simulate a directory server accessible via LDAP.
 Syntax [service.&amp;lt;nickname_of_ldap&amp;gt;] type=&amp;#34;ldap&amp;#34; Arguments in config file There are 8 arguments in ldap service:
@@ -203,10 +203,10 @@ Syntax [service.&amp;lt;nickname_of_ldap&amp;gt;] type=&amp;#34;ldap&amp;#34; Ar
     
     <item>
       <title>Memcached</title>
-      <link>https://teranos.github.io/services/memcached/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/memcached/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/memcached/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/memcached/</guid>
       <description>What is Memcached? Memcached is a open source, high-performance, distributed memory object caching system often used for speeding up dynamic websites by alleviating the database load.
 Description The Memcached service will log and reject all commands.
 Syntax [service.&amp;lt;nickname_of_memcached&amp;gt;] type=&amp;#34;memcached&amp;#34; Arguments in config file There are no arguments in memcached service.
@@ -215,10 +215,10 @@ Example [service.memcached01] type=&amp;#34;memcached&amp;#34; [[port]] port=&am
     
     <item>
       <title>Redis</title>
-      <link>https://teranos.github.io/services/redis/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/redis/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/redis/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/redis/</guid>
       <description>What is Redis? Redis is a in-memory data structure used, as a database, cache and message-broker.
 Description The Redis service will simulate a Redis server.
 Syntax [service.&amp;lt;nickname_of_redisService&amp;gt;] type=&amp;#34;redis&amp;#34; Arguments in config file There are 2 arguments in Redis service:
@@ -227,10 +227,10 @@ Syntax [service.&amp;lt;nickname_of_redisService&amp;gt;] type=&amp;#34;redis&am
     
     <item>
       <title>SMTP</title>
-      <link>https://teranos.github.io/services/smtp/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/smtp/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/smtp/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/smtp/</guid>
       <description>What is SMTP? SMTP is the abbreviation for Small Mail Transfer Protocol, a communication protocol for sending e-mail.
 Description The SMTP service will simulate a SMTP server.
 Syntax [service.&amp;lt;nickname_of_smtp&amp;gt;] type=&amp;#34;smtp&amp;#34; Arguments in config file There is 1 argument in smtp service:
@@ -239,10 +239,10 @@ Syntax [service.&amp;lt;nickname_of_smtp&amp;gt;] type=&amp;#34;smtp&amp;#34; Ar
     
     <item>
       <title>SSH-Authentication</title>
-      <link>https://teranos.github.io/services/ssh-authentication/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/ssh-authentication/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/ssh-authentication/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/ssh-authentication/</guid>
       <description>What is SSH? SSH is the abbreviation for Secure SHell, which is a cryptographic network protocol for secure operations over a insecure network.
 Description The SSH Authentication service will capture all username, password and public keys that are being used to authenticate to the SSH-server. It will always return an error / permission denied.
 Syntax [service.&amp;lt;nickname_of_ssh-auth&amp;gt;] type=&amp;#34;ssh-auth&amp;#34; Arguments in config file There are 2 arguments in ssh-auth service:
@@ -251,10 +251,10 @@ Syntax [service.&amp;lt;nickname_of_ssh-auth&amp;gt;] type=&amp;#34;ssh-auth&amp
     
     <item>
       <title>SSH-Jail</title>
-      <link>https://teranos.github.io/services/ssh-jail/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/ssh-jail/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/ssh-jail/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/ssh-jail/</guid>
       <description>// TODO This documentation is still work in progress.
 What is SSH? SSH is the abbreviation for Secure SHell, which is a cryptographic network protocol for secure operations over a insecure network.
 Description The SSH Jail service will &amp;lt;&amp;hellip;&amp;gt;
@@ -264,10 +264,10 @@ Syntax [service.&amp;lt;nickname_of_ssh-jail&amp;gt;] type=&amp;#34;ssh-jail&amp
     
     <item>
       <title>SSH-Proxy</title>
-      <link>https://teranos.github.io/services/ssh-proxy/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/ssh-proxy/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/ssh-proxy/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/ssh-proxy/</guid>
       <description>// TODO This documentation is still work in progress.
 Description The SSH-Proxy service will proxy ssh traffic through the remote server or lxc connector.
 Syntax [service.&amp;lt;nickname_of_sshproxy&amp;gt;] type=&amp;#34;ssh-proxy&amp;#34; Arguments in config file There are 2 arguments in ssh-proxy service:
@@ -276,10 +276,10 @@ Syntax [service.&amp;lt;nickname_of_sshproxy&amp;gt;] type=&amp;#34;ssh-proxy&am
     
     <item>
       <title>SSH-Simulator</title>
-      <link>https://teranos.github.io/services/ssh-simulator/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/ssh-simulator/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/ssh-simulator/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/ssh-simulator/</guid>
       <description>What is SSH? SSH is the abbreviation for Secure SHell, which is a cryptographic network protocol for secure operations over a insecure network.
 Description The SSH-Simulator service will simulate a Secured Shell with limited interaction.
 Syntax [service.&amp;lt;nickname_of_ssh-simulator&amp;gt;] type=&amp;#34;ssh-simulator&amp;#34; Arguments in config file There are 5 possible arguments in ssh-simulator service:
@@ -288,10 +288,10 @@ Syntax [service.&amp;lt;nickname_of_ssh-simulator&amp;gt;] type=&amp;#34;ssh-sim
     
     <item>
       <title>Telnet</title>
-      <link>https://teranos.github.io/services/telnet/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/telnet/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/telnet/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/telnet/</guid>
       <description>What is Telnet? Telnet is a protocol used to provide a bi-directional textual communication between computers in a network via TCP/IP.
 Description The Telnet service will simulate a Telnet server.
 Syntax [service.&amp;lt;nickname_of_telnetService&amp;gt;] type=&amp;#34;telnet&amp;#34; Arguments in config file There are 2 arguments in telnet service:
@@ -300,10 +300,10 @@ Syntax [service.&amp;lt;nickname_of_telnetService&amp;gt;] type=&amp;#34;telnet&
     
     <item>
       <title>VNC</title>
-      <link>https://teranos.github.io/services/vnc/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/vnc/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/vnc/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/vnc/</guid>
       <description>// TODO This documentation is still work in progress.
 What is VNC? VNC is the abbreviation for Virtual Network Computer, which is a graphical desktop-sharing system for remotely controlling a computer from another computer.
 Description The VNC service will simulate a VNC Environment.
@@ -314,10 +314,10 @@ Syntax [service.&amp;lt;nickname_of_vncService&amp;gt;] type=&amp;#34;vnc&amp;#3
     
     <item>
       <title>TFTP</title>
-      <link>https://teranos.github.io/services/tftp/</link>
+      <link>https://teranos.github.io/honeytrap-docs/services/tftp/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/services/tftp/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/services/tftp/</guid>
       <description>// TODO This documentation is still work in progress.
 Description TFTP service will simulate a Trivial File Transfer Protocol server which returns an error &amp;ldquo;file not found&amp;rdquo;.
 Syntax [service.&amp;lt;nickname_of_tftp&amp;gt;] type=&amp;#34;tftp&amp;#34; Arguments in config file There are no arguments in TFTP service.

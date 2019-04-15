@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration on HoneyTrap</title>
-    <link>https://teranos.github.io/categories/configuration/</link>
+    <link>https://teranos.github.io/honeytrap-docs/categories/configuration/</link>
     <description>Recent content in Configuration on HoneyTrap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://teranos.github.io/categories/configuration/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://teranos.github.io/honeytrap-docs/categories/configuration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Logging</title>
-      <link>https://teranos.github.io/logging/logging/</link>
+      <link>https://teranos.github.io/honeytrap-docs/logging/logging/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/logging/logging/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/logging/logging/</guid>
       <description>Description The logging configuration section in the config file defines the logging backend, needed to view log messages.
 Syntax [[logging]] output = &amp;#34;&amp;#34; level = &amp;#34;&amp;#34; How many? There needs to be one logging and there can only be one.
 Arguments in configuration file There are 2 arguments in a logging configuration:
@@ -25,10 +25,10 @@ Arguments in configuration file There are 2 arguments in a logging configuration
     
     <item>
       <title>Filter Configuration</title>
-      <link>https://teranos.github.io/filters/filters/</link>
+      <link>https://teranos.github.io/honeytrap-docs/filters/filters/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://teranos.github.io/filters/filters/</guid>
+      <guid>https://teranos.github.io/honeytrap-docs/filters/filters/</guid>
       <description>Description The Filter configuration section in the configuration file defines which data is sent to the channels and which data is filtered.
 Syntax [[filter]] channel=[&amp;#34;console&amp;#34;] How many? There needs to be at least one filter because every channel needs to have a filter configuration.
 You can use as many filters as you want.

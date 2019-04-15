@@ -8,7 +8,7 @@ languageCode = "en-us"
 metaDataFormat = "yaml"
 title = "HoneyTrap"
 theme = "gohugoioTheme"
-publishDir = ".."
+publishDir = "./public"
 
 enableGitInfo = true
 

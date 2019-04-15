@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Directors on HoneyTrap</title>
+    <link>https://teranos.github.io/categories/directors/</link>
+    <description>Recent content in Directors on HoneyTrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://teranos.github.io/categories/directors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Forward</title>
+      <link>https://teranos.github.io/directors/forward/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://teranos.github.io/directors/forward/</guid>
+      <description>// TODO This documentation is still work in progress.
+Description The forward director will forward traffic to a remote host.
+Syntax [director.forward] type=&amp;#34;forward&amp;#34; Arguments in config file There is 1 argument in forward director:
+   argument default setting explanation     host none Set the ip address of the remote host.    Example If you want to override the destination port, you can specify a port where all forwarded traffic will be directed to.</description>
+    </item>
+    
+    <item>
+      <title>LXC Container</title>
+      <link>https://teranos.github.io/directors/lxc/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://teranos.github.io/directors/lxc/</guid>
+      <description>// TODO This documentation is still work in progress.
+Description The lxc director will spawn a container per attacker. After a period of inactivity, the container will be frozen and eventually stopped. When the attacker returns, the original container will be assigned to his session.
+Syntax [director.lxc] type=&amp;#34;lxc&amp;#34; Arguments in config file There are 3 arguments in lxc director:
+   argument default setting explanation     freeze_every 15 min The duration of inactivity after which a containter will be frozen.</description>
+    </item>
+    
+  </channel>
+</rss>

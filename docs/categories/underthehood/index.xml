@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Underthehood on HoneyTrap</title>
+    <link>https://teranos.github.io/categories/underthehood/</link>
+    <description>Recent content in Underthehood on HoneyTrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://teranos.github.io/categories/underthehood/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>In Real Life: simulate a web server</title>
+      <link>https://teranos.github.io/manuals/irl-simulate-web-server/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://teranos.github.io/manuals/irl-simulate-web-server/</guid>
+      <description>// TODO This documentation is still work in progress.
+One of the possibile use cases for HoneyTrap can be to simulate a device in your DMZ to &amp;ldquo;attract&amp;rdquo; potentials hackers. You could also simulate a device within another part of your network, for internals attacks.
+In this scenario, we decided to simulate a web server in our DMZ. We actually did that on one of our domain, keep on reading to find out more.</description>
+    </item>
+    
+    <item>
+      <title>Under The Hood: the Socket listener</title>
+      <link>https://teranos.github.io/manuals/uth-socket-listener/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://teranos.github.io/manuals/uth-socket-listener/</guid>
+      <description>// TODO This documentation is still work in progress.
+The socket listener When you setup HoneyTrap, you can choose between the Sensor Mode, which listen on every port and the Services Mode, which listens only on the ports you chose in your configuration file.
+For instance, in thequick start, we setup HoneyTrap with this basic configuration:
+[listener] type=&amp;#34;socket&amp;#34; [service.ssh-simulator] type=&amp;#34;ssh-simulator&amp;#34; [[port]] port=&amp;#34;tcp/8022&amp;#34; services=[&amp;#34;ssh-simulator&amp;#34;] [channel.console] type=&amp;#34;console&amp;#34; [[filter]] channel=[&amp;#34;console&amp;#34;] [[logging]] output = &amp;#34;stdout&amp;#34; level = &amp;#34;debug&amp;#34; We opened the port tcp/8022 and we linked it to the service ssh-simulator.</description>
+    </item>
+    
+  </channel>
+</rss>

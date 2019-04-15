@@ -1,0 +1,13 @@
+{{ define "header" }}
+  {{ partial "hero" . }}
+  {{ partial "boxes-small-news" . }}
+{{ end }}
+
+{{ define "main" }}
+
+  <section class="w-100 ph4 ph5-ns pv4">
+    {{- partial "home-page-sections/features-icons" . -}}
+  </section>
+
+
+{{ end }}

@@ -3,436 +3,436 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/contribute/</loc>
+    <loc>https://AMKuperus.github.io/contribute/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/documentation/</loc>
+    <loc>https://AMKuperus.github.io/documentation/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/about/</loc>
+    <loc>https://AMKuperus.github.io/about/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/about/quick-start/</loc>
+    <loc>https://AMKuperus.github.io/about/quick-start/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/contribute/development/</loc>
+    <loc>https://AMKuperus.github.io/contribute/development/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/adb/</loc>
+    <loc>https://AMKuperus.github.io/services/adb/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/about/what-is-honeytrap/</loc>
+    <loc>https://AMKuperus.github.io/about/what-is-honeytrap/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/listeners/agent/</loc>
+    <loc>https://AMKuperus.github.io/listeners/agent/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/console/</loc>
+    <loc>https://AMKuperus.github.io/channels/console/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/directors/forward/</loc>
+    <loc>https://AMKuperus.github.io/directors/forward/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/directors/lxc/</loc>
+    <loc>https://AMKuperus.github.io/directors/lxc/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/listeners/netstack/</loc>
+    <loc>https://AMKuperus.github.io/listeners/netstack/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/listeners/tap/</loc>
+    <loc>https://AMKuperus.github.io/listeners/tap/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/listeners/tun/</loc>
+    <loc>https://AMKuperus.github.io/listeners/tun/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/listeners/</loc>
+    <loc>https://AMKuperus.github.io/listeners/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/contribute/documentation/</loc>
+    <loc>https://AMKuperus.github.io/contribute/documentation/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/listeners/socket/</loc>
+    <loc>https://AMKuperus.github.io/listeners/socket/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/manuals/honeytrap-raspi/</loc>
+    <loc>https://AMKuperus.github.io/manuals/honeytrap-raspi/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/manuals/honeytrap-local-playground/</loc>
+    <loc>https://AMKuperus.github.io/manuals/honeytrap-local-playground/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/dshield/</loc>
+    <loc>https://AMKuperus.github.io/channels/dshield/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/</loc>
+    <loc>https://AMKuperus.github.io/services/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/counterstrike/</loc>
+    <loc>https://AMKuperus.github.io/services/counterstrike/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/about/license/</loc>
+    <loc>https://AMKuperus.github.io/about/license/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/about/about-dutchsec/</loc>
+    <loc>https://AMKuperus.github.io/about/about-dutchsec/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/elasticsearch/</loc>
+    <loc>https://AMKuperus.github.io/channels/elasticsearch/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/directors/directors/</loc>
+    <loc>https://AMKuperus.github.io/directors/directors/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/contact/</loc>
+    <loc>https://AMKuperus.github.io/contact/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/cwmp/</loc>
+    <loc>https://AMKuperus.github.io/services/cwmp/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/manuals/</loc>
+    <loc>https://AMKuperus.github.io/manuals/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/file/</loc>
+    <loc>https://AMKuperus.github.io/channels/file/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/dns/</loc>
+    <loc>https://AMKuperus.github.io/services/dns/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/</loc>
+    <loc>https://AMKuperus.github.io/channels/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/events/events/</loc>
+    <loc>https://AMKuperus.github.io/events/events/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/events/heartbeat/</loc>
+    <loc>https://AMKuperus.github.io/events/heartbeat/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/manuals/config/</loc>
+    <loc>https://AMKuperus.github.io/manuals/config/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/kafka/</loc>
+    <loc>https://AMKuperus.github.io/channels/kafka/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/logging/logging/</loc>
+    <loc>https://AMKuperus.github.io/logging/logging/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/filters/filters/</loc>
+    <loc>https://AMKuperus.github.io/filters/filters/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/dns-proxy/</loc>
+    <loc>https://AMKuperus.github.io/services/dns-proxy/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/marija/</loc>
+    <loc>https://AMKuperus.github.io/channels/marija/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/echo/</loc>
+    <loc>https://AMKuperus.github.io/services/echo/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/pulsar/</loc>
+    <loc>https://AMKuperus.github.io/channels/pulsar/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/elasticsearch/</loc>
+    <loc>https://AMKuperus.github.io/services/elasticsearch/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/eos/</loc>
+    <loc>https://AMKuperus.github.io/services/eos/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/rabbitmq/</loc>
+    <loc>https://AMKuperus.github.io/channels/rabbitmq/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/ethereum/</loc>
+    <loc>https://AMKuperus.github.io/services/ethereum/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/raven/</loc>
+    <loc>https://AMKuperus.github.io/channels/raven/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/slack/</loc>
+    <loc>https://AMKuperus.github.io/channels/slack/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/ftp/</loc>
+    <loc>https://AMKuperus.github.io/services/ftp/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/channels/splunk/</loc>
+    <loc>https://AMKuperus.github.io/channels/splunk/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/http/</loc>
+    <loc>https://AMKuperus.github.io/services/http/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/https/</loc>
+    <loc>https://AMKuperus.github.io/services/https/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/http-proxy/</loc>
+    <loc>https://AMKuperus.github.io/services/http-proxy/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/ipp/</loc>
+    <loc>https://AMKuperus.github.io/services/ipp/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/ldap/</loc>
+    <loc>https://AMKuperus.github.io/services/ldap/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/memcached/</loc>
+    <loc>https://AMKuperus.github.io/services/memcached/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/redis/</loc>
+    <loc>https://AMKuperus.github.io/services/redis/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/smtp/</loc>
+    <loc>https://AMKuperus.github.io/services/smtp/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/ssh-authentication/</loc>
+    <loc>https://AMKuperus.github.io/services/ssh-authentication/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/ssh-jail/</loc>
+    <loc>https://AMKuperus.github.io/services/ssh-jail/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/ssh-proxy/</loc>
+    <loc>https://AMKuperus.github.io/services/ssh-proxy/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/ssh-simulator/</loc>
+    <loc>https://AMKuperus.github.io/services/ssh-simulator/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/telnet/</loc>
+    <loc>https://AMKuperus.github.io/services/telnet/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/vnc/</loc>
+    <loc>https://AMKuperus.github.io/services/vnc/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/services/tftp/</loc>
+    <loc>https://AMKuperus.github.io/services/tftp/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/manuals/irl-simulate-web-server/</loc>
+    <loc>https://AMKuperus.github.io/manuals/irl-simulate-web-server/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/manuals/uth-socket-listener/</loc>
+    <loc>https://AMKuperus.github.io/manuals/uth-socket-listener/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/</loc>
+    <loc>https://AMKuperus.github.io/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/</loc>
+    <loc>https://AMKuperus.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/channels/</loc>
-    <lastmod>2019-04-15T16:13:27+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/config_services/</loc>
+    <loc>https://AMKuperus.github.io/categories/channels/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/configuration/</loc>
+    <loc>https://AMKuperus.github.io/categories/config_services/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/contact/</loc>
+    <loc>https://AMKuperus.github.io/categories/configuration/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/contribute/</loc>
+    <loc>https://AMKuperus.github.io/categories/contact/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/directors/</loc>
+    <loc>https://AMKuperus.github.io/categories/contribute/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/directors/</loc>
+    <loc>https://AMKuperus.github.io/directors/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/events/</loc>
+    <loc>https://AMKuperus.github.io/categories/directors/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/filters/</loc>
+    <loc>https://AMKuperus.github.io/events/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/fundamentals/</loc>
+    <loc>https://AMKuperus.github.io/filters/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/getting-started/</loc>
+    <loc>https://AMKuperus.github.io/categories/fundamentals/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/listeners/</loc>
+    <loc>https://AMKuperus.github.io/categories/getting-started/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/logging/</loc>
+    <loc>https://AMKuperus.github.io/categories/listeners/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/manuals/</loc>
+    <loc>https://AMKuperus.github.io/logging/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://AMKuperus.github.io/honeytrap-docs/categories/underthehood/</loc>
+    <loc>https://AMKuperus.github.io/categories/manuals/</loc>
+    <lastmod>2019-04-15T16:13:27+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://AMKuperus.github.io/categories/underthehood/</loc>
     <lastmod>2019-04-15T16:13:27+02:00</lastmod>
     <priority>0</priority>
   </url>

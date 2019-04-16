@@ -63,10 +63,13 @@ Now you can copy the webhook and paste this in your `toml`.
 >Be aware when on a free plan `Slack` limits the amount of customisations you are allowed to have.
 
 **The result should look something like this:**
-![](/channels/images/channel_slack.png)
+![][1]
+<!--![](/channels/images/channel_slack.png)-->
 
 ## Availability
 
  Linux   | MacOS
   ---  | ---
   <p style="color:green">yes</p>  | <p style="color:green">yes</p>
+
+  [1]: /images/channels/channel_slack.png

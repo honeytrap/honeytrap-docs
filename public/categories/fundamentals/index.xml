@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fundamentals on HoneyTrap</title>
-    <link>https://AMKuperus.github.io/honeytrap-docs/categories/fundamentals/</link>
+    <link>https://AMKuperus.github.io/categories/fundamentals/</link>
     <description>Recent content in Fundamentals on HoneyTrap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://AMKuperus.github.io/honeytrap-docs/categories/fundamentals/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://AMKuperus.github.io/categories/fundamentals/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quick Start</title>
-      <link>https://AMKuperus.github.io/honeytrap-docs/about/quick-start/</link>
+      <link>https://AMKuperus.github.io/about/quick-start/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://AMKuperus.github.io/honeytrap-docs/about/quick-start/</guid>
+      <guid>https://AMKuperus.github.io/about/quick-start/</guid>
       <description>In this quick start, we&amp;rsquo;ll start a HoneyTrap with the help of Docker. We will start a Docker container with an image of Honeytrap, automatically downloaded from the docker hub.
 The configuration file we&amp;rsquo;ll use for this quick start is described in the Basic config section. We&amp;rsquo;ll concentrate on implementing only one service, a ssh-simulator with only one channel, the console.
  This tutorial is created and tested for Linux (Debian/Ubuntu) and MacOSX.</description>
@@ -24,10 +24,10 @@ The configuration file we&amp;rsquo;ll use for this quick start is described in 
     
     <item>
       <title>HoneyTrap Manuals</title>
-      <link>https://AMKuperus.github.io/honeytrap-docs/manuals/</link>
+      <link>https://AMKuperus.github.io/manuals/</link>
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://AMKuperus.github.io/honeytrap-docs/manuals/</guid>
+      <guid>https://AMKuperus.github.io/manuals/</guid>
       <description>In the following sections, you can find manuals available for HoneyTrap.</description>
     </item>
     

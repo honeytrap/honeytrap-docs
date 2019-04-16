@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contribute on HoneyTrap</title>
-    <link>https://AMKuperus.github.io/honeytrap-docs/categories/contribute/</link>
+    <link>https://AMKuperus.github.io/categories/contribute/</link>
     <description>Recent content in Contribute on HoneyTrap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://AMKuperus.github.io/honeytrap-docs/categories/contribute/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://AMKuperus.github.io/categories/contribute/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Contribute to the HoneyTrap Project</title>
-      <link>https://AMKuperus.github.io/honeytrap-docs/contribute/</link>
+      <link>https://AMKuperus.github.io/contribute/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://AMKuperus.github.io/honeytrap-docs/contribute/</guid>
+      <guid>https://AMKuperus.github.io/contribute/</guid>
       <description>HoneyTrap relies heavily on the enthusiasm and participation of the open-source community.
 We need your support in both its development and documentation.</description>
     </item>
     
     <item>
       <title>Contribute to HoneyTrap Development</title>
-      <link>https://AMKuperus.github.io/honeytrap-docs/contribute/development/</link>
+      <link>https://AMKuperus.github.io/contribute/development/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://AMKuperus.github.io/honeytrap-docs/contribute/development/</guid>
+      <guid>https://AMKuperus.github.io/contribute/development/</guid>
       <description>Introduction Honeytrap community welcomes your contribution. To make the process as seamless as possible, we recommend you read this contribution guide.
 Development Workflow Start by forking the Honeytrap GitHub repository, make changes in a branch and then send a pull request. We encourage pull requests to discuss code changes. Here are the steps in details:
 Setup your Honeytrap Github Repository Fork Honeytrap upstream source repository to your own personal repository.</description>
@@ -34,10 +34,10 @@ Setup your Honeytrap Github Repository Fork Honeytrap upstream source repository
     
     <item>
       <title>Contribute to the HoneyTrap Docs</title>
-      <link>https://AMKuperus.github.io/honeytrap-docs/contribute/documentation/</link>
+      <link>https://AMKuperus.github.io/contribute/documentation/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://AMKuperus.github.io/honeytrap-docs/contribute/documentation/</guid>
+      <guid>https://AMKuperus.github.io/contribute/documentation/</guid>
       <description>Contributing to HoneyTrap Documentation First off, thanks for taking the time to contribute!
 The following is a set of guidelines for contributing to HoneyTrap documentation. These are just guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 How to build this documentation Step 1: Install Hugo Homebrew, a package manager for macOS, can be installed from brew.sh. See install if you are running Windows etc.</description>

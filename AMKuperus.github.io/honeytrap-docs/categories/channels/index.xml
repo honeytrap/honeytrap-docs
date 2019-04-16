@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Channels on HoneyTrap</title>
+    <link>https://AMKuperus.github.io/honeytrap-docs/categories/channels/</link>
+    <description>Recent content in Channels on HoneyTrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://AMKuperus.github.io/honeytrap-docs/categories/channels/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Console</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/console/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/console/</guid>
+      <description> Description The console channel will log all events to the console.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;console&amp;#34; Arguments in configuration file There are no arguments in Console channel.
+Example [channel.console01] type=&amp;#34;console&amp;#34; Availability    Linux MacOS     yes
+ yes
+    </description>
+    </item>
+    
+    <item>
+      <title>DShield</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/dshield/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/dshield/</guid>
+      <description>What is DShield? DShield is a community-based collaborative firewall log correlation system that receives logs from volunteers all over the world, used as the data-collection engine behind the SANS Internet Storm Center. The goal is to raise awareness to the public by providing access to the data and share accurate current snapshots of internet attacks.
+Description The DShield channel will log all events to the DShield API.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;dshield&amp;#34; Arguments in configuration file There are 4 arguments in DShield channel:</description>
+    </item>
+    
+    <item>
+      <title>Elasticsearch</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/elasticsearch/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/elasticsearch/</guid>
+      <description>What is Elasticsearch? Elasticsearch is a search engine based Lucene library which provides distributed multitenent-capable full-text search engine with webinterface and scheme-free JSON documents.
+Description The Elasticsearch channel will log all events to an Elasticsearch API.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;elasticsearch&amp;#34; url=&amp;#34;elasticsearch_server/index&amp;#34; Arguments in configuration file There are 5 arguments in Elasticsearch channel:
+   argument default setting explanation required     url no Set the url and index of your Elasticsearch Server.</description>
+    </item>
+    
+    <item>
+      <title>File</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/file/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/file/</guid>
+      <description>Description The File channel will save all the events into a file.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;file&amp;#34; Arguments in configuration file There are 3 arguments in File channel:
+   argument default setting explanation required     maxsize 1073741824 bytes (1gb) Set the maximal size of your log file. no   filename no Set the name of the file. yes   timeout 5 s Save in the file every timeout.</description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/kafka/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/kafka/</guid>
+      <description>// TODO This documentation is still work in progress.
+What is Kafka? Kafka is a distributed streaming platform.
+Description The kafka channel will put all the events on a kafka queue.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;kafka&amp;#34; Arguments in configuration file There are 2 arguments in Kafka channel:
+   argument default setting explanation     brokers none The Kafka server/cluster.   topic none Stream of records.    Example [channel.</description>
+    </item>
+    
+    <item>
+      <title>Marija</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/marija/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/marija/</guid>
+      <description>What is Marija? Marija provides big data visualization trough graphs.
+More information about Marija
+Description The Marija channel will log all events to Marija.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;marija&amp;#34; Arguments in configuration file There are 2 arguments in Marija channel:
+   argument default setting explanation required     url no Set the url for Marija. yes   insecure no true will disable certificate validation. no    Example [channel.</description>
+    </item>
+    
+    <item>
+      <title>Pulsar</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/pulsar/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/pulsar/</guid>
+      <description>// TODO This documentation is still work in progress.
+What is Pulsar? Pulsar is a open-source distributed pub-sub messaging system.
+Description The Pulsar channel will send events to a Pulsar Producer.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;pulsar&amp;#34; Arguments in configuration file There are 2 arguments in Pulsar channel:
+   argument default setting explanation     url none Set the url of your Pulsar Producer.   insecure none true will disable certificate validation.</description>
+    </item>
+    
+    <item>
+      <title>RabbitMQ</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/rabbitmq/</link>
+      <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/rabbitmq/</guid>
+      <description>// TODO This documentation is still work in progress.
+What is RabitMQ? RabbitMQ is a open-source message broker.
+Description The rabbitmq channel will queue all the events to a RabbitMQ Server.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;rabbitmq&amp;#34; Arguments in configuration file There are 2 arguments in RabbitMQ channel:
+   argument default setting explanation     address none Set your AMQP address.   queue none Set the AMQP queue.</description>
+    </item>
+    
+    <item>
+      <title>Raven</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/raven/</link>
+      <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/raven/</guid>
+      <description>What is Raven? Raven is a real-time anomaly detection and alert service that identifies unauthorised or anomalous behaviour in traffic and data.
+Description The Raven channel will log all events to a Raven Server.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;raven&amp;#34; Arguments in configuration file There are 3 arguments in Raven channel:
+   argument default setting explanation required     token no Set the token identifying your HoneyTrap. yes   server no Set the url of your Raven Server.</description>
+    </item>
+    
+    <item>
+      <title>Slack</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/slack/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/slack/</guid>
+      <description>What is Slack? Slack is a cloud-based set of tools and services for team-communication.
+Description The Slack channel will send all events to a Slack channel API.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;slack&amp;#34; Arguments in configuration file There are 4 arguments in Slack channel:
+   argument default setting explanation required     webhook_url no Set the webhook_url of your webhook. yes   username no Set your username. ?</description>
+    </item>
+    
+    <item>
+      <title>Splunk</title>
+      <link>https://AMKuperus.github.io/honeytrap-docs/channels/splunk/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://AMKuperus.github.io/honeytrap-docs/channels/splunk/</guid>
+      <description>// TODO This documentation is still work in progress.
+What is Splunk? Software for searching monitoring and analyzing machine-generated big data. Splunk can capture index and correlate real-time data in a searchable repository.
+Description The Splunk channel will log all events to a HTTP Event Collector (HEC).
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;splunk&amp;#34; Arguments in configuration file There are 3 arguments in Splunk channel:
+   argument default setting explanation     endpoints none Set your serverURLs.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,5 +1,5 @@
 baseURL = "https://AMKuperus.github.io/honeytrap-docs/"
-publishDir = "AMKuperus.github.io/honeytrap-docs/"
+contentDir = "content"
 paginate =  100
 defaultContentLanguage = "en"
 enableEmoji = true

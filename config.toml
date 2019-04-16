@@ -10,7 +10,7 @@ title = "HoneyTrap"
 theme = "gohugoioTheme"
 
 enableGitInfo = true
-publishDir = "docs"
+#publishDir = "docs"
 
 pluralizeListTitles = false
 

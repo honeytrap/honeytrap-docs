@@ -1,4 +1,4 @@
-baseURL = "https://honeytrap.gitlab.io/honeytrap-docs/"
+baseURL = "https://honeytrap.github.io/honeytrap-docs/"
 contentDir = "content"
 staticDir = "static"
 publishDir = "docs"

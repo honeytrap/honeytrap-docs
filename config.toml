@@ -1,4 +1,4 @@
-baseURL = "https://AMKuperus.github.io/honeytrap-docs/"
+baseURL = "https://docs.honey.io/"
 contentDir = "content"
 staticDir = "static"
 publishDir = "docs"

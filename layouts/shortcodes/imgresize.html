@@ -1,0 +1,5 @@
+{{ $original := .Page.Resources.GetByPrefix (.Get 0) }}
+{{ $options := .Get 1 }}
+{{ .Scratch.Set "image" ($original.Resize $options) }}
+{{ $image := .Scratch.Get "image" }}
+<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">

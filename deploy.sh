@@ -10,7 +10,7 @@ setup_git() {
 setup_git
 
 rm -rf deployment
-git clone -b master https://github.com/teranos/honeytrap-docs deployment
+git clone -b gh-pages https://github.com/teranos/honeytrap-docs deployment
 rsync -av --delete --exclude ".git" docs/ deployment
 
 cd deployment

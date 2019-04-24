@@ -4,7 +4,6 @@
 _site/**
 .sass-cache/**
 CNAME
-.travis.yml
 .idea/
 
 # Vim ignore

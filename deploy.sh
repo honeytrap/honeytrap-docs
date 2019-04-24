@@ -15,10 +15,8 @@ setup_git
 rm -rf deployment
 git clone -b gh-pages https://github.com/teranos/honeytrap-docs deployment
 rsync -av --delete --exclude ".git" docs/ deployment
-
 cd deployment
 git add -A
-
 git commit -m "rebuilding site on `date`, commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
 
 # Here too:

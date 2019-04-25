@@ -22,8 +22,8 @@ git commit -m "rebuilding site on `date`, commit ${TRAVIS_COMMIT} and job ${TRAV
 # Here too:
 
 # ${GITHUB_AUTH_SECRET} = <username>:<auth-token>
-git remote add gh-pages https://${GITHUB_AUTH_SECRET}@github.com/teranos/honeytrap-docs.git # > /dev/null 2>&1
-git push --force --quiet --set-upstream origin gh-pages
+git remote add origin-pages https://${GITHUB_AUTH_SECRET}@github.com/teranos/honeytrap-docs.git # > /dev/null 2>&1
+git push --force --quiet --set-upstream origin-pages gh-pages
 
 cd ..
 rm -rf deployment

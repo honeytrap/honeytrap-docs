@@ -11,7 +11,7 @@ categories: [contact]
 ---
 
 You can contact us through these differents channels:
-
+<hr>
 
 - [gitter](https://gitter.im/honeytrap/honeytrap)
 

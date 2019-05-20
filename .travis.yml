@@ -1,10 +1,8 @@
-language: go
-go:
-    - master
+dist: stretch
 
 # install - install any dependencies required
 install:
-    - go get github.com/gohugoio/hugo
+    - dpkg -i hugo*.deb
 
 script: bash ./deploy.sh
 env:

@@ -7,7 +7,7 @@ TARGET_BRANCH="gh-pages"
 
 # run hugo, with 'out' as the content dir
 function doCompile {
-  hugo -c out
+  hugo -d out
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on HoneyTrap</title>
+    <link>https://honeytrap.github.io/honeytrap-docs/categories/</link>
+    <description>Recent content in Categories on HoneyTrap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://honeytrap.github.io/honeytrap-docs/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>channels</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/channels/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/channels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>configuration</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/configuration/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/configuration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>directors</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/directors/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/directors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>listeners</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/listeners/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/listeners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>config_services</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/config_services/</link>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/config_services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UnderTheHood</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/underthehood/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/underthehood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fundamentals</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/fundamentals/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/fundamentals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/contact/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contribute</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/contribute/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/contribute/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>getting started</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/getting-started/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/getting-started/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manuals</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/manuals/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/manuals/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

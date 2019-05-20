@@ -2,7 +2,7 @@ dist: stretch
 
 # install - install any dependencies required
 install:
-    - su dpkg -i hugo*.deb
+    - su -c dpkg -i hugo*.deb
 
 script: bash ./deploy.sh
 env:

@@ -1,0 +1,13 @@
+language: go
+go:
+    - master
+
+# install - install any dependencies required
+install:
+    - go get github.com/gohugoio/hugo
+
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "b9e5de238362"
+  - COMMIT_AUTHOR_EMAIL: "brandon.vhouten@gmail.com"

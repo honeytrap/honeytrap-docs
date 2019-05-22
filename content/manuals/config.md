@@ -16,7 +16,7 @@ You will need a configuration file to start HoneyTrap. The configuration file mu
 
 You can find the configurations used for the different modes of HoneyTrap on our[ github repository](https://github.com/honeytrap/honeytrap-configs).
 
-## A Configuration-file explained
+## Configuration-file explained
 This is the configuration used for the [quick start](/about/quick-start/). You can find it on the [github repository](https://github.com/honeytrap/honeytrap-configs/blob/master/server-standalone/config-server-standalone.toml) of HoneyTrap-configurations. We will explain all the different parts of this configuration to gain more insight how the toml-configuration works.
 
 ```bash

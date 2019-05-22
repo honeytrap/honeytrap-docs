@@ -14,16 +14,24 @@ draft: false
 aliases: [/contribute/docs/]
 toc: true
 ---
-<br>
 ## Contributing to HoneyTrap Documentation
 
 **First off, thanks for taking the time to contribute!**
 
-The following is a set of guidelines for contributing to HoneyTrap documentation.
+The following is a set of guidelines for contributing to `HoneyTrap Documentation`.
 These are just guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-## How to build this documentation
+## Contributing to Documentation
 
+There are 2 ways to work on the `HoneyTrap Documentation`. You can `edit the markdown files` or you can work with Hugo.
+
+When `working with Hugo` you can run the documentation on your local device and see the improvements you make directly.
+
+When working on the markdown directly you will not be able to see the changes directly, however it is faster to edit the documentation. This is the fastest and easiest way to work on the documentation. When working with the markdown you only need step 2 from the instructions below.
+
+You will find the markdown files containing all the documentation in `/honeytrap-docs/content`.
+
+## Working with Hugo
 
 ### Step 1: Install Hugo
 
@@ -48,7 +56,7 @@ git clone https://github.com/honeytrap/honeytrap-docs.git
 ```
 
 
-### Step 3: Build this documentation
+### Step 3: Build this documentation locally
 
 In the directory where you cloned the repository:
 
@@ -58,12 +66,12 @@ hugo server
 
 Go to http://localhost:1313
 
+When you make changes to the content Hugo will automatically renew the pages.
 
-## Contributing to Documentation
 
 ### Reporting Documentation Issues
 
-honeytrap.io uses github issues to track documentation issues and requests. If you see a documentation issue, submit an issue using the following steps:
+honeytrap.io uses GitHub issues to track documentation issues and requests. If you see a documentation issue, submit an issue using the following steps:
 
 1. Check the [honeytrap.io issues list](https://github.com/honeytrap/honeytrap-docs/issues) as you might find out the issue is a duplicate.
 2. Use the [included template for every new issue](https://github.com/honeytrap/honeytrap-docs/issues/new).  When you create a bug report, include as many details as possible and include suggested fixes to the issue.
@@ -72,7 +80,4 @@ Note that code issues should be filed against the main HoneyTrap repository, whi
 
 ### Submitting Documentation Pull Requests
 
-If you're fixing an issue in the existing documentation, you should submit a PR against the master branch. 
-
-
-
+After fixing issues or just improving the HoneyTrap Documentation create a pull request and explain all fixes and improvements.

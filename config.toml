@@ -72,7 +72,7 @@ pattern = "2006"
 
 #CUSTOM PARAMS
 [params]
-  description = "The world's best framework for Honeypot"
+  description = "The most flexible honeypot framework."
   ## Used for views in rendered HTML (i.e., rather than using the .Hugo variable)
   release = "0.01"
   ## Setting this to true will add a "noindex" to *EVERY* page on the site

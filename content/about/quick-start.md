@@ -19,7 +19,7 @@ toc: true
 In this quick start, we'll start a HoneyTrap with the help of Docker. We will start a Docker container with an image of Honeytrap,
 automatically downloaded from the docker hub.
 
-The configuration file we'll use for this quick start is described in the [Basic config](/manuals/basic-configuration) section.
+The configuration file we'll use for this quick start is described in the [Basic config](/manuals/config/#configuration-file-explained) section.
 We'll concentrate on implementing only one [service](/services/), a ssh-simulator with only one [channel](/channels/), the console.
 
 {{% note %}}

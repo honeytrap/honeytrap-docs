@@ -25,15 +25,15 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://honeytrap.github.io/honeytrap-docs/contribute/documentation/" />
 <meta property="article:published_time" content="2017-02-01T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-04-17T13:15:00&#43;02:00"/>
+<meta property="article:modified_time" content="2019-05-22T11:12:59&#43;02:00"/>
 
 <meta itemprop="name" content="Contribute to the HoneyTrap Docs">
 <meta itemprop="description" content="Documentation is an integral part of any open source project. The HoneyTrap docs are as much a work in progress as the source it attempts to cover.">
 
 
 <meta itemprop="datePublished" content="2017-02-01T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-04-17T13:15:00&#43;02:00" />
-<meta itemprop="wordCount" content="226">
+<meta itemprop="dateModified" content="2019-05-22T11:12:59&#43;02:00" />
+<meta itemprop="wordCount" content="343">
 
 
 
@@ -138,14 +138,12 @@
 <li>
 <ul>
 <li><a href="#contributing-to-honeytrap-documentation">Contributing to HoneyTrap Documentation</a></li>
-<li><a href="#how-to-build-this-documentation">How to build this documentation</a>
+<li><a href="#contributing-to-documentation">Contributing to Documentation</a></li>
+<li><a href="#working-with-hugo">Working with Hugo</a>
 <ul>
 <li><a href="#step-1-install-hugo">Step 1: Install Hugo</a></li>
 <li><a href="#step-2-clone-this-repository">Step 2: Clone this repository</a></li>
-<li><a href="#step-3-build-this-documentation">Step 3: Build this documentation</a></li>
-</ul></li>
-<li><a href="#contributing-to-documentation">Contributing to Documentation</a>
-<ul>
+<li><a href="#step-3-build-this-documentation-locally">Step 3: Build this documentation locally</a></li>
 <li><a href="#reporting-documentation-issues">Reporting Documentation Issues</a></li>
 <li><a href="#submitting-documentation-pull-requests">Submitting Documentation Pull Requests</a></li>
 </ul></li>
@@ -202,16 +200,24 @@
 
 
 
-<p><br></p>
-
 <h2 id="contributing-to-honeytrap-documentation">Contributing to HoneyTrap Documentation</h2>
 
 <p><strong>First off, thanks for taking the time to contribute!</strong></p>
 
-<p>The following is a set of guidelines for contributing to HoneyTrap documentation.
+<p>The following is a set of guidelines for contributing to <code>HoneyTrap Documentation</code>.
 These are just guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.</p>
 
-<h2 id="how-to-build-this-documentation">How to build this documentation</h2>
+<h2 id="contributing-to-documentation">Contributing to Documentation</h2>
+
+<p>There are 2 ways to work on the <code>HoneyTrap Documentation</code>. You can <code>edit the markdown files</code> or you can work with Hugo.</p>
+
+<p>When <code>working with Hugo</code> you can run the documentation on your local device and see the improvements you make directly.</p>
+
+<p>When working on the markdown directly you will not be able to see the changes directly, however it is faster to edit the documentation. This is the fastest and easiest way to work on the documentation. When working with the markdown you only need step 2 from the instructions below.</p>
+
+<p>You will find the markdown files containing all the documentation in <code>/honeytrap-docs/content</code>.</p>
+
+<h2 id="working-with-hugo">Working with Hugo</h2>
 
 <h3 id="step-1-install-hugo">Step 1: Install Hugo</h3>
 
@@ -221,17 +227,17 @@ These are just guidelines, not rules. Use your best judgment, and feel free to p
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">hugo version</code></pre></div>
 <h3 id="step-2-clone-this-repository">Step 2: Clone this repository</h3>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git clone https://github.com/honeytrap/honeytrap-docs.git</code></pre></div>
-<h3 id="step-3-build-this-documentation">Step 3: Build this documentation</h3>
+<h3 id="step-3-build-this-documentation-locally">Step 3: Build this documentation locally</h3>
 
 <p>In the directory where you cloned the repository:</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">hugo server</code></pre></div>
 <p>Go to <a href="http://localhost:1313">http://localhost:1313</a></p>
 
-<h2 id="contributing-to-documentation">Contributing to Documentation</h2>
+<p>When you make changes to the content Hugo will automatically renew the pages.</p>
 
 <h3 id="reporting-documentation-issues">Reporting Documentation Issues</h3>
 
-<p>honeytrap.io uses github issues to track documentation issues and requests. If you see a documentation issue, submit an issue using the following steps:</p>
+<p>honeytrap.io uses GitHub issues to track documentation issues and requests. If you see a documentation issue, submit an issue using the following steps:</p>
 
 <ol>
 <li>Check the <a href="https://github.com/honeytrap/honeytrap-docs/issues">honeytrap.io issues list</a> as you might find out the issue is a duplicate.</li>
@@ -242,7 +248,7 @@ These are just guidelines, not rules. Use your best judgment, and feel free to p
 
 <h3 id="submitting-documentation-pull-requests">Submitting Documentation Pull Requests</h3>
 
-<p>If you&rsquo;re fixing an issue in the existing documentation, you should submit a PR against the master branch.</p>
+<p>After fixing issues or just improving the HoneyTrap Documentation create a pull request and explain all fixes and improvements.</p>
 
 </div>
 
@@ -651,7 +657,7 @@ These are just guidelines, not rules. Use your best judgment, and feel free to p
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
     “Contribute to the HoneyTrap Docs”
-  </a> was last updated: April 17, 2019
+  </a> was last updated: May 22, 2019
 </h6>
 
       <a href="https://github.com/honeytrap/honeytrap-docs/edit/master/content/en/contribute/documentation.md" class="

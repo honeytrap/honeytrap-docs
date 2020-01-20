@@ -53,7 +53,7 @@ Otherwise, you need to do the `step 1` and `step 2` of[ Install HoneyTrap Playgr
 #### Download the config
 
 ```bash
-> wget https://raw.githubusercontent.com/honeytrap/honeytrap-configs/master/scenarios/simulate-device/config-web-server.toml
+> wget https://raw.githubusercontent.com/honeytrap/honeytrap-configs/master/agent-server/config-server.toml
 ```
 
 + You need to change the IP address in the Elasticsearch channel to your own prefered IP address.
@@ -63,7 +63,7 @@ Otherwise, you need to do the `step 1` and `step 2` of[ Install HoneyTrap Playgr
 
 #### Download the docker-compose file:
 ```bash
-> wget https://raw.githubusercontent.com/honeytrap/honeytrap-configs/master/scenarios/simulate-devide/docker-compose-web-server.yml
+> wget https://raw.githubusercontent.com/honeytrap/honeytrap-configs/master/agent-server/docker-compose-server.yml
 ```
 
 

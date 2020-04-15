@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
      
-    <title>Telnet | HoneyTrap</title>
+    <title>Lumberjack | HoneyTrap</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -20,27 +20,27 @@
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       
 
-    <link href='https://honeytrap.github.io/honeytrap-docs/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Telnet" />
-<meta property="og:description" content="Configurations for Telnet service" />
+    <link href='https://honeytrap.github.io/honeytrap-docs/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Lumberjack" />
+<meta property="og:description" content="Configuration for Lumberjack channel" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://honeytrap.github.io/honeytrap-docs/services/telnet/" />
-<meta property="article:published_time" content="2018-01-02T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-04-17T13:15:00&#43;02:00"/>
+<meta property="og:url" content="https://honeytrap.github.io/honeytrap-docs/channels/lumberjack/" />
+<meta property="article:published_time" content="2018-10-31T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2020-04-15T13:03:22&#43;02:00"/>
 
-<meta itemprop="name" content="Telnet">
-<meta itemprop="description" content="Configurations for Telnet service">
+<meta itemprop="name" content="Lumberjack">
+<meta itemprop="description" content="Configuration for Lumberjack channel">
 
 
-<meta itemprop="datePublished" content="2018-01-02T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-04-17T13:15:00&#43;02:00" />
-<meta itemprop="wordCount" content="158">
+<meta itemprop="datePublished" content="2018-10-31T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-04-15T13:03:22&#43;02:00" />
+<meta itemprop="wordCount" content="95">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Telnet"/>
-<meta name="twitter:description" content="Configurations for Telnet service"/>
+<meta name="twitter:title" content="Lumberjack"/>
+<meta name="twitter:description" content="Configuration for Lumberjack channel"/>
 
 
 
@@ -137,12 +137,11 @@
 <ul>
 <li>
 <ul>
-<li><a href="#what-is-telnet">What is Telnet?</a></li>
+<li><a href="#what-is-lumberjack">What is lumberjack?</a></li>
 <li><a href="#description">Description</a></li>
 <li><a href="#syntax">Syntax</a></li>
-<li><a href="#arguments-in-config-file">Arguments in config file</a></li>
+<li><a href="#arguments-in-configuration-file">Arguments in configuration file</a></li>
 <li><a href="#example">Example</a></li>
-<li><a href="#how-to-test">How to test</a></li>
 <li><a href="#availability">Availability</a></li>
 </ul></li>
 </ul>
@@ -151,7 +150,7 @@
 
 	<div date-pref>
 		
-			<a href="https://honeytrap.github.io/honeytrap-docs/services/ssh-simulator/" class="dib f6 pl1 hover-bg-light-gray br-100" title="SSH-Simulator ">
+			<a href="https://honeytrap.github.io/honeytrap-docs/channels/elasticsearch/" class="dib f6 pl1 hover-bg-light-gray br-100" title="Elasticsearch ">
 				<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
     <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
     <path d="M0 0h24v24H0z" fill="none"/>
@@ -161,7 +160,7 @@
 		
 
 		
-			<a href="https://honeytrap.github.io/honeytrap-docs/services/vnc/" class="dib f6 pr1 hover-bg-light-gray br-100" title="VNC">
+			<a href="https://honeytrap.github.io/honeytrap-docs/channels/file/" class="dib f6 pr1 hover-bg-light-gray br-100" title="File">
 			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
     <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
     <path d="M0 0h24v24H0z" fill="none"/>
@@ -181,18 +180,18 @@
           <header class="flex-none w-100">
   
     
-      <a href="https://honeytrap.github.io/honeytrap-docs/categories/config_services" class="f6 fw8 mb0 link mid-gray dim mr3">
-        CONFIG SERVICES
+      <a href="https://honeytrap.github.io/honeytrap-docs/categories/channels" class="f6 fw8 mb0 link mid-gray dim mr3">
+        CHANNELS
       </a>
     
   
-  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Telnet</h1>
+  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Lumberjack</h1>
 </header>
 
 <aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
   
     <div class="f4 fw4 lh-copy">
-      Configurations for Telnet service
+      Configuration for Lumberjack channel
     </div>
   
 
@@ -205,21 +204,20 @@
 
 
 
-<h2 id="what-is-telnet">What is Telnet?</h2>
+<h2 id="what-is-lumberjack">What is lumberjack?</h2>
 
-<p>Telnet is a protocol used to provide a bi-directional textual communication
-between computers in a network via TCP/IP.</p>
+<p>Lumberjack is a messaging protocol developed by Elastic. It based on TCP/IP and supports TLS.</p>
 
 <h2 id="description">Description</h2>
 
-<p>The Telnet service will simulate a Telnet server.</p>
+<p>The lumberjack  channel will log all events to a lumberjack server endpoint.</p>
 
 <h2 id="syntax">Syntax</h2>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>service.&lt;nickname_of_telnetService&gt;<span class="o">]</span>
-<span class="nv">type</span><span class="o">=</span><span class="s2">&#34;telnet&#34;</span></code></pre></div>
-<h2 id="arguments-in-config-file">Arguments in config file</h2>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>channel.&lt;you_choose&gt;<span class="o">]</span>
+<span class="nv">type</span><span class="o">=</span><span class="s2">&#34;lumberjack&#34;</span></code></pre></div>
+<h2 id="arguments-in-configuration-file">Arguments in configuration file</h2>
 
-<p>There are <code>2</code> arguments in <code>telnet</code> service:</p>
+<p>There are <code>3</code> arguments in lumberjack channel:</p>
 
 <table>
 <thead>
@@ -227,52 +225,45 @@ between computers in a network via TCP/IP.</p>
 <th>argument</th>
 <th>default setting</th>
 <th>explanation</th>
+<th>required</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td><code>prompt</code></td>
-<td><span style="color:green">$</span></td>
-<td>Set the <code>prompt</code> of your server</td>
+<td><code>url</code></td>
+<td><span style="color:red">no</span></td>
+<td>Set the <code>url</code> of your lumberjack server.</td>
+<td><span style="color:green">yes</span></td>
 </tr>
 
 <tr>
-<td><code>motd</code></td>
-<td><span style="color:blue">↓ see below ↓</span></td>
-<td>Set the <code>motd</code> of your server.</td>
+<td><code>tls</code></td>
+<td><span style="color:red">no</span></td>
+<td>Set true if your lumberjack server supports a secure connection</td>
+<td><span style="color:green">yes</span></td>
+</tr>
+
+<tr>
+<td><code>sync_interval</code></td>
+<td><span style="color:red">no</span></td>
+<td>time in seconds to sync data to server</td>
+<td><span style="color:green">yes</span></td>
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">********************************************************************************
-*             Copyright<span class="o">(</span>C<span class="o">)</span> <span class="m">2008</span>-2015 Huawei Technologies Co., Ltd.             *
-*                             All rights reserved                              *
-*                  Without the owner<span class="err">&#39;</span>s prior written consent,                  *
-*           no decompiling or reverse-engineering shall be allowed.            *
-* Notice:                                                                      *
-*                   This is a private communication system.                    *
-*             Unauthorized access or use may lead to prosecution.              *
-********************************************************************************
 
-Warning: Telnet is not a secure protocol, and it is recommended to use STelnet.
-
-Login authentication</code></pre></div>
 <h2 id="example">Example</h2>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>service.telnet<span class="o">]</span>
-<span class="nv">type</span><span class="o">=</span><span class="s2">&#34;telnet&#34;</span>
-<span class="nv">prompt</span><span class="o">=</span><span class="s2">&#34;&gt;&#34;</span>
-
-<span class="o">[[</span>port<span class="o">]]</span>
-<span class="nv">port</span><span class="o">=</span><span class="s2">&#34;tcp/23&#34;</span>
-<span class="nv">services</span><span class="o">=[</span><span class="s2">&#34;telnet&#34;</span><span class="o">]</span></code></pre></div>
-<h2 id="how-to-test">How to test</h2>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">&gt; telnet <span class="o">[</span>IP-ADDRESS<span class="o">]</span> <span class="m">23</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>channel.lumberjack<span class="o">]</span>
+<span class="nv">type</span><span class="o">=</span><span class="s2">&#34;lumberjack&#34;</span>
+<span class="nv">url</span><span class="o">=</span><span class="s2">&#34;127.0.0.1:5044&#34;</span>
+<span class="nv">tls</span><span class="o">=</span><span class="nb">true</span>
+<span class="nv">sync_interval</span><span class="o">=</span><span class="m">1</span></code></pre></div>
 <h2 id="availability">Availability</h2>
 
 <table>
 <thead>
 <tr>
-<th></th>
 <th>Linux</th>
 <th>MacOS</th>
 </tr>
@@ -280,9 +271,8 @@ Login authentication</code></pre></div>
 
 <tbody>
 <tr>
-<td>telnet</td>
-<td><span style="color:green">yes</span></td>
-<td><span style="color:orange">brew install telnet</span></td>
+<td><p style="color:green">yes</p></td>
+<td><p style="color:green">yes</p></td>
 </tr>
 </tbody>
 </table>
@@ -290,6 +280,21 @@ Login authentication</code></pre></div>
 </div>
 
           
+
+<h2>See Also</h2>
+<ul>
+	
+	<li><a href="https://honeytrap.github.io/honeytrap-docs/channels/console/">Console</a></li>
+	
+	<li><a href="https://honeytrap.github.io/honeytrap-docs/channels/dshield/">DShield</a></li>
+	
+	<li><a href="https://honeytrap.github.io/honeytrap-docs/channels/elasticsearch/">Elasticsearch</a></li>
+	
+	<li><a href="https://honeytrap.github.io/honeytrap-docs/channels/file/">File</a></li>
+	
+	<li><a href="https://honeytrap.github.io/honeytrap-docs/channels/kafka/">Kafka</a></li>
+	
+</ul>
 
         </div>
       </div>
@@ -389,8 +394,8 @@ Login authentication</code></pre></div>
       </li>
       
       <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".channels">Channels</a>
-        <ul class="channels desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2  primary-color" data-target=".channels">Channels</a>
+        <ul class="channels desktopmenu animated fadeIn list pl0 bg-light-gray db">
           <li class="f6 fw4">
             <a href="https://honeytrap.github.io/honeytrap-docs/channels/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
               About Channels
@@ -412,7 +417,7 @@ Login authentication</code></pre></div>
             </a>
           </li>
           <li class="f6 fw4">
-            <a href="https://honeytrap.github.io/honeytrap-docs/channels/lumberjack/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+            <a href="https://honeytrap.github.io/honeytrap-docs/channels/lumberjack/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 primary-color ">
               Lumberjack
             </a>
           </li>
@@ -460,8 +465,8 @@ Login authentication</code></pre></div>
       </li>
       
       <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2  primary-color" data-target=".services">Services</a>
-        <ul class="services desktopmenu animated fadeIn list pl0 bg-light-gray db">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".services">Services</a>
+        <ul class="services desktopmenu animated fadeIn list pl0 bg-light-gray dn">
           <li class="f6 fw4">
             <a href="https://honeytrap.github.io/honeytrap-docs/services/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
               About Services
@@ -578,7 +583,7 @@ Login authentication</code></pre></div>
             </a>
           </li>
           <li class="f6 fw4">
-            <a href="https://honeytrap.github.io/honeytrap-docs/services/telnet/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 primary-color ">
+            <a href="https://honeytrap.github.io/honeytrap-docs/services/telnet/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
               Telnet
             </a>
           </li>
@@ -695,14 +700,14 @@ Login authentication</code></pre></div>
   <div class="w-100 bg-light-gray">
     <div class="mw7 pa4 center nested-lh-copy lh-copy">
       <h6 class="f4 dark-gray mb2">
-  <a href="https://honeytrap.github.io/honeytrap-docs/services/telnet/" class="hide-child link primary-color">
+  <a href="https://honeytrap.github.io/honeytrap-docs/channels/lumberjack/" class="hide-child link primary-color">
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
-    “Telnet”
-  </a> was last updated: April 17, 2019
+    “Lumberjack”
+  </a> was last updated: April 15, 2020
 </h6>
 
-      <a href="https://github.com/honeytrap/honeytrap-docs/edit/master/content/en/services/telnet.md" class="
+      <a href="https://github.com/honeytrap/honeytrap-docs/edit/master/content/en/channels/lumberjack.md" class="
 f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
 ">Improve this page</a>
 

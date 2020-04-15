@@ -48,6 +48,18 @@ Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;elasticsearch&amp;#34;
     </item>
     
     <item>
+      <title>Lumberjack</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/channels/lumberjack/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/channels/lumberjack/</guid>
+      <description>What is lumberjack? Lumberjack is a messaging protocol developed by Elastic. It based on TCP/IP and supports TLS.
+Description The lumberjack channel will log all events to a lumberjack server endpoint.
+Syntax [channel.&amp;lt;you_choose&amp;gt;] type=&amp;#34;lumberjack&amp;#34; Arguments in configuration file There are 3 arguments in lumberjack channel:
+   argument default setting explanation required     url no Set the url of your lumberjack server. yes   tls no Set true if your lumberjack server supports a secure connection yes   sync_interval no time in seconds to sync data to server yes    Example [channel.</description>
+    </item>
+    
+    <item>
       <title>File</title>
       <link>https://honeytrap.github.io/honeytrap-docs/channels/file/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>

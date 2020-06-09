@@ -13,12 +13,13 @@ toc: true
 ---
 
 ## Requirements
-- A FreeBSD machine for building the package. Check [pfSense docs](https://docs.netgate.com/pfsense/en/latest/releases/versions-of-pfsense-and-freebsd.html) to find out wich version of FreeBSD you need.
+- A FreeBSD machine for building the package. Check [pfSense docs](https://docs.netgate.com/pfsense/en/latest/releases/versions-of-pfsense-and-freebsd.html) to find out which version of FreeBSD you need.
+- git must be installed on the FreeBSD machine
 ## Build and install package
 All of the following steps except the last one must be done on the FreeBSD machine.
 1. Clone the repository and copy the directory to the ports collection.
    ```bash
-   git clone git@gitlab.com:dutchsec/honeytrap/honeytrap-pfsense-plugin.git
+   git clone https://github.com/honeytrap/honeytrap-pfsense-plugin.git
    cp -R honeytrap-pfsense-plugin/pfSense-pkg-HoneyTrap /usr/ports/security
    ```
 2. Compile the packages
@@ -33,7 +34,6 @@ All of the following steps except the last one must be done on the FreeBSD machi
    ```
 4. On the pfSense machine install the packages.
    ```bash
-   pkg add honeytrap-*.txz
    pkg add pfSense-pkg-HoneyTrap-*.txz
    ```
 ## Configuration

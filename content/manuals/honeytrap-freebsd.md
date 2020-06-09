@@ -12,8 +12,6 @@ weight: 30
 toc: true
 ---
 
-## Requirements
-
 ## Install
 There are two methods to install the HoneyTrap port, via a package manager or via the ports collection. Using the package manager is only possible if the port is present in the ports repository of the FreeBSD version that'll be used.  
 If you want to use the package manager you'll have to verify if the port is present in the ports repository of your FreeBSD version. This can be done by:

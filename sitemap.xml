@@ -98,6 +98,11 @@
   </url>
   
   <url>
+    <loc>https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-freebsd/</loc>
+    <lastmod>2020-06-09T16:17:48+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://honeytrap.github.io/honeytrap-docs/channels/dshield/</loc>
     <lastmod>2019-04-17T13:15:00+02:00</lastmod>
   </url>
@@ -115,6 +120,11 @@
   <url>
     <loc>https://honeytrap.github.io/honeytrap-docs/about/license/</loc>
     <lastmod>2019-04-17T13:15:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-pfsense/</loc>
+    <lastmod>2020-06-09T16:18:47+02:00</lastmod>
   </url>
   
   <url>

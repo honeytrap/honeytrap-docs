@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
      
-    <title>SSH-Simulator | HoneyTrap</title>
+    <title>Install HoneyTrap on pfSense | HoneyTrap</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -20,27 +20,27 @@
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       
 
-    <link href='https://honeytrap.github.io/honeytrap-docs/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="SSH-Simulator" />
-<meta property="og:description" content="Configurations for Secure Shell Simulator service" />
+    <link href='https://honeytrap.github.io/honeytrap-docs/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Install HoneyTrap on pfSense" />
+<meta property="og:description" content="How to install HoneyTrap on pfSense." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://honeytrap.github.io/honeytrap-docs/services/ssh-simulator/" />
-<meta property="article:published_time" content="2018-01-02T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-04-17T13:15:00&#43;02:00"/>
+<meta property="og:url" content="https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-pfsense/" />
+<meta property="article:published_time" content="2019-02-13T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2020-06-09T16:18:47&#43;02:00"/>
 
-<meta itemprop="name" content="SSH-Simulator">
-<meta itemprop="description" content="Configurations for Secure Shell Simulator service">
+<meta itemprop="name" content="Install HoneyTrap on pfSense">
+<meta itemprop="description" content="How to install HoneyTrap on pfSense.">
 
 
-<meta itemprop="datePublished" content="2018-01-02T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-04-17T13:15:00&#43;02:00" />
-<meta itemprop="wordCount" content="229">
+<meta itemprop="datePublished" content="2019-02-13T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-06-09T16:18:47&#43;02:00" />
+<meta itemprop="wordCount" content="216">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="SSH-Simulator"/>
-<meta name="twitter:description" content="Configurations for Secure Shell Simulator service"/>
+<meta name="twitter:title" content="Install HoneyTrap on pfSense"/>
+<meta name="twitter:description" content="How to install HoneyTrap on pfSense."/>
 
 
 
@@ -137,20 +137,8 @@
 <ul>
 <li>
 <ul>
-<li><a href="#what-is-ssh">What is SSH?</a></li>
-<li><a href="#description">Description</a></li>
-<li><a href="#syntax">Syntax</a></li>
-<li><a href="#arguments-in-config-file">Arguments in config file</a></li>
-<li><a href="#example">Example</a></li>
-<li><a href="#how-to-test">How to test</a>
-<ul>
-<li>
-<ul>
-<li><a href="#the-test-explained">The test explained</a></li>
-<li><a href="#the-result">The result</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#availability">Availability</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#build-and-install-package">Build and install package</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -158,7 +146,7 @@
 
 	<div date-pref>
 		
-			<a href="https://honeytrap.github.io/honeytrap-docs/services/ssh-proxy/" class="dib f6 pl1 hover-bg-light-gray br-100" title="SSH-Proxy ">
+			<a href="https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-freebsd/" class="dib f6 pl1 hover-bg-light-gray br-100" title="Install HoneyTrap on FreeBSD ">
 				<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
     <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
     <path d="M0 0h24v24H0z" fill="none"/>
@@ -168,7 +156,7 @@
 		
 
 		
-			<a href="https://honeytrap.github.io/honeytrap-docs/services/telnet/" class="dib f6 pr1 hover-bg-light-gray br-100" title="Telnet">
+			<a href="https://honeytrap.github.io/honeytrap-docs/manuals/config/" class="dib f6 pr1 hover-bg-light-gray br-100" title="Configuration file">
 			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
     <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
     <path d="M0 0h24v24H0z" fill="none"/>
@@ -187,19 +175,13 @@
           </div>
           <header class="flex-none w-100">
   
-    
-      <a href="https://honeytrap.github.io/honeytrap-docs/categories/config_services" class="f6 fw8 mb0 link mid-gray dim mr3">
-        CONFIG SERVICES
-      </a>
-    
-  
-  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">SSH-Simulator</h1>
+  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Install HoneyTrap on pfSense</h1>
 </header>
 
 <aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
   
     <div class="f4 fw4 lh-copy">
-      Configurations for Secure Shell Simulator service
+      How to install HoneyTrap on pfSense.
     </div>
   
 
@@ -212,130 +194,73 @@
 
 
 
-<h2 id="what-is-ssh">What is SSH?</h2>
+<h2 id="requirements">Requirements</h2>
 
-<p><code>SSH</code> is the abbreviation for <code>Secure SHell</code>, which is a  cryptographic network
-protocol for secure operations over a insecure network.</p>
+<ul>
+<li>A FreeBSD machine for building the package. Check <a href="https://docs.netgate.com/pfsense/en/latest/releases/versions-of-pfsense-and-freebsd.html">pfSense docs</a> to find out which version of FreeBSD you need.</li>
 
-<h2 id="description">Description</h2>
+<li><p>git must be installed on the FreeBSD machine</p>
 
-<p>The <code>SSH-Simulator</code> service will simulate a Secured Shell with limited interaction.</p>
+<h2 id="build-and-install-package">Build and install package</h2>
 
-<h2 id="syntax">Syntax</h2>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>service.&lt;nickname_of_ssh-simulator&gt;<span class="o">]</span>
-<span class="nv">type</span><span class="o">=</span><span class="s2">&#34;ssh-simulator&#34;</span></code></pre></div>
-<h2 id="arguments-in-config-file">Arguments in config file</h2>
+<p>All of the following steps except the last one must be done on the FreeBSD machine.</p></li>
 
-<p>There are <code>5</code> possible arguments in <code>ssh-simulator</code> service:</p>
+<li><p>Clone the repository and copy the directory to the ports collection.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git clone https://github.com/honeytrap/honeytrap-pfsense-plugin.git
+cp -R honeytrap-pfsense-plugin/pfSense-pkg-HoneyTrap /usr/ports/security</code></pre></div>
+<ol>
+<li>Compile the packages
+<code>bash
+make -C /usr/ports/security/honeytrap NO_DEPENDS=yes package
+make -C /usr/ports/security/pfSense-pkg-HoneyTrap NO_DEPENDS=yes package
+</code></li>
+</ol></li>
 
-<table>
-<thead>
-<tr>
-<th>argument</th>
-<th>default setting</th>
-<th>explanation</th>
-</tr>
-</thead>
+<li><p>Copy the compiled packages to a pfSense machine</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">scp /usr/ports/security/honeytrap/work/pkg/honeytrap-*.txz root@example:~
+scp /usr/ports/security/pfSense-pkg-HoneyTrap/work/pkg/pfSense-pkg-HoneyTrap-*.txz root@example:~</code></pre></div>
+<ol>
+<li>On the pfSense machine install the packages.
+<code>bash
+pkg add pfSense-pkg-HoneyTrap-*.txz
+</code>
+## Configuration
+<img src="https://honeytrap.github.io/honeytrap-docs/manuals/images/pfsense-config.png" alt="" /></li>
+</ol></li>
 
-<tbody>
-<tr>
-<td><code>banner</code></td>
-<td><span style="color:green">SSH-2.0-OpenSSH_6.6.1p1 2020Ubuntu-2ubuntu2</span></td>
-<td>Set the <code>banner</code> of your shell.</td>
-</tr>
+<li><p>Enable the HoneyTrap service. When checked the service is started automatically.</p></li>
 
-<tr>
-<td><code>credentials</code></td>
-<td><span style="color:green">all</span></td>
-<td>Set the <code>credentials</code> accepted for your shell.</td>
-</tr>
+<li><p>Keep HoneyTrap configuration and related files when the package is installed, updated or deinstalled. When unchecked only the log files are kept.</p></li>
 
-<tr>
-<td><code>private-key</code></td>
-<td><span style="color:green">random</span></td>
-<td>Set a ssh <code>private-key</code>.</td>
-</tr>
+<li><p>When enabled all lines are removed from the service log file before is starts.</p></li>
 
-<tr>
-<td><code>max-auth-tries</code></td>
-<td><span style="color:green">unlimited</span></td>
-<td>Set the <code>maximum-number</code> of authentication attempts allowed.</td>
-</tr>
+<li><p>The path to the HoneyTrap config file. The file must be present on the system.</p></li>
 
-<tr>
-<td><code>motd</code></td>
-<td><span style="color:blue">↓ see below ↓</span></td>
-<td>Set the <code>motd</code> of your shell.</td>
-</tr>
-</tbody>
-</table>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">Welcome to Ubuntu <span class="m">16</span>.04.1 LTS <span class="o">(</span>GNU/Linux <span class="m">4</span>.4.0-31-generic x86_64<span class="o">)</span>
+<li><p>Button to start HoneyTrap manually. If HoneyTrap is already running the button is replaced with a button to restart and one to stop it.</p></li>
 
-* Documentation:  https://help.ubuntu.com
-* Management:     https://landscape.canonical.com
-* Support:        https://ubuntu.com/advantage
+<li><p>Configuration page for the plugin.</p></li>
 
-<span class="m">524</span> packages can be updated.
-<span class="m">270</span> updates are security updates.
+<li><p>An overview of service statuses.</p></li>
 
+<li><p>Page to view the output of the HoneyTrap service</p></li>
 
-----------------------------------------------------------------
-Ubuntu <span class="m">16</span>.04.1 LTS                          built <span class="m">2016</span>-12-10
-----------------------------------------------------------------
-last login: Sun Nov <span class="m">19</span> <span class="m">19</span>:40:44 <span class="m">2017</span> from <span class="m">172</span>.16.84.1</code></pre></div>
-<h2 id="example">Example</h2>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>service.sshsimulator<span class="o">]</span>
-<span class="nv">type</span><span class="o">=</span><span class="s2">&#34;ssh-simulator&#34;</span>
-
-<span class="o">[[</span>port<span class="o">]]</span>
-<span class="nv">port</span><span class="o">=</span><span class="s2">&#34;tcp/8022&#34;</span>
-<span class="nv">services</span><span class="o">=[</span><span class="s2">&#34;sshsimulator&#34;</span><span class="o">]</span></code></pre></div>
-<h2 id="how-to-test">How to test</h2>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">ssh -p <span class="m">8022</span> root@<span class="o">[</span>IP_ADDRESS<span class="o">]</span></code></pre></div>
-<h4 id="the-test-explained">The test explained</h4>
-
-<p>With <code>ssh</code> we request acces to a specific port <code>-p</code> to <code>8022</code> on address <code>root@[IP_ADDRESS]</code>.</p>
-
-<h4 id="the-result">The result</h4>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">root@<span class="o">[</span>IP_ADDRESS<span class="o">]</span><span class="err">&#39;</span>s password: <span class="c1"># [type anything]</span>
-Welcome to Ubuntu <span class="m">16</span>.04.1 LTS <span class="o">(</span>GNU/Linux <span class="m">4</span>.4.0-31-generic x86_64<span class="o">)</span>
-
-* Documentation:  https://help.ubuntu.com
-* Management:     https://landscape.canonical.com
-* Support:        https://ubuntu.com/advantage
-
-<span class="m">524</span> packages can be updated.
-<span class="m">270</span> updates are security updates.
-
-
-----------------------------------------------------------------
-Ubuntu <span class="m">16</span>.04.1 LTS                          built <span class="m">2016</span>-12-10
-----------------------------------------------------------------
-last login: Sun Nov <span class="m">19</span> <span class="m">19</span>:40:44 <span class="m">2017</span> from <span class="m">172</span>.16.84.1
-root@host:~$</code></pre></div>
-<h2 id="availability">Availability</h2>
-
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Linux</th>
-<th>MacOS</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>ssh-simulator</td>
-<td><span style="color:green">yes</span></td>
-<td><span style="color:green">yes</span></td>
-</tr>
-</tbody>
-</table>
+<li><p>Link to pfSense documentation.</p></li>
+</ul>
 
 </div>
 
           
+
+<h2>See Also</h2>
+<ul>
+	
+	<li><a href="https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-local-playground/">Create a HoneyTrap Docker local Playground</a></li>
+	
+	<li><a href="https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-freebsd/">Install HoneyTrap on FreeBSD</a></li>
+	
+	<li><a href="https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-raspi/">Install HoneyTrap on a RaspberryPi</a></li>
+	
+</ul>
 
         </div>
       </div>
@@ -506,8 +431,8 @@ root@host:~$</code></pre></div>
       </li>
       
       <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2  primary-color" data-target=".services">Services</a>
-        <ul class="services desktopmenu animated fadeIn list pl0 bg-light-gray db">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".services">Services</a>
+        <ul class="services desktopmenu animated fadeIn list pl0 bg-light-gray dn">
           <li class="f6 fw4">
             <a href="https://honeytrap.github.io/honeytrap-docs/services/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
               About Services
@@ -619,7 +544,7 @@ root@host:~$</code></pre></div>
             </a>
           </li>
           <li class="f6 fw4">
-            <a href="https://honeytrap.github.io/honeytrap-docs/services/ssh-simulator/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 primary-color ">
+            <a href="https://honeytrap.github.io/honeytrap-docs/services/ssh-simulator/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
               SSH-Simulator
             </a>
           </li>
@@ -674,8 +599,8 @@ root@host:~$</code></pre></div>
       </li>
       
       <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".manuals">Manuals</a>
-        <ul class="manuals desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2  primary-color" data-target=".manuals">Manuals</a>
+        <ul class="manuals desktopmenu animated fadeIn list pl0 bg-light-gray db">
           <li class="f6 fw4">
             <a href="https://honeytrap.github.io/honeytrap-docs/manuals/config/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
               The Configuration File
@@ -697,7 +622,7 @@ root@host:~$</code></pre></div>
             </a>
           </li>
           <li class="f6 fw4">
-            <a href="https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-pfsense/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+            <a href="https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-pfsense/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 primary-color ">
               HoneyTrap on pfSense
             </a>
           </li>
@@ -751,14 +676,14 @@ root@host:~$</code></pre></div>
   <div class="w-100 bg-light-gray">
     <div class="mw7 pa4 center nested-lh-copy lh-copy">
       <h6 class="f4 dark-gray mb2">
-  <a href="https://honeytrap.github.io/honeytrap-docs/services/ssh-simulator/" class="hide-child link primary-color">
+  <a href="https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-pfsense/" class="hide-child link primary-color">
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
-    “SSH-Simulator”
-  </a> was last updated: April 17, 2019
+    “Install HoneyTrap on pfSense”
+  </a> was last updated: June 9, 2020
 </h6>
 
-      <a href="https://github.com/honeytrap/honeytrap-docs/edit/master/content/en/services/ssh-simulator.md" class="
+      <a href="https://github.com/honeytrap/honeytrap-docs/edit/master/content/en/manuals/honeytrap-pfsense.md" class="
 f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
 ">Improve this page</a>
 

@@ -25,15 +25,15 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://honeytrap.github.io/honeytrap-docs/manuals/honeytrap-freebsd/" />
 <meta property="article:published_time" content="2019-02-13T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2020-06-09T16:17:48&#43;02:00"/>
+<meta property="article:modified_time" content="2020-06-11T15:28:20&#43;02:00"/>
 
 <meta itemprop="name" content="Install HoneyTrap on FreeBSD">
 <meta itemprop="description" content="How to install HoneyTrap on FreeBSD.">
 
 
 <meta itemprop="datePublished" content="2019-02-13T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-06-09T16:17:48&#43;02:00" />
-<meta itemprop="wordCount" content="409">
+<meta itemprop="dateModified" content="2020-06-11T15:28:20&#43;02:00" />
+<meta itemprop="wordCount" content="419">
 
 
 
@@ -203,43 +203,48 @@
 
 <h2 id="install">Install</h2>
 
-<p>There are two methods to install the HoneyTrap port, via a package manager or via the ports collection. Using the package manager is only possible if the port is present in the ports repository of the FreeBSD version that&rsquo;ll be used.<br />
-If you want to use the package manager you&rsquo;ll have to verify if the port is present in the ports repository of your FreeBSD version. This can be done by:
-1. go to the ports <a href="https://www.freshports.org/security/honeytrap/">FreshPorts page</a>
-2. look up your FreeBSD version in the table under <code>Packages</code>
-3. If a version is listen under <code>latest</code> or <code>quarterly</code> a package is available for your FreeBSD version.</p>
+<p>There are two methods to install the HoneyTrap port, via a package manager or via the ports collection. Using the package manager is only possible if the port is present in the ports repository of the FreeBSD version that&rsquo;ll be used.</p>
+
+<p>If you want to use the package manager you&rsquo;ll have to verify if the port is present in the ports repository of your FreeBSD version. This can be done by:</p>
+
+<ol>
+<li>go to the ports <a href="https://www.freshports.org/security/honeytrap/">FreshPorts page</a></li>
+<li>look up your FreeBSD version in the table under <code>Packages</code></li>
+<li>If a version is listen under <code>latest</code> or <code>quarterly</code> a package is available for your FreeBSD version.</li>
+</ol>
 
 <h3 id="package">Package</h3>
 
-<p>The package can be installed by running <code>pkg install honeytrap</code>.<br />
-If you want to use the package from the <code>latest</code> branch of your ports repository a couple extra steps need to be taken.
-1. Copy the default repository config from <code>/etc/pkg/FreeBSD.config</code> to <code>/usr/local/etc/pkg/repos/FreeBSD-latest.conf</code>
-2. Open the copy, change the config name to <code>FreeBSD-latest</code> and change <code>quarterly</code> to <code>latest</code> in the URL.
-If done correctly the new config should look something like this:</p>
+<p>The package can be installed by running <code>pkg install honeytrap</code>.</p>
 
-<pre><code>FreeBSD-latest: {
-  url: &quot;pkg+http://pkg.FreeBSD.org/${ABI}/latest&quot;,
-  mirror_type: &quot;srv&quot;,
-  signature_type: &quot;fingerprints&quot;,
-  fingerprints: &quot;/usr/share/keys/pkg&quot;,
+<p>If you want to use the package from the <code>latest</code> branch of your ports repository a couple extra steps need to be taken.</p>
+
+<ol>
+<li>Copy the default repository config from <code>/etc/pkg/FreeBSD.config</code> to <code>/usr/local/etc/pkg/repos/FreeBSD-latest.conf</code></li>
+<li>Open the copy, change the config name to <code>FreeBSD-latest</code> and change <code>quarterly</code> to <code>latest</code> in the URL.
+If done correctly the new config should look something like this:</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-conf" data-lang="conf">FreeBSD-latest: {
+  url: &#34;pkg+http://pkg.FreeBSD.org/${ABI}/latest&#34;,
+  mirror_type: &#34;srv&#34;,
+  signature_type: &#34;fingerprints&#34;,
+  fingerprints: &#34;/usr/share/keys/pkg&#34;,
   enabled: yes
-}
-</code></pre>
-
+}</code></pre></div>
 <p>The package can now be install by running:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">pkg install -r FreeBSD-latest honeytrap</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">pkg install -r FreeBSD-latest honeytrap</code></pre></div>
 <h3 id="ports-collection">Ports collection</h3>
 
 <p>If you installed the ports collection along with FreeBSD the HoneyTrap port can be installed by running:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">make -C /usr/ports/security/honeytrap/ install</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">make -C /usr/ports/security/honeytrap/ install</code></pre></div>
 <p>If you didn&rsquo;t install the ports collection you&rsquo;ll have to install it before installing the HoneyTrap port, this can be done by running:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">portsnap fetch extract</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">portsnap fetch extract</code></pre></div>
 <p>If the HoneyTrap port is missing from your ports collection update it before installing the HoneyTrap port by running:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">portsnap fetch update</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">portsnap fetch update</code></pre></div>
 <h2 id="post-install">Post install</h2>
 
 <p>By default the ports service is configured to use the data directory <code>/usr/local/libdata/honeytrap/</code> and log directory <code>/var/log/honeytrap/</code>. If you want to use different directories create them and set the access rights so the honeytrap user can access them before starting HoneyTrap, for example:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">mkdir -p /tmp/honeytrap/log
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">mkdir -p /tmp/honeytrap/log
 chown honeytrap:honeytrap /tmp/honeytrap/log</code></pre></div>
 <h3 id="service-configuration">Service configuration</h3>
 
@@ -247,6 +252,8 @@ chown honeytrap:honeytrap /tmp/honeytrap/log</code></pre></div>
 
 <pre><code>honeytrap_enable (bool):  Set to NO by default.
                           Set it to YES to enable honeytrap.
+honeytrap_user (bool):    Set to YES by default.
+                          Set it to NO to run service root.
 honeytrap_datadir (path): Set to /usr/local/libdata/honeytrap
                           by default.
 honeytrap_config (path):  Set to /usr/local/etc/honeytrap.toml
@@ -254,9 +261,9 @@ honeytrap_config (path):  Set to /usr/local/etc/honeytrap.toml
 </code></pre>
 
 <p>To enable auto starting the service run:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">echo</span> <span class="nv">honeytrap_enable</span><span class="o">=</span><span class="s2">&#34;YES&#34;</span> &gt;&gt; /etc/rc.conf</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="nv">honeytrap_enable</span><span class="o">=</span><span class="s2">&#34;YES&#34;</span> &gt;&gt; /etc/rc.conf</code></pre></div>
 <p>The service should now start together with the system, a manual start can be done by running:</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">service honeytrap start</code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">service honeytrap start</code></pre></div>
 </div>
 
           
@@ -690,7 +697,7 @@ honeytrap_config (path):  Set to /usr/local/etc/honeytrap.toml
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
     “Install HoneyTrap on FreeBSD”
-  </a> was last updated: June 9, 2020
+  </a> was last updated: June 11, 2020
 </h6>
 
       <a href="https://github.com/honeytrap/honeytrap-docs/edit/master/content/en/manuals/honeytrap-freebsd.md" class="

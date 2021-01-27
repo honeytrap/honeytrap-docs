@@ -79,18 +79,23 @@ chown honeytrap:honeytrap /tmp/honeytrap/log
 
 ### Service configuration
 
-The service can be configured by adding one or more variables to `/etc/rc.conf` or `/etc/rc.conf.local`, the available variables are:
+The service can be configured by adding one or more variables to `/etc/rc.conf` or `/etc/rc.conf.local`, the available variables without the prefix `honeytrap_` are:
 
-```
-honeytrap_enable (bool):  Set to NO by default.
-                          Set it to YES to enable honeytrap.
-honeytrap_user (bool):    Set to YES by default.
-                          Set it to NO to run service root.
-honeytrap_datadir (path): Set to /usr/local/libdata/honeytrap
-                          by default.
-honeytrap_config (path):  Set to /usr/local/etc/honeytrap.toml
-                          by default.
-```
+| variable                           | default                                   | description                                                                                                              |
+| ---------------------------------- | ----------------------------------------- | --------------------------------------                                                                                   |
+| `enable`                           | `NO`                                      | Service toggle                                                                                                           |
+| `config`                           | `/usr/local/etc/honeytrap/honeytrap.toml` | Config file path                                                                                                         |
+| `datadir`                          | `/var/db/honeytrap`                       | Data dir                                                                                                                 |
+| `logdir`                           | `/var/log/honeytrap`                      | Dir where HoneyTrap will write logs to                                                                                   |
+| `user`                             | `honeytrap`                               | User&nbsp;to&nbsp;run&nbsp;service&nbsp;as,&nbsp;set&nbsp;to&nbsp;`root`&nbsp;if ports in the range of `1-1024` are used |
+| `group`                            | `honeytrap`                               | Group to run service as                                                                                                  |
+| `pidfile`                          | `/var/run/honeytrap.pid`                  | Path to pid file                                                                                                         |
+| `syslog_output_enable`             | `No`                                      | Syslog output toggle                                                                                                     |
+| `syslog_output_tag`                | `honeytrap`                               | Syslog tag to use                                                                                                        |
+| `syslog_output_priority`           | `info`                                    | Syslog priority to use                                                                                                   |
+| `syslog_output_facility`           | `daemon`                                  | Syslog facility to use                                                                                                   |
+
+Additional default service variables are also available, for a list and information see [rc.subr(8)](https://www.freebsd.org/cgi/man.cgi?query=rc.subr&sektion=8&manpath=freebsd-release-ports).
 
 To enable auto starting the service run:
 

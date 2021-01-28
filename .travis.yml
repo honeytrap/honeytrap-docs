@@ -1,0 +1,11 @@
+dist: stretch
+
+# install - install any dependencies required
+install:
+    - sudo dpkg -i hugo*.deb
+
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "2a792eb93ce4"
+  - COMMIT_AUTHOR_EMAIL: "remco@dutchcoders.io"

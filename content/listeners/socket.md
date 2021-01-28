@@ -21,17 +21,16 @@ toc: true
 
 ## Description
 
-The `socket` listener allows to choose on which ports you want to listen on as "providers" of traffic.
+Listens for udp/tcp traffic and pass inbound connections to the service defined for this port, it's a "provider of traffic".
+The listener itself does not create events.
 
 When starting HoneyTrap with a Socket listener, for each port opened you will be displayed:
-
 ```bash
 09:54:45.990 listeners/socket ▶ INFO 00b Listener started: tcp/:8022
 ```
-
 This means that HoneyTrap is now listening on tcp/8022.  
 
-Use `type="netstack"` to activate this listener.
+Use `type="socket"` to activate this listener.
 
 
 ## Syntax

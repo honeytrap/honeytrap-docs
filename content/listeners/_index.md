@@ -15,9 +15,9 @@ toc: true
 
 ## Description
 
-Listeners are listening to your network interfaces for incoming traffic.
+Listeners are listening on your network interface(s) for incoming traffic. They create events and/or pass connections into the honeytrap framework.
 
-Depending on the listener, you can use a custom network stack implementation, listen to every port or assign services to specific ports.
+Depending on your needs, you can use a custom network stack implementation, listen to every port or assign services to specific ports.
 
 ## Syntax
 

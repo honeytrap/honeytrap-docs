@@ -24,7 +24,11 @@ toc: true
 The `netstack` listener is a raw listener using its own network stack and can be used 
 with all modes. It will produce events with raw payload on all UDP/TCP connections,
 or when `sniffer=true` is set, on all connections (eg. ARP). If TLS certificates
-are present it will also decode the TLS payloads.
+are present it will also decode the TLS payloads (see [tls](#tls-id)).
+
+Note:
+- When using tls, the services which do their own tls can't be used.
+- When no ports or addresses are excluded, remote connectivity is lost to the host machine. If this is intentional then set `allow_no_excludes=true` in the configuration, otherwise honeytrap won't start.
 
 Use `type="netstack"` to activate this listener.
 
@@ -121,13 +125,13 @@ There needs to be one listener and there **can only be one**.
 `exclude_ports` | <span style="color:red">none</span> | exclude from netstack, the host will handle this. No events are produced on traffic over these ports. Format: [transport-protocol-number/]<port-number> eg. ["udp/123", "456"]
 `exclude_addresses` | <span style="color:red">none</span> | exclude address range from netstack, the host will handle this. No events are produced on traffic from these addresses. CIDR notation.
 `allow_no_exclude` | false | allow it to run without any exclusions. Remote connectivity with host will not be possible.
-`sniffer` | false | use the sniffer too.
+`sniffer` | false | use the sniffer too. This creates events on all inbound network activity.
 
 ## Example {#example-id}
 
-Run Honeytrap on a linux system with an ssh server listening on port 8022,
-use the _http_ service on ports 80 for HTTP and 443 for HTTPS,
-output logs and events to the console.
+Run Honeytrap on a linux system with an ssh server listening on port 8022.
+Exclude port 8022 to be able to make _ssh_ connections and use the _http_ service on ports 80 for HTTP and 443 for HTTPS.
+It outputs logs and events to the console.
 ```bash
 # config.toml
 

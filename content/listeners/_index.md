@@ -40,15 +40,16 @@ Here is a example how to set the [netstack](/listeners/netstack) listener:
 ```bash
 [listener]
 type="netstack"
-interfaces=["env3"]
+interface="env3"
 ```
 
 ## Listeners available
 
- | Linux | MacOS |
---- | --- | --- |
-[ <span style="text-decoration: underline">agent</span>](/listeners/agent) | <span style="color:green">yes</span> | <span style="color:green">yes</span>
-[<span style="text-decoration: underline">socket</span>](/listeners/socket) | <span style="color:green">yes</span> | <span style="color:green">yes</span>
-[<span style="text-decoration: underline">tap</span>](/listeners/tap) | <span style="color:green">yes</span> | <span style="color:green">yes</span>
-[<span style="text-decoration: underline">tun</span>](/listeners/tun) | <span style="color:green">yes</span> | <span style="color:green">yes</span>
-[<span style="text-decoration: underline">netstack</span>](/listeners/netstack) | <span style= "color:green">yes</span> | [<span style="text-decoration: underline; color:red">no</span>](/faq/netstack-listener-macos/)
+| Type | Linux | MacOS | Windows |
+--- | --- | --- | --- |
+[ <span style="text-decoration: underline">agent</span>](/listeners/agent) | <span style="color:green">yes</span> | <span style="color:green">yes</span> | <span style="color:green">yes</span>
+[<span style="text-decoration: underline">socket</span>](/listeners/socket) | <span style="color:green">yes</span> | <span style="color:green">yes</span> | <span style="color:green">yes</span>
+[<span style="text-decoration: underline">tap</span>](/listeners/tap) | <span style="color:green">yes</span> | <span style="color:green">yes</span> | <span style="color:green">yes</span>
+[<span style="text-decoration: underline">tun</span>](/listeners/tun) | <span style="color:green">yes</span> | <span style="color:green">yes</span> | <span style="color:green">yes</span>
+[<span style="text-decoration: underline">netstack</span>](/listeners/netstack) | <span style= "color:green">yes</span> | <span style="text-decoration: underline; color:red">no</span> | <span style="text-decoration: underline; color:red">no</span>
+[<span style="text-decoration: underline">raw</span>](/listeners/raw) | <span style= "color:green">yes</span> | <span style="text-decoration: underline; color:red">no</span> | <span style="text-decoration: underline; color:red">no</span>

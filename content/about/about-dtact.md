@@ -17,17 +17,14 @@ toc: true
 ## DTACT
 
 <hr>
-
-DTACT solves data problems and operates at the important intersection of big data, AI, national security, cybersecurity and neuro-diversity.
+DTACT solves data problems and operates at the important intersection of big data, AI, national security, cybersecurity and neuro-diversity. We aggregate, clean and enrich large volumes of data as they flow in; always with a purpose and on a mission to create a positive impact.
 
 **Purpose, Mission, Impact.**
 
-## Our others products
+## DTACT Raven
 
-## Raven
+Raven is an agnostic and scalable data streaming platform build with a `brick` framework. Set up your data infrastructure to generate, distribute and retrieve actionable insights when you need them most,and when they matter most.
 
-DTACT Raven is a powerfull data streaming platform. By using our modular brick framework we make it possible to process transform and enrich your data at near-realtime.
-
-Connect your HoneyTrap(s) to Raven to gain beter insights into the collected data.
+Connect your HoneyTrap(s) to Raven to supercharge the collected data. Automatically enrich your HoneyTrap data-flow and watch and analyze the data near-realtime with our next-gen solutions.
 
 [Find out more about DTACT Raven.](https://dtact.com/solutions#content)

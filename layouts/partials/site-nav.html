@@ -1,0 +1,33 @@
+{{ $currentPage := . }}
+<nav class="bg-primary-color-dark pv4 w-100" role="navigation">
+	<div style="position: fixed; bottom: 0; right: 4vw; float: right;  z-index: 999">
+		<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+	</div>
+
+	<div class="center flex-ns flex-wrap items-center justify-start mw9">
+
+		<h1 class="f3 lh-solid ml0-ns mr0 mr4-l mv0 pl3 pl4-ns">
+			<a href="/" class="link white">HoneyTrap</a>
+		</h1>
+		<ul class="list ma0 pa0 dn dib-l">
+			{{ range .Site.Menus.global }}
+			<li class="f5 dib mr4" role="menuitem">
+				{{/* TODO: Create an "Global" active class to show which site one is currently at */}}
+				<a href="{{ .URL }}" class="dim link{{ if $currentPage.IsMenuCurrent "global" . }} orange {{else}} light-silver{{ end }}">
+            {{ .Name }}
+              {{/* using ".Post" from the menu system to determine if we should show an icon for external links */}}
+            {{ $post_status := printf "%s" .Post }}
+            {{ if eq $post_status "external" }}
+              {{ partial "svg/link-ext.svg" (dict "size" "10") }}
+            {{ end }}
+				</a>
+			</li>
+			{{ end }}
+		</ul>
+
+		<div class="db dib-ns pl3">
+			{{- partial "site-search.html" . -}}
+    		</div>
+	</div>
+
+</nav>

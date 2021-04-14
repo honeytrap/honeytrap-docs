@@ -75,6 +75,8 @@ pattern = "2006"
   description = "The most flexible honeypot framework."
   ## Used for views in rendered HTML (i.e., rather than using the .Hugo variable)
   release = "0.01"
+  ## Custom CSS 
+  custom_css = ["css/custom.css"]
   ## Setting this to true will add a "noindex" to *EVERY* page on the site
   removefromexternalsearch = false
   ## Gh repo for site footer (include trailing slash)

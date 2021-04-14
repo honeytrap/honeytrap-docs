@@ -1,4 +1,77 @@
-.logods{
-  display: inline;
-  float: left;
+@import "_variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.logods {
+	display: inline;
+	float: left;
+}
+
+.primary-color {
+	color: var(--text-color-primary);
+}
+
+a,
+.nested-links a,
+.nested-links a:focus,
+.nested-links a:hover {
+	color: var(--primary-color);
+}
+
+.accent-color-light,
+.hover-accent-color-light:hover {
+	color: var(--primary-color);
+}
+
+.bg-orange {
+	background-color: var(--primary-color);
+}
+
+.b--orange {
+	border-color: var(--primary-color);
+}
+
+.orange {
+	color: var(--primary-color);
+}
+
+.white {
+	color: var(--accent-color-light);
+}
+
+.bg-primary-color {
+	background-color: var(--primary-color);
+}
+
+.bg-primary-color:hover {
+	background-color: var(--primary-color-light);
+}
+
+.bg-primary-color-dark {
+	background-color: var(--the-black-color);
+}
+
+.light-silver {
+	color: var(--divider-color);
+}
+
+.gray {
+	color: var(--text-color-primary);
+}
+
+.active {
+	background-color: var(--primary-color);
+}
+
+.prose table th {
+	background-color: var(--primary-color);
+	border-bottom: var(--the-black-color);
 }

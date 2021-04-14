@@ -2,7 +2,7 @@
 title: Contact
 linktitle: Contact us
 description: Different ways to contact us.
-date: 2018-02-01
+date: 2021-04-14
 menu:
   docs:
     parent: "contact"
@@ -10,8 +10,10 @@ weight: 40
 categories: [contact]
 ---
 
-You can contact us through these differents channels:
+Want to hangout with us? Share your toughts and ideas, or just need a little help? Join our [DTACT Champions Slack](dtactchampions.slack.com) channel where we have a channel for all things HoneyTrap.
+
 <hr>
+Or you can contact us through these differents channels:
 
 - [gitter](https://gitter.im/honeytrap/honeytrap)
 

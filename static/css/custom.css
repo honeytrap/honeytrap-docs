@@ -26,9 +26,8 @@ a,
 	color: var(--primary-color);
 }
 
-.accent-color-light,
 .hover-accent-color-light:hover {
-	color: var(--primary-color);
+	color: var(--text-color-primary);
 }
 
 .bg-orange {

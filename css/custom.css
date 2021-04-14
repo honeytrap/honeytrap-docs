@@ -1,5 +1,22 @@
-@import "_variables.css";
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
+:root {
+	--primary-color: #ff6d33;
+	--primary-color-dark: #ef5217;
+	--primary-color-light: #f37a4d;
+	--accent-color: #0594cb;
+	--accent-color-light: #f2f2fa;
+	--accent-color-dark: #156f90;
+	--text-color-primary: #323142;
+	--text-on-primary-color: #fdfdfd;
+	--text-color-secondary: #ccc;
+	--text-color-disabled: #f7f7f7;
+	--divider-color: #fdfdfd;
+	--warn-color: #d75051;
+	--the-black-color: #242526;
+
+	--blue: var(--primary-color);
+}
 
 h1,
 h2,

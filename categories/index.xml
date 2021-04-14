@@ -6,10 +6,37 @@
     <description>Recent content in Categories on HoneyTrap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://honeytrap.github.io/honeytrap-docs/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>contact</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/contact/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>config_services</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/config_services/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/config_services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contribute</title>
+      <link>https://honeytrap.github.io/honeytrap-docs/categories/contribute/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://honeytrap.github.io/honeytrap-docs/categories/contribute/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>channels</title>
@@ -48,15 +75,6 @@
     </item>
     
     <item>
-      <title>config_services</title>
-      <link>https://honeytrap.github.io/honeytrap-docs/categories/config_services/</link>
-      <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://honeytrap.github.io/honeytrap-docs/categories/config_services/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>UnderTheHood</title>
       <link>https://honeytrap.github.io/honeytrap-docs/categories/underthehood/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
@@ -71,24 +89,6 @@
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://honeytrap.github.io/honeytrap-docs/categories/fundamentals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>contact</title>
-      <link>https://honeytrap.github.io/honeytrap-docs/categories/contact/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://honeytrap.github.io/honeytrap-docs/categories/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>contribute</title>
-      <link>https://honeytrap.github.io/honeytrap-docs/categories/contribute/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://honeytrap.github.io/honeytrap-docs/categories/contribute/</guid>
       <description></description>
     </item>
     

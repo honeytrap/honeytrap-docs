@@ -6,7 +6,7 @@
     <description>Recent content in config_services on HoneyTrap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://honeytrap.github.io/honeytrap-docs/categories/config_services/index.xml" rel="self" type="application/rss+xml" />
     
@@ -80,13 +80,13 @@ Availability
     <item>
       <title>Echo</title>
       <link>https://honeytrap.github.io/honeytrap-docs/services/echo/</link>
-      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://honeytrap.github.io/honeytrap-docs/services/echo/</guid>
       <description>What is Echo? Echo is a fundamental command which is frequently used in scripts or batch-files, or as part of individual commands anywhere you need to output text.
 Description Echo service will simply return the input.
 Syntax [service.&amp;lt;nickname_of_echoService&amp;gt;] type=&amp;#34;echo&amp;#34; Arguments in config file There are no arguments in Echo service.
-Example [service.echo01] type=&amp;#34;echo&amp;#34; [[port]] port=&amp;#34;udp/5555&amp;#34; services=[&amp;#34;echo01&amp;#34;] How to test echo &amp;#34;hello DutchSec&amp;#34; | nc -u [IP_ADDRESS] 5555 The test explained We echo a teststring and send it to netcat in UDP mode with the target&amp;rsquo;s [IP_ADDRESS] and port 5555 which is the echo port.</description>
+Example [service.echo01] type=&amp;#34;echo&amp;#34; [[port]] port=&amp;#34;udp/5555&amp;#34; services=[&amp;#34;echo01&amp;#34;] How to test echo &amp;#34;hello DTACT&amp;#34; | nc -u [IP_ADDRESS] 5555 The test explained We echo a teststring and send it to netcat in UDP mode with the target&amp;rsquo;s [IP_ADDRESS] and port 5555 which is the echo port.</description>
     </item>
     
     <item>

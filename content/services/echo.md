@@ -2,7 +2,7 @@
 title: Echo
 linktitle: Echo
 description: Configurations for Echo service
-date: 2018-01-02
+date: 2021-04-12
 categories: [config_services]
 menu:
   docs:
@@ -11,6 +11,7 @@ menu:
 weight: 70
 toc: true
 ---
+
 ## What is Echo?
 
 Echo is a fundamental command which is frequently used in scripts or batch-files,
@@ -20,14 +21,12 @@ or as part of individual commands anywhere you need to output text.
 
 Echo service will simply return the input.
 
-
 ## Syntax
 
 ```bash
 [service.<nickname_of_echoService>]
 type="echo"
 ```
-
 
 ## Arguments in config file
 
@@ -47,19 +46,21 @@ services=["echo01"]
 ## How to test
 
 ```bash
-echo "hello DutchSec" | nc -u [IP_ADDRESS] 5555
+echo "hello DTACT" | nc -u [IP_ADDRESS] 5555
 ```
 
 #### The test explained
+
 We `echo` a teststring and send it to `netcat` in UDP mode with the target's `[IP_ADDRESS]` and port 5555 which is the echo port.
 
 #### The result
+
 ```bash
-hello DutchSec
+hello DTACT
 ```
 
 ## Availability
 
- | Linux | MacOS |
---- | --- | --- |
-echo | <span style="color:green">yes</span> | <span style="color:green">yes</span>
+| Linux | MacOS                                |
+| ----- | ------------------------------------ | ------------------------------------ |
+| echo  | <span style="color:green">yes</span> | <span style="color:green">yes</span> |

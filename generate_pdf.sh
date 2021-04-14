@@ -9,7 +9,7 @@ wkhtmltopdf \
 	http://localhost:1313/about/ \
 	http://localhost:1313/about/what-is-honeytrap/ \
 	http://localhost:1313/about/license/ \
-	http://localhost:1313/about/about-dutchsec/ \
+	http://localhost:1313/about/about-dtact/ \
 	http://localhost:1313/getting-started/ \
 	http://localhost:1313/getting-started/quick-start/ \
 	http://localhost:1313/getting-started/basic-configuration/ \

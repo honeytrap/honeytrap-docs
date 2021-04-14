@@ -2,7 +2,7 @@
 title: License
 linktitle: License
 description: HoneyTrap is free open source software.
-date: 2018-31-10
+date: 2021-04-14
 layout: single
 menu:
   docs:
@@ -13,7 +13,7 @@ sections_weight: 50
 draft: false
 ---
 
-Copyright 2016-2019 DutchSec (https://dutchsec.com/)
+Copyright 2016-2021 DTACT (https://dtact.com/)
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at

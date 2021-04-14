@@ -23,8 +23,7 @@ DTACT solves data problems and operates at the important intersection of big dat
 
 ## DTACT Raven
 
-Raven is an agnostic and scalable data streaming platform build with a `brick` framework. Set up your data infrastructure to generate, distribute and retrieve actionable insights when you need them most,and when they matter most.
+Raven is an agnostic and scalable data streaming platform build with a `brick` framework. Set up your data infrastructure to generate, distribute and retrieve actionable insights when you need them most, and when they matter most.
+Connect your HoneyTrap(s) to Raven to supercharge the collected data. Automating enrichment of your HoneyTrap data-flow with additional context. View and analyze the data near-realtime.
 
-Connect your HoneyTrap(s) to Raven to supercharge the collected data. Automatically enrich your HoneyTrap data-flow and watch and analyze the data near-realtime with our next-gen solutions.
-
-[Find out more about DTACT Raven.](https://dtact.com/solutions#content)
+[Find out more about DTACT Raven](https://dtact.com/solutions).
